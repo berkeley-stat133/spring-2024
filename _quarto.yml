@@ -4,7 +4,7 @@ project:
 website:
   sidebar:
     style: docked
-    logo: stat_bear.png
+    logo: stat133_bear.png
     tools:
       - icon: github
         href: https://github.com/berkeley-stat133/spring-2024
