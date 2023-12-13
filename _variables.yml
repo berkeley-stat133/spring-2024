@@ -1,10 +1,10 @@
 staff:
   instructors:
-    name: "Fernando Pérez"
+    name: "Gaston Sanchez"
     role: Instructor
-    email: fernando.perez@berkeley.edu
-    website: https://jupyter.org
-    photo: "http://ds100.org/fa23/resources/assets/staff_pics/Fernando_Perez.jpeg"
+    email: gastonsanchez@berkeley.edu
+    website: https://www.gastonsanchez.com
+    photo: "https://statistics.berkeley.edu/sites/default/files/styles/crop_person/public/faculty/gst_small.jpeg"
     pronouns: "He/Him/His"
-    oh: "Tue 11-12pm (Evans 419)"
+    oh: "TBD (Evans 309)"
     team: foo
