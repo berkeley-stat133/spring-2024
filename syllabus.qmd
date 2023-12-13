@@ -4,22 +4,70 @@ title: "Syllabus"
 
 Jump to:
 
-- [About Data 100](#about-data-100)
+- [About Stat 133](#about-stat-133)
   - [Goals](#goals)
   - [Prerequisites](#prerequisites)
+  - [Textbooks](#textbooks)
+  - [Computational Tools](#computational-tools)
 
 
-## About Data 100
+## About Stat 133
 
-Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. This intermediate level class bridges between Data 8 and upper division computer science and statistics courses as well as methods courses in other fields. In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​ Through a strong emphasis on data centric computing, quantitative critical thinking, and exploratory data analysis, this class covers key principles and techniques of data science. These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.
+This is an introductory-to-intermediate level course to computational data analysis with an emphasis on four major cornerstones:
+
+- 🔢  understand common data formats, and principles of data manipulation (e.g. wrangling, reshaping, tidying)
+
+- 📊  production of data visualizations and their role in data analysis projects
+
+- 💻  learn basic principles for writing code, and programming concepts (with emphasis on data analysis)
+
+- ⚒️  use computational tools to carry out the data analysis cycle, organize your workflow, and become familiar with reporting tools (via dynamic documents and web-apps)
+
+Because Stat 133 is one of the core courses for Statistics majors, the underlying goal is to provide foundations for "computing with data" so that stat majors, as well as other data-dependent majors (e.g. Data Science, Applied Math, CogSci, Economics, etc), have the basic computational skills for subsequent upper division courses (e.g. Stat 150, 151A, 152, 153, 154, 155, 157, 158, 159).
+
+
 
 ### Goals
 
-
 - Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context.
-- Enable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques.
+
+- Enable students to start careers as data scientists by providing experience working with 
+real-world data, tools, and techniques.
+
 - Empower students to apply computational and inferential thinking to address real-world problems.
 
-### Prerequisites
+We don't expect that you become a jedi data scientist, an R ninja, or a super coder. That takes YEARS of practice, training, learning, and collaboration. Instead, we want to give you a good foundation around tools for computational data analysis.
 
-While we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. **Prerequisites will be enforced in Data 100. It is your responsibility to know the material in the prerequisites.** 
+
+
+### ℹ️ Prerequisites
+
+This course __does not have any prerequisites__, although it would be nice if you have taken an introductory course in statistics (e.g. Stat 2, 20, 21, 131A).
+
+The curriculum and format is designed specifically for students (ideally majoring in Statistics and/or Data Science) __who have no-or-minimum programming experience__. You also don't need previous data analysis experience---although it helps if you do.
+
+Students with some prior experience in either computational statistics or computing are welcome to enroll, though some parts of the course might feel extremely slow. We recommend that you take more advanced courses unless you need Stat 133 because of your major/minor's requirements.
+
+
+
+### 📚 Textbooks
+
+We'll be using a handful of textbooks (most of them based on the notes I've used in Stat 133 for the last 8 years):
+
+- <https://www.gastonsanchez.com/R-tidy-hurricanes/>
+- <https://www.gastonsanchez.com/R-coding-basics/>
+- <https://www.gastonsanchez.com/R-rolling-dice/>
+- <https://www.gastonsanchez.com/R-web-technologies/>
+- <https://www.tidytextmining.com/> (by Julia Silge and David Robinson)
+
+
+
+### 🔧 Computational Tools
+
+We will be mainly using the [computing and programming environment R](https://www.r-project.org) (via [RStudio](https://posit.co/download/rstudio-desktop/) to analyze data in this class. You will also use a [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) to interact with your operating system. You do need your own computer to use R and do the assignments.
+
+We don't expect that students have already been exposed to R. For those who come from Data 8 or some previous coding experience in python, the first labs will help you transfer that knowledge over to R. Both languages are excellent platforms for analyzing data, are widely used in data science, and have their individual strengths. R has been developed within the statistics community specifically for data analysis, while python is a general-purpose programming language but has large data analysis capabilities.
+
+The lectures tend to be focused on the data analysis concepts, while learning how to apply/use them in R tend to be the focus of the labs and assignments. Do not be surprised or worried about not following the details of R code during class---that is not the point (furthermore, there will sometimes be code that is really specific to the instructional purposes of the lecture, e.g. to make a specific plot, and is beyond the scope of what you would be expected to understand or know how to do it by yourself).
+
+
