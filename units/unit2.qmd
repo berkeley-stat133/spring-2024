@@ -1,0 +1,64 @@
+---
+title: "Unit 2: R Vectors"
+format:
+  html:
+    code-fold: show
+    code-tools: true
+    include-before-body:
+     - file: macros.md
+---
+
+
+## 📖 Lecture
+
+This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). We'll focus on important concepts like:
+
+- main __data types__ ("atomic types" in R): logical, integer, real, and character
+
+- __creation of vectors__
+
+- __implicit coercion__ rules: what R does when you combine values of different data types
+
+- __vectorization__: when R applies calculations or operations to all the elements of a vector (element-wise)
+
+- __recycling__: what R does when you perform a calculation with vectors of different length
+
+- __subsetting__ (aka subscripting, subindexing, indexing): the use of single/double brackets to subset (i.e. subscript, index) elements of a vector
+
+
+
+## 📚 Reading
+
+Read the chapters that form Part I of "R Coding Basics":
+
+- <https://www.gastonsanchez.com/R-coding-basics/vectors1.html>
+- <https://www.gastonsanchez.com/R-coding-basics/vectors2.html>
+- <https://www.gastonsanchez.com/R-coding-basics/vectors3.html>
+- <https://www.gastonsanchez.com/R-coding-basics/vectors4.html>
+ 
+
+
+## 🔬 Lab
+
+You'll practice creating vectors in R, and learning about the concepts described above.
+
+ 
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Describe the four common data types in R, and give examples for them
+- Explain why R vectors are said to be atomic objects
+- Describe and give an example of the implicit coercion rules
+- Describe and give an example of vectorized code
+- Describe and give an example of the recycling rule
+- Describe and give an example of subsetting (indexing) vectors
+ 
+
+
+## 🔔 Activities
+
+HW1 instructions will be released at the end of this week.
+
+
