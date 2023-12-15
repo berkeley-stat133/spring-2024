@@ -1,40 +1,54 @@
 ---
-title: "Unit 3: More"
+title: "Unit 3: Lists and Matrices"
 format:
   html:
     code-fold: show
     code-tools: true
     include-before-body:
      - file: macros.md
-  pdf: 
-    include-before-body:
-     - file: macros.tex
 ---
 
-This is an example of using qmd as the source document with pdf as one target. I've taken out the qmd stuff that doesn't seem to render to pdf.
 
-## Evaluated Python code chunk, with a plot
+## 📖 Lecture
 
-```{python}
-import numpy as np
-x = np.random.normal(size=100)
-import matplotlib.pyplot as plt
-plt.hist(x)
-plt.show()
-np.mean(x)
-```
+This week in class we discuss R lists, which are the most generic kind of data container in R. You will learn:
+
+- in what sense a list is a non-atomic atomic
+- in what sense a list is a one-dimensional object
+- how to create lists
+- practice manipulating lists
+ 
 
 
-## LaTeX
+## 📚 Reading
 
-$$
-\theta = \int_0^\infty f(x,\theta)d\theta
-$$
+Read chapters 6, 7 and 8 of "R Coding Basics":
 
-## LaTeX macro
+- <https://www.gastonsanchez.com/R-coding-basics/matrices1.html>
+- <https://www.gastonsanchez.com/R-coding-basics/matrices2.html>
+- <https://www.gastonsanchez.com/R-coding-basics/lists.html>
+ 
 
-> **Warning**: need to look back at this as having `include-before-body` in the yaml causes extra space at top of page.
 
-$$
-A = X \trans Y
-$$
+## 🔬 Lab
+
+In addition to lists, in lab you will also learn about matrices in R. You will work creating and manipulating more atomic objects such as matrices, and also non-atomic lists.
+
+ 
+
+## 🎯 Objectives
+
+- Create simple matrices with `matrix()`
+- Describe and give examples of matrix subsetting (subscripting, indexing)
+- Explain in what sense a matrix is a 2-dimensional object
+- Describe and give examples of subsetting (subscripting, indexing) of an R list
+- Provide an example of list subsetting with single brackets (e.g. `lis[index]`)
+- Provide an example of list subsetting with double brackets, and a single element (e.g. `lis[[index]]`) 
+- Provide a manipulation example of a list with the dollar operator (e.g. `lis$wagon` )
+
+
+
+## 🔔 HW Assignments
+
+HW1 due this 09/08
+ 
