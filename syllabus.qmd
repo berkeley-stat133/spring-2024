@@ -27,7 +27,7 @@ Because Stat 133 is one of the core courses for Statistics majors, the underlyin
 
 
 
-### Goals
+## 🎯 Goals
 
 - Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context.
 
@@ -40,7 +40,7 @@ We don't expect that you become a jedi data scientist, an R ninja, or a super co
 
 
 
-### ℹ️ Prerequisites
+## ℹ️ Prerequisites
 
 This course __does not have any prerequisites__, although it would be nice if you have taken an introductory course in statistics (e.g. Stat 2, 20, 21, 131A).
 
@@ -50,7 +50,7 @@ Students with some prior experience in either computational statistics or comput
 
 
 
-### 📚 Textbooks
+## 📚 Textbooks
 
 We'll be using a handful of textbooks (most of them based on the notes I've used in Stat 133 for the last 8 years):
 
@@ -62,7 +62,7 @@ We'll be using a handful of textbooks (most of them based on the notes I've used
 
 
 
-### 🔧 Computational Tools
+## 🔧 Computational Tools
 
 We will be mainly using the [computing and programming environment R](https://www.r-project.org) (via [RStudio](https://posit.co/download/rstudio-desktop/) to analyze data in this class. You will also use a [command line interface](https://en.wikipedia.org/wiki/Command-line_interface) to interact with your operating system. You do need your own computer to use R and do the assignments.
 
