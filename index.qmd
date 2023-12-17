@@ -1,6 +1,6 @@
 ---
 title: "Statistics 133: Concepts in Computing with Data"
-subtitle: "UC Berkeley, Spring 2024"
+subtitle: "UC Berkeley, Spring 2024 <br> Gaston Sanchez"
 listing:
   - id: schedule
     template: schedule.ejs
@@ -16,6 +16,15 @@ listing:
 ::: {.callout-note title="Announcement"}
 This is this week's announcement.
 :::
+
+
+## Welcome
+
+- [Syllabus](./syllabus.html)
+- [Communication via email](./email.html)
+- [Ed Netiquette](./ed-netiquette.html)
+- [Q&As](./faqs.html)
+
 
 ## Schedule
 
