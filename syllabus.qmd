@@ -2,15 +2,6 @@
 title: "Syllabus"
 ---
 
-Jump to:
-
-- [About Stat 133](#about-stat-133)
-  - [Goals](#goals)
-  - [Prerequisites](#prerequisites)
-  - [Textbooks](#textbooks)
-  - [Computational Tools](#computational-tools)
-
-
 ## About Stat 133
 
 This is an introductory-to-intermediate level course to computational data analysis with an emphasis on four major cornerstones:
@@ -71,3 +62,200 @@ We don't expect that students have already been exposed to R. For those who come
 The lectures tend to be focused on the data analysis concepts, while learning how to apply/use them in R tend to be the focus of the labs and assignments. Do not be surprised or worried about not following the details of R code during class---that is not the point (furthermore, there will sometimes be code that is really specific to the instructional purposes of the lecture, e.g. to make a specific plot, and is beyond the scope of what you would be expected to understand or know how to do it by yourself).
 
 
+
+## ⏳ Waitlisted Students
+
+If you are on the waiting list, you must still do all coursework and complete labs and homework by the deadlines. We will not be offering extensions if you are admitted into the course later. So it is your responsibility to stay up to date on the assignments.
+
+Unfortunately, doing all the work is not a guarantee of enrollment. You will only be enrolled if there is space in your lab. Enrollment will proceed by CalCentral.
+
+
+
+## 🔬 Labs (8% of final grade)
+
+- Weekly labs are an essential part of the course and we will introduce concepts not necessarily covered in lecture.
+- Thursdays are the official days for lab section.
+- You must attend the lab section you are officially enrolled in.
+- Practice problems (and their solutions) will be released every week, typically on a Thursday.
+- As its name indicates, they are there to give you the opportunity to practice the concepts covered every week.
+- Every week there will be a lab checkpoint; which may involve submitting a source file, and its generated HTML document; or it may involve answering a google form, or signing an attendance sheet, etc.
+- Of all lab checkpoints, your lowest 2 scores will be dropped in the calculation of your overall grade.
+
+
+
+## 📁 Problem Sets (35% of final grade)
+
+- There will be about 6 Problem-Set assignments.
+- Starting on week-2 they will be assigned every week, until week-7.
+- The due date is always on a Friday (please check the assignments tab to keep track of deadlines). 
+- You must write your own answers (using your own words and/or code). Copy and plagiarism will not be tolerated (see Academic Honesty policy).
+- If you don't submit all required files, you will receive an automatic 15% deduction.
+- If you submit the incorrect files, you will receive no credit.
+- Solutions will become available a few days (e.g. 3-4 days) after the due date.
+- We will drop the lowest Problem-Set assignment score in the calculation of your overall grade.
+
+
+
+## 📂 App Projects (27% of final grade)
+
+- There will be about 3 Shiny App projects.
+- These are larger assignments intended to combine many of the ideas from the course, in order to create interactive web-apps.
+- As part of the submission you will have to record a video (with screen and face capture) in which you describe how to use your app, and explain the performed analysis and some of the obtained results.
+- Starting on week-8 app projects will be assigned about every two weeks, until the end of instruction.
+- The due date is indicated in the assignments tab.
+- We will not drop any of the App assignment scores in the calculation of your overall grade.
+
+
+
+## 🕚 Late Policy and Assignment Extensions
+
+If you cannot turn in an assignment on time, our default policy is:
+
+- Submissions within 24 hours after the deadline will receive a 15% deduction.
+- Submissions within 48 hours after the deadline will receive a 30% deduction.
+- Submissions that are 48 hours or more after the deadline will receive no credit.
+- Requesting an extension: If you need to request an extension, regardless of your DSP status, fill out this **form** (TBD). Submissions to this form will be visible only to the course staff members.
+
+Any first-time request for a 1-day extension, made 6 hours before an assignment's deadline, will be guaranteed to be approved, so long as it is made in good faith. Any occasional request for a 2-day extension (requested before an assignment's deadline) made by a student with a DSP accommodation for assignment extensions will be approved automatically. All other extensions will be handled on a case-by-case basis, with no guarantee that they'll be granted.
+
+Also, please keep in mind that we are dropping the lowest score of your six Problem-set assignments (do not confuse with App projects). This policy is in place to take care of any extenuating circumstances that prevent you from submitting one of these assignments.
+
+Please plan ahead and pace yourself. Don't wait until the last day to do an assignment. Don't wait until the last minute to submit your assignments.
+
+ 
+
+## 📝 Midterm (10% of final grade)
+
+- There will be one midterm assigned on Friday Mar-8th.
+- More information about the midterm will be announced as we approach its due date.
+- Unless you have approved accommodations, we won't be able to provide any extensions if you miss the midterm.
+
+
+
+## 📝 Final Exam (20% of final grade)
+
+- There will be one final exam.
+- The final exam will be held on Monday May-6th, 7pm-10pm, as scheduled by the University.
+- More information about the final exam will be provided as we approach its due date.
+- Unless you have accommodations as determined by the university and approved by the instructor, you must take the exam at the date and times provided here.
+- Please check your course schedule and make sure that you can take the final exam on May-6th, 7pm-10pm. Otherwise, do not take the class if you are not available at this date.
+
+
+
+## 💯 Grading Structure
+
+Grades will be assigned using the following weighted components:
+
+1)  **8% Lab** (drop 2 lowest scores)
+2) **35% Psets** (drop lowest score)
+3)  **8% App1** (no drop)
+4)  **9% App2** (no drop)
+5) **10% App3** (no drop)
+6) **10% Midterm**
+7) **20% Final Exam**
+
+
+- To complete the course, you must take the final exam.
+- To try to keep grading consistent across semesters, I may occasionally curve an individual assignment. I will do this only if I made the assignment or exam harder than I intended, and no one's scores will decrease as a result of the curve. This will happen very rarely, probably not at all.
+- To give you a rough idea of the grading scheme, the assignment of letter grades in previous semesters has been as follows (exact cutoff points may vary a little bit every semester based on the overall scores distribution):
+
+  - 😀 90-100% (Excellent) A-/A/A+ range
+  - 🙂 80-90% (Good) B-/B/B+ range
+  - 😐 70-80% (Fair) C-/C/C+ range
+  - 🙁 60-70% (Deficient) D
+  - 😞 Below 60% (Failed) F
+
+- If you are taking the class pass-fail, the cut-oﬀ for passing is 70% (C-).
+- As a matter of course policy, I do not round up when calculating letter grades. Ex: if your overall score is 79.9999%, then the highest letter grade that you can expect is a C+, not a B-.
+- There is no curve; your grade will depend only on how well you do, and not on how well everyone else does.
+- Letter grades are final; I don't enter into negotiations with students about grades.
+- Please do not engage in [grade grubbing](https://marktomforde.com/academic/undergraduates/GradeGrubbing.html).
+- Also, please remember that we grade your course performance, not your personal worth.
+
+
+
+## ⚠️ Generative A.I. Policy
+
+Generative A.I. refers to artificial intelligence technologies, like those used for ChatGPT and similar, that can draw on a large corpus of training data to create new written, visual, or audio content.
+
+There are two principles we use to guide our class policy on AI use:
+
+- **Cognitive dimension**: Working with AI should not reduce your ability to think clearly. The use of AI should facilitate—rather than hinder—learning. 
+- **Ethical dimension**: Students using AI should be transparent about their use and make sure it aligns with academic integrity. 
+
+In this course, we'll be developing skills that are important to practice on your own. Because use of generative A.I. may inhibit the development of those skills, the use of this tools is permitted in this course for the following activities:
+
+- Brainstorming and refining your ideas;
+- Fine tuning your exploratory/research questions;
+- Drafting an outline to organize your thoughts;
+- Checking syntax errors or bugs in your code; and
+- Polishing your spelling and grammar.
+
+The use of generative A.I. tools is not permitted in this course for the following activities:
+
+- Impersonating you in classroom contexts, such as by using the tool to compose discussion board prompts assigned to you or content that you put into a discussion forum/chat.
+- Attempting to pass off AI-generated work as your own.
+- Writing a draft of your assignment.
+- Writing entire blocks of code, functions, or scripts to complete class assignments.
+
+Please keep in mind that use of generative A.I. tools can impede your learning by generating ideas for you before you had a chance to think of your own ideas; inhibiting the development of your own writing skills; generating factually inaccurate statements or fictional reference sources; etc.
+
+If you are unsure of whether and how much of a submission has been AI-generated, or whether you are in violation of a certain policy, please reach out to us and ask for guidance.
+
+
+
+## ☝️ Academic Honesty
+
+You should not share your code or answers, directly or indirectly, with other students. Doing so doesn't help them; it just sets them up for trouble on exams. Feel free to discuss the problems with others beforehand, but not the solutions. Please complete your own work and keep it to yourself (e.g. avoid sharing it in hosting platforms like Github or similar). If you suspect other people may be plagiarizing you, let us know ASAP.
+
+We expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and we encourage you to work together---but copying is not, nor is having somebody else submit assignments for you. Likewise, obtaining and/or using solutions from previous years or from the internet, if such happen to be available, is considered cheating.
+
+Beyond the templates or starting code provided by the teaching staff, any writing, code, media, or other submissions not explicitly identified as AI-generated will be assumed as original to the student. Submitting AI-generated work without identifying it as such will be considered a violation of the [Code of Student Conduct](https://conduct.berkeley.edu/wp-content/uploads/2023/07/Code_of_Conduct-July_2023.pdf).
+
+Cheating will not be tolerated. Any evidence of academic misconduct will result in a score of zero (0) on the entire assignment or examination, and a failing letter grade. We will always report incidences of cheating to the [Center for the Student Conduct](http://sa.berkeley.edu/conduct).
+
+If you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please contact us.
+
+Rather than copying someone else's work, ask for help. You are not alone in this course! The course staff is here to help you succeed. If you invest the time to learn the material and complete the projects, you won't need to copy any answers.
+
+
+
+## ✉️ Email Policy
+
+If you wish for your email to make it into our inbox, the subject of your email must contain the text: Stat 133.
+
+Please refer to my email policy for more information: [communication via email](./email.html)
+ 
+
+
+## 🚸 Special Accommodations
+
+Students needing accommodations for any physical, psychological, or learning disability, should contact the teaching staff during the first two weeks of the semester,  and see <http://dsp.berkeley.edu> to learn about Berkeley’s policy. If you are a DSP student, please contact us at least three weeks prior to a midterm or final so that we can work out acceptable accommodations.
+
+For relevant DSP accommodations that provide occasional extensions on assignments, please see the above policy on [Late Policy](#late-policy-and-assignment-extensions).
+
+
+
+## ❗Incomplete Grade
+
+Under emergency/special circumstances, students may petition me to receive an Incomplete grade. By University policy, for a student to get an Incomplete requires (i) that the student was performing **passing-level work** until the time that (ii) something happened that---through no fault of the student---prevented the student from completing the coursework. If you take the final, you completed the course, even if you took it while ill, exhausted, mourning, etc. The time to talk to me about incomplete grades is **BEFORE you take the final** (several weeks before), when the situation that prevents you from finishing the course presents itself. Please clearly state your reasoning in your comments to me.
+
+It is your responsibility to develop good time management skills, good studying habits, know your limits, and learn to ask for professional help. Life happens. Social, family, cultural, scholar, and individual circumstances can affect your performance (both positive and negatively). If you find yourself in a situation that raises concerns about passing the course, please contact me as soon as possible.
+
+**Above all, please do not wait till the end of the semester to share your concerns about passing the course because it will be too late by then.**
+
+
+
+## 🌻 Safe and Inclusive Environment
+
+Whenever a faculty member, staff member, post-doc, or GSI is responsible for the supervision of a student, a personal relationship between them of a romantic or sexual nature, even if consensual, is against university policy. Any such relationship jeopardizes the integrity of the educational process.
+
+Although faculty and staff can act as excellent resources for students, you should be aware that they are required to report any violations of this campus policy. If you wish to have a confidential discussion on matters related to this policy, you may contact the Confidential Care Advocates on campus for support related to counseling or sensitive issues. Appointments can be made by calling (510) 642-1988.
+
+The classroom, lab, and work place should be safe and inclusive environments for everyone. The Office for the Prevention of Harassment and Discrimination (OPHD) is responsible for ensuring the University provides an environment for faculty, staff and students that is free from discrimination and harassment on the basis of categories including race, color, national origin, age, sex, gender, gender identity, and sexual orientation. Questions or concerns? Call (510) 643-7985, email <ask_ophd@berkeley.edu>, or go to <http://survivorsupport.berkeley.edu/>.
+
+
+
+## 🎉 Last But Not Least
+
+The main goal of Stat 133 is that you should learn, and have a fantastic experience doing so. Please keep that goal in mind throughout the semester.
