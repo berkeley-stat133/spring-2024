@@ -4,8 +4,6 @@ format:
   html:
     code-fold: show
     code-tools: true
-    include-before-body:
-     - file: macros.md
 ---
 
 
@@ -48,7 +46,32 @@ In addition to lists, in lab you will also learn about matrices in R. You will w
 
 
 
+## 🔆 Shiny Friday
+
+The shiny app of this week is based on the computation of Future Value (compounding interest) in its simplest version:
+
+$$
+FV = P (1 + r)^n
+$$
+
+This is a simple app that takes three inputs:
+
+- P = principal or initial amount (how much you deposit)
+- r = annual interest rate (or rate of return)
+- n = number of years
+
+In turn, the app produces one (graphical) output which is a timeline to visualize the Future Value.
+
+
+There are two versions of the app: one uses three sliders (one slider per input), and the other one uses three numeric inputs (one number per input)
+
+- <https://github.com/data133/shiny/tree/main/future-value1-numerics>
+- <https://github.com/data133/shiny/tree/main/future-value2-sliders>
+
+
+
 ## 🔔 HW Assignments
 
-HW1 due this 09/08
+- HW1 due this 02/02
+- HW2 released on 02/03, due 02/09
  
