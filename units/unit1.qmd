@@ -21,13 +21,13 @@ Getting started with R and RStudio: first, we want to make sure everybody has in
 
 ## 🔔 Activities
 
-If you haven't yet, please spend some time outside class to review the documentation of the Welcome module:
+If you haven't yet, please spend some time outside class to review the following documentation:
 
 - [syllabus](../syllabus.html)
+- [communication via email](../email.html)
+- [some frequently asked questions](../faqs.html)
 - five things you need to know to pass this class
-- some frequently asked questions
-- communication via email
-- introduction survey (google form)Links to an external site.
+- introduction survey (google form)
  
 
 Also, for those of you that don't have either R or RStudio, download and install these programs (both are free, and they are available for Mac, Windows, and Linux computers)
