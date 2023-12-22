@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.335">
+<meta name="generator" content="quarto-1.1.251">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -65,6 +65,7 @@ ul.task-list li input[type="checkbox"] {
 
 <body class="nav-sidebar docked">
 
+
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -80,13 +81,16 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header">
-      <a href="./index.html" class="sidebar-logo-link">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
+      <a href="./" class="sidebar-logo-link">
       <img src="./stat_bear.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
-      <div class="sidebar-tools-main">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">STAT 133</a> 
+        <div class="sidebar-tools-main">
     <a href="https://github.com/berkeley-stat133/spring-2024" title="" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
 </div>
+    </div>
       </div>
       <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
@@ -125,12 +129,27 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./units/unit2.html" class="sidebar-item-text sidebar-link">Unit 2: Next</a>
+  <a href="./units/unit2.html" class="sidebar-item-text sidebar-link">Unit 2: R Vectors</a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./units/unit3.html" class="sidebar-item-text sidebar-link">Unit 3: More</a>
+  <a href="./units/unit3.html" class="sidebar-item-text sidebar-link">Unit 3: Lists and Matrices</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit4.html" class="sidebar-item-text sidebar-link">Unit 4: Functions and Conditionals</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit5.html" class="sidebar-item-text sidebar-link">Unit 5: Tables and Tidyverse-1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit6.html" class="sidebar-item-text sidebar-link">Unit 6: Tables and Tidyverse-2</a>
   </div>
 </li>
       </ul>
@@ -138,6 +157,11 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./data.html" class="sidebar-item-text sidebar-link">Datasets</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cheatsheets.html" class="sidebar-item-text sidebar-link">Cheatsheets</a>
   </div>
 </li>
     </ul>
@@ -149,11 +173,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#about-data-100" id="toc-about-data-100" class="nav-link active" data-scroll-target="#about-data-100">About Data 100</a>
-  <ul class="collapse">
-  <li><a href="#goals" id="toc-goals" class="nav-link" data-scroll-target="#goals">Goals</a></li>
-  <li><a href="#prerequisites" id="toc-prerequisites" class="nav-link" data-scroll-target="#prerequisites">Prerequisites</a></li>
-  </ul></li>
+  <li><a href="#about-stat-133" id="toc-about-stat-133" class="nav-link active" data-scroll-target="#about-stat-133">About Stat 133</a></li>
+  <li><a href="#goals" id="toc-goals" class="nav-link" data-scroll-target="#goals">🎯 Goals</a></li>
+  <li><a href="#ℹ-prerequisites" id="toc-ℹ-prerequisites" class="nav-link" data-scroll-target="#ℹ-prerequisites">ℹ️ Prerequisites</a></li>
+  <li><a href="#textbooks" id="toc-textbooks" class="nav-link" data-scroll-target="#textbooks">📚 Textbooks</a></li>
+  <li><a href="#computational-tools" id="toc-computational-tools" class="nav-link" data-scroll-target="#computational-tools">🔧 Computational Tools</a></li>
+  <li><a href="#waitlisted-students" id="toc-waitlisted-students" class="nav-link" data-scroll-target="#waitlisted-students">⏳ Waitlisted Students</a></li>
+  <li><a href="#labs-8-of-final-grade" id="toc-labs-8-of-final-grade" class="nav-link" data-scroll-target="#labs-8-of-final-grade">🔬 Labs (8% of final grade)</a></li>
+  <li><a href="#problem-sets-35-of-final-grade" id="toc-problem-sets-35-of-final-grade" class="nav-link" data-scroll-target="#problem-sets-35-of-final-grade">📁 Problem Sets (35% of final grade)</a></li>
+  <li><a href="#app-projects-27-of-final-grade" id="toc-app-projects-27-of-final-grade" class="nav-link" data-scroll-target="#app-projects-27-of-final-grade">📂 App Projects (27% of final grade)</a></li>
+  <li><a href="#late-policy-and-assignment-extensions" id="toc-late-policy-and-assignment-extensions" class="nav-link" data-scroll-target="#late-policy-and-assignment-extensions">🕚 Late Policy and Assignment Extensions</a></li>
+  <li><a href="#midterm-10-of-final-grade" id="toc-midterm-10-of-final-grade" class="nav-link" data-scroll-target="#midterm-10-of-final-grade">📝 Midterm (10% of final grade)</a></li>
+  <li><a href="#final-exam-20-of-final-grade" id="toc-final-exam-20-of-final-grade" class="nav-link" data-scroll-target="#final-exam-20-of-final-grade">📝 Final Exam (20% of final grade)</a></li>
+  <li><a href="#grading-structure" id="toc-grading-structure" class="nav-link" data-scroll-target="#grading-structure">💯 Grading Structure</a></li>
+  <li><a href="#generative-a.i.-policy" id="toc-generative-a.i.-policy" class="nav-link" data-scroll-target="#generative-a.i.-policy">⚠️ Generative A.I. Policy</a></li>
+  <li><a href="#academic-honesty" id="toc-academic-honesty" class="nav-link" data-scroll-target="#academic-honesty">☝️ Academic Honesty</a></li>
+  <li><a href="#email-policy" id="toc-email-policy" class="nav-link" data-scroll-target="#email-policy">✉️ Email Policy</a></li>
+  <li><a href="#special-accommodations" id="toc-special-accommodations" class="nav-link" data-scroll-target="#special-accommodations">🚸 Special Accommodations</a></li>
+  <li><a href="#incomplete-grade" id="toc-incomplete-grade" class="nav-link" data-scroll-target="#incomplete-grade">❗Incomplete Grade</a></li>
+  <li><a href="#safe-and-inclusive-environment" id="toc-safe-and-inclusive-environment" class="nav-link" data-scroll-target="#safe-and-inclusive-environment">🌻 Safe and Inclusive Environment</a></li>
+  <li><a href="#last-but-not-least" id="toc-last-but-not-least" class="nav-link" data-scroll-target="#last-but-not-least">🎉 Last But Not Least</a></li>
   </ul>
 </nav>
     </div>
@@ -170,38 +209,220 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
-  
     
   </div>
   
 
 </header>
 
-<p>Jump to:</p>
+<section id="about-stat-133" class="level2">
+<h2 class="anchored" data-anchor-id="about-stat-133">About Stat 133</h2>
+<p>This is an introductory-to-intermediate level course to computational data analysis with an emphasis on four major cornerstones:</p>
 <ul>
-<li><a href="#about-data-100">About Data 100</a>
+<li><p>🔢 understand common data formats, and principles of data manipulation (e.g.&nbsp;wrangling, reshaping, tidying)</p></li>
+<li><p>📊 production of data visualizations and their role in data analysis projects</p></li>
+<li><p>💻 learn basic principles for writing code, and programming concepts (with emphasis on data analysis)</p></li>
+<li><p>⚒️ use computational tools to carry out the data analysis cycle, organize your workflow, and become familiar with reporting tools (via dynamic documents and web-apps)</p></li>
+</ul>
+<p>Because Stat 133 is one of the core courses for Statistics majors, the underlying goal is to provide foundations for “computing with data” so that stat majors, as well as other data-dependent majors (e.g.&nbsp;Data Science, Applied Math, CogSci, Economics, etc), have the basic computational skills for subsequent upper division courses (e.g.&nbsp;Stat 150, 151A, 152, 153, 154, 155, 157, 158, 159).</p>
+</section>
+<section id="goals" class="level2">
+<h2 class="anchored" data-anchor-id="goals">🎯 Goals</h2>
 <ul>
-<li><a href="#goals">Goals</a></li>
-<li><a href="#prerequisites">Prerequisites</a></li>
+<li><p>Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context.</p></li>
+<li><p>Enable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques.</p></li>
+<li><p>Empower students to apply computational and inferential thinking to address real-world problems.</p></li>
+</ul>
+<p>We don’t expect that you become a jedi data scientist, an R ninja, or a super coder. That takes YEARS of practice, training, learning, and collaboration. Instead, we want to give you a good foundation around tools for computational data analysis.</p>
+</section>
+<section id="ℹ-prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="ℹ-prerequisites">ℹ️ Prerequisites</h2>
+<p>This course <strong>does not have any prerequisites</strong>, although it would be nice if you have taken an introductory course in statistics (e.g.&nbsp;Stat 2, 20, 21, 131A).</p>
+<p>The curriculum and format is designed specifically for students (ideally majoring in Statistics and/or Data Science) <strong>who have no-or-minimum programming experience</strong>. You also don’t need previous data analysis experience—although it helps if you do.</p>
+<p>Students with some prior experience in either computational statistics or computing are welcome to enroll, though some parts of the course might feel extremely slow. We recommend that you take more advanced courses unless you need Stat 133 because of your major/minor’s requirements.</p>
+</section>
+<section id="textbooks" class="level2">
+<h2 class="anchored" data-anchor-id="textbooks">📚 Textbooks</h2>
+<p>We’ll be using a handful of textbooks (most of them based on the notes I’ve used in Stat 133 for the last 8 years):</p>
+<ul>
+<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/" class="uri">https://www.gastonsanchez.com/R-tidy-hurricanes/</a></li>
+<li><a href="https://www.gastonsanchez.com/R-coding-basics/" class="uri">https://www.gastonsanchez.com/R-coding-basics/</a></li>
+<li><a href="https://www.gastonsanchez.com/R-rolling-dice/" class="uri">https://www.gastonsanchez.com/R-rolling-dice/</a></li>
+<li><a href="https://www.gastonsanchez.com/R-web-technologies/" class="uri">https://www.gastonsanchez.com/R-web-technologies/</a></li>
+<li><a href="https://www.tidytextmining.com/" class="uri">https://www.tidytextmining.com/</a> (by Julia Silge and David Robinson)</li>
+</ul>
+</section>
+<section id="computational-tools" class="level2">
+<h2 class="anchored" data-anchor-id="computational-tools">🔧 Computational Tools</h2>
+<p>We will be mainly using the <a href="https://www.r-project.org">computing and programming environment R</a> (via <a href="https://posit.co/download/rstudio-desktop/">RStudio</a> to analyze data in this class. You will also use a <a href="https://en.wikipedia.org/wiki/Command-line_interface">command line interface</a> to interact with your operating system. You do need your own computer to use R and do the assignments.</p>
+<p>We don’t expect that students have already been exposed to R. For those who come from Data 8 or some previous coding experience in python, the first labs will help you transfer that knowledge over to R. Both languages are excellent platforms for analyzing data, are widely used in data science, and have their individual strengths. R has been developed within the statistics community specifically for data analysis, while python is a general-purpose programming language but has large data analysis capabilities.</p>
+<p>The lectures tend to be focused on the data analysis concepts, while learning how to apply/use them in R tend to be the focus of the labs and assignments. Do not be surprised or worried about not following the details of R code during class—that is not the point (furthermore, there will sometimes be code that is really specific to the instructional purposes of the lecture, e.g.&nbsp;to make a specific plot, and is beyond the scope of what you would be expected to understand or know how to do it by yourself).</p>
+</section>
+<section id="waitlisted-students" class="level2">
+<h2 class="anchored" data-anchor-id="waitlisted-students">⏳ Waitlisted Students</h2>
+<p>If you are on the waiting list, you must still do all coursework and complete labs and homework by the deadlines. We will not be offering extensions if you are admitted into the course later. So it is your responsibility to stay up to date on the assignments.</p>
+<p>Unfortunately, doing all the work is not a guarantee of enrollment. You will only be enrolled if there is space in your lab. Enrollment will proceed by CalCentral.</p>
+</section>
+<section id="labs-8-of-final-grade" class="level2">
+<h2 class="anchored" data-anchor-id="labs-8-of-final-grade">🔬 Labs (8% of final grade)</h2>
+<ul>
+<li>Weekly labs are an essential part of the course and we will introduce concepts not necessarily covered in lecture.</li>
+<li>Thursdays are the official days for lab section.</li>
+<li>You must attend the lab section you are officially enrolled in.</li>
+<li>Practice problems (and their solutions) will be released every week, typically on a Thursday.</li>
+<li>As its name indicates, they are there to give you the opportunity to practice the concepts covered every week.</li>
+<li>Every week there will be a lab checkpoint; which may involve submitting a source file, and its generated HTML document; or it may involve answering a google form, or signing an attendance sheet, etc.</li>
+<li>Of all lab checkpoints, your lowest 2 scores will be dropped in the calculation of your overall grade.</li>
+</ul>
+</section>
+<section id="problem-sets-35-of-final-grade" class="level2">
+<h2 class="anchored" data-anchor-id="problem-sets-35-of-final-grade">📁 Problem Sets (35% of final grade)</h2>
+<ul>
+<li>There will be about 6 Problem-Set assignments.</li>
+<li>Starting on week-2 they will be assigned every week, until week-7.</li>
+<li>The due date is always on a Friday (please check the assignments tab to keep track of deadlines).</li>
+<li>You must write your own answers (using your own words and/or code). Copy and plagiarism will not be tolerated (see Academic Honesty policy).</li>
+<li>If you don’t submit all required files, you will receive an automatic 15% deduction.</li>
+<li>If you submit the incorrect files, you will receive no credit.</li>
+<li>Solutions will become available a few days (e.g.&nbsp;3-4 days) after the due date.</li>
+<li>We will drop the lowest Problem-Set assignment score in the calculation of your overall grade.</li>
+</ul>
+</section>
+<section id="app-projects-27-of-final-grade" class="level2">
+<h2 class="anchored" data-anchor-id="app-projects-27-of-final-grade">📂 App Projects (27% of final grade)</h2>
+<ul>
+<li>There will be about 3 Shiny App projects.</li>
+<li>These are larger assignments intended to combine many of the ideas from the course, in order to create interactive web-apps.</li>
+<li>As part of the submission you will have to record a video (with screen and face capture) in which you describe how to use your app, and explain the performed analysis and some of the obtained results.</li>
+<li>Starting on week-8 app projects will be assigned about every two weeks, until the end of instruction.</li>
+<li>The due date is indicated in the assignments tab.</li>
+<li>We will not drop any of the App assignment scores in the calculation of your overall grade.</li>
+</ul>
+</section>
+<section id="late-policy-and-assignment-extensions" class="level2">
+<h2 class="anchored" data-anchor-id="late-policy-and-assignment-extensions">🕚 Late Policy and Assignment Extensions</h2>
+<p>If you cannot turn in an assignment on time, our default policy is:</p>
+<ul>
+<li>Submissions within 24 hours after the deadline will receive a 15% deduction.</li>
+<li>Submissions within 48 hours after the deadline will receive a 30% deduction.</li>
+<li>Submissions that are 48 hours or more after the deadline will receive no credit.</li>
+<li>Requesting an extension: If you need to request an extension, regardless of your DSP status, fill out this <strong>form</strong> (TBD). Submissions to this form will be visible only to the course staff members.</li>
+</ul>
+<p>Any first-time request for a 1-day extension, made 6 hours before an assignment’s deadline, will be guaranteed to be approved, so long as it is made in good faith. Any occasional request for a 2-day extension (requested before an assignment’s deadline) made by a student with a DSP accommodation for assignment extensions will be approved automatically. All other extensions will be handled on a case-by-case basis, with no guarantee that they’ll be granted.</p>
+<p>Also, please keep in mind that we are dropping the lowest score of your six Problem-set assignments (do not confuse with App projects). This policy is in place to take care of any extenuating circumstances that prevent you from submitting one of these assignments.</p>
+<p>Please plan ahead and pace yourself. Don’t wait until the last day to do an assignment. Don’t wait until the last minute to submit your assignments.</p>
+</section>
+<section id="midterm-10-of-final-grade" class="level2">
+<h2 class="anchored" data-anchor-id="midterm-10-of-final-grade">📝 Midterm (10% of final grade)</h2>
+<ul>
+<li>There will be one midterm assigned on Friday Mar-8th.</li>
+<li>More information about the midterm will be announced as we approach its due date.</li>
+<li>Unless you have approved accommodations, we won’t be able to provide any extensions if you miss the midterm.</li>
+</ul>
+</section>
+<section id="final-exam-20-of-final-grade" class="level2">
+<h2 class="anchored" data-anchor-id="final-exam-20-of-final-grade">📝 Final Exam (20% of final grade)</h2>
+<ul>
+<li>There will be one final exam.</li>
+<li>The final exam will be held on Monday May-6th, 7pm-10pm, as scheduled by the University.</li>
+<li>More information about the final exam will be provided as we approach its due date.</li>
+<li>Unless you have accommodations as determined by the university and approved by the instructor, you must take the exam at the date and times provided here.</li>
+<li>Please check your course schedule and make sure that you can take the final exam on May-6th, 7pm-10pm. Otherwise, do not take the class if you are not available at this date.</li>
+</ul>
+</section>
+<section id="grading-structure" class="level2">
+<h2 class="anchored" data-anchor-id="grading-structure">💯 Grading Structure</h2>
+<p>Grades will be assigned using the following weighted components:</p>
+<ol type="1">
+<li><strong>8% Lab</strong> (drop 2 lowest scores)</li>
+<li><strong>35% Psets</strong> (drop lowest score)</li>
+<li><strong>8% App1</strong> (no drop)</li>
+<li><strong>9% App2</strong> (no drop)</li>
+<li><strong>10% App3</strong> (no drop)</li>
+<li><strong>10% Midterm</strong></li>
+<li><strong>20% Final Exam</strong></li>
+</ol>
+<ul>
+<li><p>To complete the course, you must take the final exam.</p></li>
+<li><p>To try to keep grading consistent across semesters, I may occasionally curve an individual assignment. I will do this only if I made the assignment or exam harder than I intended, and no one’s scores will decrease as a result of the curve. This will happen very rarely, probably not at all.</p></li>
+<li><p>To give you a rough idea of the grading scheme, the assignment of letter grades in previous semesters has been as follows (exact cutoff points may vary a little bit every semester based on the overall scores distribution):</p>
+<ul>
+<li>😀 90-100% (Excellent) A-/A/A+ range</li>
+<li>🙂 80-90% (Good) B-/B/B+ range</li>
+<li>😐 70-80% (Fair) C-/C/C+ range</li>
+<li>🙁 60-70% (Deficient) D</li>
+<li>😞 Below 60% (Failed) F</li>
 </ul></li>
+<li><p>If you are taking the class pass-fail, the cut-oﬀ for passing is 70% (C-).</p></li>
+<li><p>As a matter of course policy, I do not round up when calculating letter grades. Ex: if your overall score is 79.9999%, then the highest letter grade that you can expect is a C+, not a B-.</p></li>
+<li><p>There is no curve; your grade will depend only on how well you do, and not on how well everyone else does.</p></li>
+<li><p>Letter grades are final; I don’t enter into negotiations with students about grades.</p></li>
+<li><p>Please do not engage in <a href="https://marktomforde.com/academic/undergraduates/GradeGrubbing.html">grade grubbing</a>.</p></li>
+<li><p>Also, please remember that we grade your course performance, not your personal worth.</p></li>
 </ul>
-<section id="about-data-100" class="level2">
-<h2 class="anchored" data-anchor-id="about-data-100">About Data 100</h2>
-<p>Combining data, computation, and inferential thinking, data science is redefining how people and organizations solve challenging problems and understand their world. This intermediate level class bridges between Data 8 and upper division computer science and statistics courses as well as methods courses in other fields. In this class, we explore key areas of data science including question formulation, data collection and cleaning, visualization, statistical inference, predictive modeling, and decision making.​ Through a strong emphasis on data centric computing, quantitative critical thinking, and exploratory data analysis, this class covers key principles and techniques of data science. These include languages for transforming, querying and analyzing data; algorithms for machine learning methods including regression, classification and clustering; principles behind creating informative data visualizations; statistical concepts of measurement error and prediction; and techniques for scalable data processing.</p>
-<section id="goals" class="level3">
-<h3 class="anchored" data-anchor-id="goals">Goals</h3>
+</section>
+<section id="generative-a.i.-policy" class="level2">
+<h2 class="anchored" data-anchor-id="generative-a.i.-policy">⚠️ Generative A.I. Policy</h2>
+<p>Generative A.I. refers to artificial intelligence technologies, like those used for ChatGPT and similar, that can draw on a large corpus of training data to create new written, visual, or audio content.</p>
+<p>There are two principles we use to guide our class policy on AI use:</p>
 <ul>
-<li>Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context.</li>
-<li>Enable students to start careers as data scientists by providing experience working with real-world data, tools, and techniques.</li>
-<li>Empower students to apply computational and inferential thinking to address real-world problems.</li>
+<li><strong>Cognitive dimension</strong>: Working with AI should not reduce your ability to think clearly. The use of AI should facilitate—rather than hinder—learning.</li>
+<li><strong>Ethical dimension</strong>: Students using AI should be transparent about their use and make sure it aligns with academic integrity.</li>
 </ul>
+<p>In this course, we’ll be developing skills that are important to practice on your own. Because use of generative A.I. may inhibit the development of those skills, the use of this tools is permitted in this course for the following activities:</p>
+<ul>
+<li>Brainstorming and refining your ideas;</li>
+<li>Fine tuning your exploratory/research questions;</li>
+<li>Drafting an outline to organize your thoughts;</li>
+<li>Checking syntax errors or bugs in your code; and</li>
+<li>Polishing your spelling and grammar.</li>
+</ul>
+<p>The use of generative A.I. tools is not permitted in this course for the following activities:</p>
+<ul>
+<li>Impersonating you in classroom contexts, such as by using the tool to compose discussion board prompts assigned to you or content that you put into a discussion forum/chat.</li>
+<li>Attempting to pass off AI-generated work as your own.</li>
+<li>Writing a draft of your assignment.</li>
+<li>Writing entire blocks of code, functions, or scripts to complete class assignments.</li>
+</ul>
+<p>Please keep in mind that use of generative A.I. tools can impede your learning by generating ideas for you before you had a chance to think of your own ideas; inhibiting the development of your own writing skills; generating factually inaccurate statements or fictional reference sources; etc.</p>
+<p>If you are unsure of whether and how much of a submission has been AI-generated, or whether you are in violation of a certain policy, please reach out to us and ask for guidance.</p>
 </section>
-<section id="prerequisites" class="level3">
-<h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
-<p>While we are working to make this class widely accessible, we currently require the following (or equivalent) prerequisites. <strong>Prerequisites will be enforced in Data 100. It is your responsibility to know the material in the prerequisites.</strong></p>
+<section id="academic-honesty" class="level2">
+<h2 class="anchored" data-anchor-id="academic-honesty">☝️ Academic Honesty</h2>
+<p>You should not share your code or answers, directly or indirectly, with other students. Doing so doesn’t help them; it just sets them up for trouble on exams. Feel free to discuss the problems with others beforehand, but not the solutions. Please complete your own work and keep it to yourself (e.g.&nbsp;avoid sharing it in hosting platforms like Github or similar). If you suspect other people may be plagiarizing you, let us know ASAP.</p>
+<p>We expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and we encourage you to work together—but copying is not, nor is having somebody else submit assignments for you. Likewise, obtaining and/or using solutions from previous years or from the internet, if such happen to be available, is considered cheating.</p>
+<p>Beyond the templates or starting code provided by the teaching staff, any writing, code, media, or other submissions not explicitly identified as AI-generated will be assumed as original to the student. Submitting AI-generated work without identifying it as such will be considered a violation of the <a href="https://conduct.berkeley.edu/wp-content/uploads/2023/07/Code_of_Conduct-July_2023.pdf">Code of Student Conduct</a>.</p>
+<p>Cheating will not be tolerated. Any evidence of academic misconduct will result in a score of zero (0) on the entire assignment or examination, and a failing letter grade. We will always report incidences of cheating to the <a href="http://sa.berkeley.edu/conduct">Center for the Student Conduct</a>.</p>
+<p>If you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please contact us.</p>
+<p>Rather than copying someone else’s work, ask for help. You are not alone in this course! The course staff is here to help you succeed. If you invest the time to learn the material and complete the projects, you won’t need to copy any answers.</p>
+</section>
+<section id="email-policy" class="level2">
+<h2 class="anchored" data-anchor-id="email-policy">✉️ Email Policy</h2>
+<p>If you wish for your email to make it into our inbox, the subject of your email must contain the text: Stat 133.</p>
+<p>Please refer to my email policy for more information: <a href="./email.html">communication via email</a></p>
+</section>
+<section id="special-accommodations" class="level2">
+<h2 class="anchored" data-anchor-id="special-accommodations">🚸 Special Accommodations</h2>
+<p>Students needing accommodations for any physical, psychological, or learning disability, should contact the teaching staff during the first two weeks of the semester, and see <a href="http://dsp.berkeley.edu" class="uri">http://dsp.berkeley.edu</a> to learn about Berkeley’s policy. If you are a DSP student, please contact us at least three weeks prior to a midterm or final so that we can work out acceptable accommodations.</p>
+<p>For relevant DSP accommodations that provide occasional extensions on assignments, please see the above policy on <a href="#late-policy-and-assignment-extensions">Late Policy</a>.</p>
+</section>
+<section id="incomplete-grade" class="level2">
+<h2 class="anchored" data-anchor-id="incomplete-grade">❗Incomplete Grade</h2>
+<p>Under emergency/special circumstances, students may petition me to receive an Incomplete grade. By University policy, for a student to get an Incomplete requires (i) that the student was performing <strong>passing-level work</strong> until the time that (ii) something happened that—through no fault of the student—prevented the student from completing the coursework. If you take the final, you completed the course, even if you took it while ill, exhausted, mourning, etc. The time to talk to me about incomplete grades is <strong>BEFORE you take the final</strong> (several weeks before), when the situation that prevents you from finishing the course presents itself. Please clearly state your reasoning in your comments to me.</p>
+<p>It is your responsibility to develop good time management skills, good studying habits, know your limits, and learn to ask for professional help. Life happens. Social, family, cultural, scholar, and individual circumstances can affect your performance (both positive and negatively). If you find yourself in a situation that raises concerns about passing the course, please contact me as soon as possible.</p>
+<p><strong>Above all, please do not wait till the end of the semester to share your concerns about passing the course because it will be too late by then.</strong></p>
+</section>
+<section id="safe-and-inclusive-environment" class="level2">
+<h2 class="anchored" data-anchor-id="safe-and-inclusive-environment">🌻 Safe and Inclusive Environment</h2>
+<p>Whenever a faculty member, staff member, post-doc, or GSI is responsible for the supervision of a student, a personal relationship between them of a romantic or sexual nature, even if consensual, is against university policy. Any such relationship jeopardizes the integrity of the educational process.</p>
+<p>Although faculty and staff can act as excellent resources for students, you should be aware that they are required to report any violations of this campus policy. If you wish to have a confidential discussion on matters related to this policy, you may contact the Confidential Care Advocates on campus for support related to counseling or sensitive issues. Appointments can be made by calling (510) 642-1988.</p>
+<p>The classroom, lab, and work place should be safe and inclusive environments for everyone. The Office for the Prevention of Harassment and Discrimination (OPHD) is responsible for ensuring the University provides an environment for faculty, staff and students that is free from discrimination and harassment on the basis of categories including race, color, national origin, age, sex, gender, gender identity, and sexual orientation. Questions or concerns? Call (510) 643-7985, email <a href="mailto:ask_ophd@berkeley.edu" class="email">ask_ophd@berkeley.edu</a>, or go to <a href="http://survivorsupport.berkeley.edu/" class="uri">http://survivorsupport.berkeley.edu/</a>.</p>
+</section>
+<section id="last-but-not-least" class="level2">
+<h2 class="anchored" data-anchor-id="last-but-not-least">🎉 Last But Not Least</h2>
+<p>The main goal of Stat 133 is that you should learn, and have a fantastic experience doing so. Please keep that goal in mind throughout the semester.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -246,24 +467,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
     setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -299,42 +503,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
       });
-    }
+      return popup.innerHTML;
+    });
   }
 });
 </script>
