@@ -1,0 +1,69 @@
+---
+title: "Unit 5: Tables and Tidyverse-1"
+format:
+  html:
+    code-fold: show
+    code-tools: true
+---
+
+
+## 📖 Lecture
+
+One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages specially designed to work with tabular data.
+
+This week we are going to start with the Tidyverse package `"ggplot2"` for creating graphics. In particular you'll learn about the **Grammar of Graphics** and its central idea: _a graphic involves mapping data to geometric objects and their visual attributes_. This is the underlying framework behind the mechanics and core functions available in "ggplot2" for creating simple graphics:
+
+- Begin your graphic specification with `ggplot()`
+- Indicate where the `data` comes from
+- Establish which variables are going to be mapped into visual attributes: `aes()`
+- Decide what kind of geometric object(s) will be used to display data; e.g. `geom_point()`
+- Optional: do you need to use **facets**?
+- Optional: do you need to explicitly use one or more **statistical transformations**?
+- Optional: do you need to explicitly set a non-default **system of coordinates**?
+- Optional: do you need to explicitly use a non-default **theme of graphical elements**?
+
+ 
+
+## 📚 Reading
+
+Read chapter 2 and 4 of "R Tidy Hurricanes":
+
+- <https://www.gastonsanchez.com/R-tidy-hurricanes/tropical-storms.html>
+- <https://www.gastonsanchez.com/R-tidy-hurricanes/graphics-with-ggplot2.html>
+ 
+
+
+## 🔬 Lab
+
+You will get introduced to the ggplot2 system for making graphics when data is in tabular format.
+
+
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Get a first contact with `"ggplot2"`
+- Describe the purpose of the aesthetic mapping function `aes()`
+- Describe the notion of **"layers"** and how to use them for making a graphic using "ggplot2"
+ 
+
+
+## 🔆 Shiny Friday
+
+The shiny app for this week involves data from NBA players, visualizing some univariate plots with ggplot2.
+
+We have two versions:
+
+- __nba-histograms1-basic__: histograms of NBA players' data, includes a select input to choose the variable to visualize, and a slider input to determine the number of bins in the histogram. <br>
+<https://github.com/data133/shiny/tree/main/nba-histograms1-basic>
+
+- __nba-histograms2-facets__: same as app1 but this one also includes another select input to decide whether the histograms should be split into facets by either team or player's position. <br>
+<https://github.com/data133/shiny/tree/main/nba-histograms2-facets>
+
+
+
+## 🔔 Assignments
+
+- HW3 due this 02/16
+- HW4 released on 02/17, due 02/23
