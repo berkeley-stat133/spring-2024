@@ -3,8 +3,9 @@ project:
 
 website:
   sidebar:
-    style: docked
-    logo: stat133_bear.png
+    style: "docked"
+    title: "STAT 133"
+    logo: stat_bear.png
     tools:
       - icon: github
         href: https://github.com/berkeley-stat133/spring-2024
@@ -20,8 +21,13 @@ website:
           - units/unit1.qmd
           - units/unit2.qmd
           - units/unit3.qmd
+          - units/unit4.qmd
+          - units/unit5.qmd
+          - units/unit6.qmd
       - href: data.qmd
         text: Datasets
+      - href: cheatsheets.qmd
+        text: Cheatsheets
           
 
 format:
