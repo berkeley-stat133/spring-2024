@@ -1,0 +1,68 @@
+---
+title: "Unit 4: Functions and Conditionals"
+format:
+  html:
+    code-fold: show
+    code-tools: true
+---
+
+
+## 📖 Lecture
+
+You don’t need to be an expert programmer to be a data scientist, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease.
+
+This week we'll discuss how to write basic functions, the notion of R expressions, and an introduction to conditionals (i.e. if-else statements).
+
+ 
+
+## 📚 Reading
+
+Read chapters 13, 14, and 15 of "R Coding Basics":
+
+- <https://www.gastonsanchez.com/R-coding-basics/functions1.html>
+- <https://www.gastonsanchez.com/R-coding-basics/expressions.html>
+- <https://www.gastonsanchez.com/R-coding-basics/conditionals.html>
+ 
+
+
+## 🔬 Lab
+
+You will get your hands “dirty” writing basic functions, and conditional statements.
+
+
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Describe the main parts of a function (i.e. anatomy of a function)
+- Give a simple example for creating a function
+- Explain the concept of an R compound expression
+- Write if-else statements to handle simple conditions
+- Use if-else statements when writing functions to decide what code to execute
+ 
+
+
+## 🔆 Shiny Friday
+
+The shiny app for this week is a modified version of the default "Old Faithful" app.
+
+The main modification has to do with the use of an if-statement to decide whether to display additional statistics on the histogram of waiting times.
+
+More specifically, we have three new versions:
+
+- __old-faithful3-average-radio__: includes radio buttons to display line of average waiting time <br>
+<https://github.com/data133/shiny/tree/main/old-faithful3-average-radio>
+
+- __old-faithful4-average-checkbox__: includes a checkbox to display line of average waiting time <br>
+<https://github.com/data133/shiny/tree/main/old-faithful4-average-checkbox>
+
+- __old-faithful5-statistics__: includes an auxiliary function to compute descriptive statistics, and also a checkbox to display descriptive statistics <br>
+<https://github.com/data133/shiny/tree/main/old-faithful5-statistics>
+
+
+
+## 🔔 Assignments
+
+- HW2 due this 02/09
+- HW3 released on 02/10, due 02/16
