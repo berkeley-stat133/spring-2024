@@ -13,7 +13,7 @@ No, there will be no live webcast or recordings of lectures.
 <br>
 
 __Do you have a Covid (or other illness) policy?__ <br>
-Maintaining your health and that of the Berkeley community is of primary importance to course staff, so if you are feeling ill or have been exposed to illness, please do not come to class. All of the materials used in class will be posted to bCourses. Likewise, you’re encouraged to reach out to fellow students to discuss the class materials or stop by office hours to chat with the GSI, the tutor, or the instructor.
+Maintaining your health and that of the Berkeley community is of primary importance to course staff, so if you are feeling ill or have been exposed to illness, please do not come to class. All of the materials used in class will be posted either in this website or in bCourses. Likewise, you’re encouraged to reach out to fellow students to discuss the class materials or stop by office hours to chat with the GSI, the tutor, or the instructor.
 
 Having said that, we expect you to attend lecture and lab. Past experience tells us that students who constantly miss lecture/lab tend to have a mediocre performance.
 
@@ -74,17 +74,16 @@ That's perfect too. You don't need to be a data scientist aspirant to take this 
 <br>
  
 __Why is R (and not python) the main computational tool used in Stat 133?__ <br>
-Historically, Stat 133 has always been taught with R, and this semester is no exception. Personally, I believe that both R and python are great tools, and it is a good idea that you learn both of them (especially if you are interested in Data Science, analytics, etc). Stat 133 gives you the opportunity to learn a fair amount of R. Quoting Hadley WickhamLinks to an external site.:
+Historically, Stat 133 has always been taught with R, and this semester is no exception. Personally, I believe that both R and python are great tools, and it is a good idea that you learn both of them (especially if you are interested in Data Science, analytics, etc). Stat 133 gives you the opportunity to learn a fair amount of R. Quoting [Hadley Wickham](https://posit.co/blog/r-vs-python-what-s-the-best-for-language-for-data-science/):
 
-"Generally, there are a lot of people who talk about R versus Python like it’s a war that either R or Python is going to win. I think that is not helpful because it is not actually a battle. These things exist independently and are both awesome in different ways".
-<https://posit.co/blog/r-vs-python-what-s-the-best-for-language-for-data-science/>
+> "Generally, there are a lot of people who talk about R versus Python like it’s a war that either R or Python is going to win. I think that is not helpful because it is not actually a battle. These things exist independently and are both awesome in different ways".
 
-On a side note, [Ross Ihaka](https://en.wikipedia.org/wiki/Ross_Ihaka), one of the creators of R, obtained his PhD at Cal (in the Dept. of Statistics), so it is no coincidence that we are heavily influenced by R.
+On a side note, [Ross Ihaka](https://en.wikipedia.org/wiki/Ross_Ihaka), one of the creators of R, obtained his PhD at UC Berkeley (in the Dept. of Statistics), so it is no coincidence that we are heavily influenced by R.
 
 <br>
 
 __Are we going to learn about machine learning methods?__ <br>
-This course is not about machine learning (or statistical learning) methods. The Statistics department offers a dedicated course on this topic: Stat 154: Modern Statistical Prediction and Machine Learning. There is also CS 189: Introduction to Machine Learning offered through Electrical Engineering and Computer Sciences (EECS). Similarly, Data 100: Principles and Techniques of Data Science covers several machine learning concepts.
+The Statistics department offers a dedicated course on this topic: Stat 154: Modern Statistical Prediction and Machine Learning. There is also CS 189: Introduction to Machine Learning offered through Electrical Engineering and Computer Sciences (EECS). Similarly, Data 100: Principles and Techniques of Data Science covers several machine learning concepts.
 
 <br> 
 
