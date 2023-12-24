@@ -24,6 +24,7 @@ This is this week's announcement.
 - [Communication via email](./email.html)
 - [Ed Netiquette](./ed-netiquette.html)
 - [Q&As](./faqs.html)
+- [5 things you need to know](./five-things.html)
 
 
 ## Schedule
