@@ -47,7 +47,7 @@ At the end of this week you will be able to:
 
 The shiny app for this week is a modified version of the default "Old Faithful" app.
 
-The main modification has to do with the use of an if-statement to decide whether to display additional statistics on the histogram of waiting times.
+The main modification has to do with the use of an if-statement to decide whether to display additional statistics on the histogram of `waiting` times.
 
 More specifically, we have three new versions:
 
