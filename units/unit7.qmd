@@ -1,0 +1,62 @@
+---
+title: "Unit 7: Functions and Conditionals"
+format:
+  html:
+    code-fold: show
+    code-tools: true
+---
+
+
+## 📖 Lecture
+
+In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as for loops, while loops, repeat loops, and the apply family functions.
+
+ 
+
+
+## 📚 Reading
+
+Read chapters 16 and 17 of "R Coding Basics":
+
+- <https://www.gastonsanchez.com/R-coding-basics/for-loop.html>
+- <https://www.gastonsanchez.com/R-coding-basics/while-loop.html>
+
+
+
+## 🔬 Lab
+
+You’ll keep working writing a variety of loops in R (e.g. for, while, repeat).
+
+ 
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Write for loops to repeat the same operation a given number of times
+- Write while loops to repeat the same operation an unknown number of times
+
+
+
+## 🔆 Shiny Friday
+
+The shiny app for this week involves a simple Future Value calculator with some simulations. To be more precise, the app simulates investing annual constant contributions, for a number of years. The rate of return for every year is a variable rate that is randomly generated according to a normal distribution.
+
+An important component of this app is the use of the `reactive()` function to create so-called __reactive conductors__ (i.e. an R expression that uses widget input(s) and returns a value).
+
+Another interesting part of this app is that its __UI layout is based on the package [bslib](https://rstudio.github.io/bslib/)__, which allows us to create customizable shiny dashboards.
+
+- __app: timeline of simulated future values__ <br>
+<https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R>
+
+
+In the event that __bslib__ functions don't work for you, here's another app that also simulates a different, yet basic, investing scenario:
+
+- <https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R>
+
+
+
+## 🔔 Assignments
+
+- HW5 due this 03/01
+- HW6 released on 03/02, due 03/08
