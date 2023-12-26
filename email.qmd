@@ -49,9 +49,9 @@ If you wish for your email to make it into my inbox, do not leave the subject li
 
 - Do not email me to let me know you made a mistake in your submitted assignment. Please refer to the HW policies (see [syllabus](./syllabus.html)).
 
-- Do not email me to ask for extra credit. Here's why: <https://marktomforde.com/academic/undergraduates/NoExtraCredit.html>
+- Do not email me to ask for extra credit. Here's why: <a href="https://marktomforde.com/academic/undergraduates/NoExtraCredit.html" target="_blank">https://marktomforde.com/academic/undergraduates/NoExtraCredit.html</a>
 
-- Above all, do not email me to engage in grade grubbing. Here's why: <https://marktomforde.com/academic/undergraduates/GradeGrubbing.html>
+- Above all, do not email me to engage in grade grubbing. Here's why: <a href="https://marktomforde.com/academic/undergraduates/GradeGrubbing.html" target="_blank">https://marktomforde.com/academic/undergraduates/GradeGrubbing.html</a>
  
 
 
@@ -63,6 +63,6 @@ If you wish to schedule a meeting with me, your message should include at least 
 
 ## Emails regarding letters of recommendation
 
-Before you ask me to write you a letter of recommendation, please take a look at the following document: <https://github.com/gastonstat/letter-of-rec>
+Before you ask me to write you a letter of recommendation, please take a look at the following document: <a href="https://github.com/gastonstat/letter-of-rec" target="_blank">https://github.com/gastonstat/letter-of-rec</a>
 
  
