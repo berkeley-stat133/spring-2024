@@ -20,12 +20,16 @@ Because Stat 133 is one of the core courses for Statistics majors, the underlyin
 
 ## 🎯 Goals
 
-- Prepare students for advanced Berkeley courses in data-management, machine learning, and statistics, by providing the necessary foundation and context.
+By the end of the course, students will:
 
-- Enable students to start careers as data scientists by providing experience working with 
-real-world data, tools, and techniques.
-
-- Empower students to apply computational and inferential thinking to address real-world problems.
+- Construct and execute basic programs in R using elementary programming techniques and tidyverse packages
+- Visualize information and data using appropriate graphical techniques
+- Import data from files or the internet
+- Munge raw data into a tidy format
+- Create visualizations using geospatial data
+- Parse and analyze text documents
+- Create reproducible documents
+- Construct interactive web applications
 
 We don't expect that you become a jedi data scientist, an R ninja, or a super coder. That takes YEARS of practice, training, learning, and collaboration. Instead, we want to give you a good foundation around tools for computational data analysis.
 
@@ -114,9 +118,12 @@ If you cannot turn in an assignment on time, our default policy is:
 - Submissions within 24 hours after the deadline will receive a 15% deduction.
 - Submissions within 48 hours after the deadline will receive a 30% deduction.
 - Submissions that are 48 hours or more after the deadline will receive no credit.
-- Requesting an extension: If you need to request an extension, regardless of your DSP status, fill out this **form** (TBD). Submissions to this form will be visible only to the course staff members.
 
-Any first-time request for a 1-day extension, made 6 hours before an assignment's deadline, will be guaranteed to be approved, so long as it is made in good faith. Any occasional request for a 2-day extension (requested before an assignment's deadline) made by a student with a DSP accommodation for assignment extensions will be approved automatically. All other extensions will be handled on a case-by-case basis, with no guarantee that they'll be granted.
+__Requesting an extension__: If you need to request an extension, regardless of your DSP status, fill out this **form** (TBD). Submissions to this form will be visible only to the course staff members.
+
+- Any first-time request for a 1-day extension on a __problem set__ assignment, made before an assignment's deadline, will be guaranteed to be approved, so long as it is made in good faith. 
+- Any first-time request for a 1-day extension on a __shiny app__ assignment, made before an assignment's deadline, will be guaranteed to be approved, so long as it is made in good faith. 
+- Any occasional request for a 2-day extension (requested before an assignment's deadline) made by a student with a __DSP__ accommodation for assignment extensions will be approved automatically.
 
 Also, please keep in mind that we are dropping the lowest score of your six Problem-set assignments (do not confuse with App projects). This policy is in place to take care of any extenuating circumstances that prevent you from submitting one of these assignments.
 
@@ -126,7 +133,7 @@ Please plan ahead and pace yourself. Don't wait until the last day to do an assi
 
 ## 📝 Midterm (10% of final grade)
 
-- There will be one midterm assigned on Friday Mar-8th.
+- There will be one midterm assigned on Friday Mar-15th.
 - More information about the midterm will be announced as we approach its due date.
 - Unless you have approved accommodations, we won't be able to provide any extensions if you miss the midterm.
 
@@ -183,7 +190,7 @@ There are two principles we use to guide our class policy on AI use:
 - **Cognitive dimension**: Working with AI should not reduce your ability to think clearly. The use of AI should facilitate—rather than hinder—learning. 
 - **Ethical dimension**: Students using AI should be transparent about their use and make sure it aligns with academic integrity. 
 
-In this course, we'll be developing skills that are important to practice on your own. Because use of generative A.I. may inhibit the development of those skills, the use of this tools is permitted in this course for the following activities:
+In this course, we'll be developing skills that are important to practice on your own. Because use of generative A.I. may inhibit the development of those skills, the use of this tools __is permitted__ in this course for the following activities:
 
 - Brainstorming and refining your ideas;
 - Fine tuning your exploratory/research questions;
@@ -191,7 +198,7 @@ In this course, we'll be developing skills that are important to practice on you
 - Checking syntax errors or bugs in your code; and
 - Polishing your spelling and grammar.
 
-The use of generative A.I. tools is not permitted in this course for the following activities:
+The use of generative A.I. tools __is not permitted__ in this course for the following activities:
 
 - Impersonating you in classroom contexts, such as by using the tool to compose discussion board prompts assigned to you or content that you put into a discussion forum/chat.
 - Attempting to pass off AI-generated work as your own.
