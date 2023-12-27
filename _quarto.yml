@@ -16,6 +16,10 @@ website:
         text: Syllabus
       - href: calendar.qmd
         text: Calendar
+      - href: data.qmd
+        text: Datasets
+      - href: cheatsheets.qmd
+        text: Cheatsheets
       - section: "Units"
         contents:
           - units/unit1.qmd
@@ -24,12 +28,8 @@ website:
           - units/unit4.qmd
           - units/unit5.qmd
           - units/unit6.qmd
-      - href: data.qmd
-        text: Datasets
-      - href: cheatsheets.qmd
-        text: Cheatsheets
+          - units/unit7.qmd
           
-
 format:
   html:
     theme: cosmo
