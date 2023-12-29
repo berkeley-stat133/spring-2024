@@ -21,8 +21,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: Housekeeping
-          href: "."
+          name: R Housekeeping
+          href: "https://docs.google.com/presentation/d/1ozm1G1BUYiDI_SVvuu8HyMjIq747Hnc-tdP7U1muP-s/edit?usp=sharing"
 - week: 2
   days:
     - date: "About"
@@ -42,7 +42,7 @@
         - type: "Lecture"
           id: ""
           name: Vectors (part 2)
-          href: "https://docs.google.com/presentation/d/15AFHVQjayacy8tGTiW0avQhphki1G_8udI9ztENBZkg/edit?usp=sharing"
+          href: "https://docs.google.com/presentation/d/1R9BybZlWVoiwuZxxaJtdVGitcqcCYSJY6lSHBdr5SoQ/edit?usp=sharing"
     - date: "Jan 25"
       items:
         - type: "Lab"
@@ -204,4 +204,40 @@
         - type: "Homework"
           id: ""
           name: HW5 Functions (due Mar 01)
+          href: "."
+- week: 7
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 7: Iterations and Loops"
+          href: "./units/unit7.html"
+    - date: "Feb 26"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Iterations
+          href: "https://docs.google.com/presentation/d/1i1JkhBllmQFAfmyj8-sRc9ZGM6AXyTLfQjeKffatSKA/edit?usp=sharing"
+    - date: "Feb 28"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: More Iterations and Simulations
+          href: "https://docs.google.com/presentation/d/1W9SU1z-4rrYpShnFAAzzhHj_8qCcgi1zJuBNWYqOV6M/edit?usp=sharing"
+    - date: "Feb 29"
+      items:
+        - type: "Lab"
+          id: ""
+          name: Loops in R
+          href: "."
+    - date: "Mar 01"
+      items:
+        - type: "Shiny"
+          id: ""
+          name: Shiny Friday
+          href: "."
+        - type: "Homework"
+          id: ""
+          name: HW6 Functions (due Mar 08)
           href: "."
