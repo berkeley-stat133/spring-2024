@@ -9,7 +9,7 @@ format:
 
 ## 📖 Lecture
 
-This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). We'll focus on important concepts like:
+This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). As you'll see, R is---to a large extent---a vector-based language. Pretty much all other data objects are derived from vectors. We'll focus on important concepts like:
 
 - main __data types__ ("atomic types" in R): logical, integer, real, and character
 
@@ -29,10 +29,10 @@ This week we describe data types and their implementation as vectors in R (the m
 
 Read the chapters that form Part I of "R Coding Basics":
 
-- <https://www.gastonsanchez.com/R-coding-basics/vectors1.html>
-- <https://www.gastonsanchez.com/R-coding-basics/vectors2.html>
-- <https://www.gastonsanchez.com/R-coding-basics/vectors3.html>
-- <https://www.gastonsanchez.com/R-coding-basics/vectors4.html>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html</a>
  
 
 
