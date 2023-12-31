@@ -33,7 +33,7 @@ Here's a short example of an unprofessional email. Let's assume you missed an ex
 
 If you are unsure of how to write an email to me or any other professor, please consult this amusing blog post that gives you a useful template:
 
-<https://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087>
+<a href="https://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087" target="_blank">https://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087</a>
 
  
 
