@@ -1,9 +1,5 @@
 ---
 title: "Unit 1: Intro"
-format:
-  html:
-    code-fold: show
-    code-tools: true
 ---
 
 
@@ -26,7 +22,7 @@ If you haven't yet, please spend some time outside class to review the following
 - [syllabus](../syllabus.html)
 - [communication via email](../email.html)
 - [some frequently asked questions](../faqs.html)
-- five things you need to know to pass this class
+- [five things you need to know to pass this class](../five-things.html)
 - introduction survey (google form TBA)
  
 
