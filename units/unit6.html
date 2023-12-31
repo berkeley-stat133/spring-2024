@@ -177,6 +177,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="../calendar.html" class="sidebar-item-text sidebar-link">Calendar</a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../data.html" class="sidebar-item-text sidebar-link">Datasets</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cheatsheets.html" class="sidebar-item-text sidebar-link">Cheatsheets</a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Units</a>
@@ -215,18 +225,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="../units/unit6.html" class="sidebar-item-text sidebar-link active">Unit 6: Tables and Tidyverse-2</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../units/unit7.html" class="sidebar-item-text sidebar-link">Unit 7: Functions and Conditionals</a>
+  </div>
+</li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../data.html" class="sidebar-item-text sidebar-link">Datasets</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../cheatsheets.html" class="sidebar-item-text sidebar-link">Cheatsheets</a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -272,12 +277,12 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
 <p>Read chapters 5 to 10 of “R Tidy Hurricanes”:</p>
 <ul>
-<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/data-manipulation-with-dplyr.html" class="uri">https://www.gastonsanchez.com/R-tidy-hurricanes/data-manipulation-with-dplyr.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/piper.html" class="uri">https://www.gastonsanchez.com/R-tidy-hurricanes/piper.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/single-columns.html" class="uri">https://www.gastonsanchez.com/R-tidy-hurricanes/single-columns.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/storms-in-1975.html" class="uri">https://www.gastonsanchez.com/R-tidy-hurricanes/storms-in-1975.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/storm-amy-1975.html" class="uri">https://www.gastonsanchez.com/R-tidy-hurricanes/storm-amy-1975.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/summarizing-1975-data.html" class="uri">https://www.gastonsanchez.com/R-tidy-hurricanes/summarizing-1975-data.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-03-amy-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-03-amy-1975.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html</a></li>
 </ul>
 </section>
 <section id="lab" class="level2">
@@ -302,9 +307,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>The shiny app for this week, like in the previous week, involves data from NBA players. This time, the goal is to visualize scatter plots with ggplot2.</p>
 <p>We have three versions:</p>
 <ul>
-<li><p><strong>nba-scatterplots1-basic</strong>: produces a simple scatterplot based on two select inputs, one to select the variable of the x-axis, the other one to select the variable of the y-axis. <br> <a href="https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic" class="uri">https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic</a></p></li>
-<li><p><strong>nba-scatterplots2-ggplotly</strong>: same as app1 but this takes the ggplot object and makes it into a plotly object. <br> <a href="https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly" class="uri">https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly</a></p></li>
-<li><p><strong>nba-scatterplots3-smoother1</strong>: same as app1, plus radio buttons to decide whether to add a smoother. <br> <a href="https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1" class="uri">https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1</a></p></li>
+<li><p><strong>nba-scatterplots1-basic</strong>: produces a simple scatterplot based on two select inputs, one to select the variable of the x-axis, the other one to select the variable of the y-axis. <br> <a href="https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic" target="_blank">https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic</a></p></li>
+<li><p><strong>nba-scatterplots2-ggplotly</strong>: same as app1 but this takes the ggplot object and makes it into a plotly object. <br> <a href="https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly" target="_blank">https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly</a></p></li>
+<li><p><strong>nba-scatterplots3-smoother1</strong>: same as app1, plus radio buttons to decide whether to add a smoother. <br> <a href="https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1" target="_blank">https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1</a></p></li>
 </ul>
 </section>
 <section id="assignments" class="level2">
@@ -488,12 +493,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>Read chapters 5 to 10 of "R Tidy Hurricanes":</span>
 <span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-tidy-hurricanes/data-manipulation-with-dplyr.html&gt;</span></span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-tidy-hurricanes/piper.html&gt;</span></span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-tidy-hurricanes/single-columns.html&gt;</span></span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-tidy-hurricanes/storms-in-1975.html&gt;</span></span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-tidy-hurricanes/storm-amy-1975.html&gt;</span></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-tidy-hurricanes/summarizing-1975-data.html&gt;</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/3-03-amy-1975.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/3-03-amy-1975.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html<span class="kw">&lt;/a&gt;</span></span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
@@ -525,13 +530,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>We have three versions:</span>
 <span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__nba-scatterplots1-basic__: produces a simple scatterplot based on two select inputs, one to select the variable of the x-axis, the other one to select the variable of the y-axis. <span class="kw">&lt;br&gt;</span></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic&gt;</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic<span class="kw">&lt;/a&gt;</span></span>
 <span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__nba-scatterplots2-ggplotly__: same as app1 but this takes the ggplot object and makes it into a plotly object. <span class="kw">&lt;br&gt;</span></span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly&gt;</span></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly<span class="kw">&lt;/a&gt;</span></span>
 <span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__nba-scatterplots3-smoother1__: same as app1, plus radio buttons to decide whether to add a smoother. <span class="kw">&lt;br&gt;</span></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1&gt;</span></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1<span class="kw">&lt;/a&gt;</span></span>
 <span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔔 Assignments</span></span>

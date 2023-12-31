@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Unit 5: Tables and Tidyverse-1</title>
+<title>Unit 7: Functions and Conditionals</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -133,7 +133,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Unit 5: Tables and Tidyverse-1</h1>
+      <h1 class="quarto-secondary-nav-title">Unit 7: Functions and Conditionals</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -217,7 +217,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../units/unit5.html" class="sidebar-item-text sidebar-link active">Unit 5: Tables and Tidyverse-1</a>
+  <a href="../units/unit5.html" class="sidebar-item-text sidebar-link">Unit 5: Tables and Tidyverse-1</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -227,7 +227,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../units/unit7.html" class="sidebar-item-text sidebar-link">Unit 7: Functions and Conditionals</a>
+  <a href="../units/unit7.html" class="sidebar-item-text sidebar-link active">Unit 7: Functions and Conditionals</a>
   </div>
 </li>
       </ul>
@@ -255,7 +255,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title d-none d-lg-block">Unit 5: Tables and Tidyverse-1</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title d-none d-lg-block">Unit 7: Functions and Conditionals</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
 </div>
 
 
@@ -271,54 +271,46 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages specially designed to work with tabular data.</p>
-<p>This week we are going to start with the Tidyverse package <code>"ggplot2"</code> for creating graphics. In particular you’ll learn about the <strong>Grammar of Graphics</strong> and its central idea: <em>a graphic involves mapping data to geometric objects and their visual attributes</em>. This is the underlying framework behind the mechanics and core functions available in “ggplot2” for creating simple graphics:</p>
-<ul>
-<li>Begin your graphic specification with <code>ggplot()</code></li>
-<li>Indicate where the <code>data</code> comes from</li>
-<li>Establish which variables are going to be mapped into visual attributes: <code>aes()</code></li>
-<li>Decide what kind of geometric object(s) will be used to display data; e.g.&nbsp;<code>geom_point()</code></li>
-<li>Optional: do you need to use <strong>facets</strong>?</li>
-<li>Optional: do you need to explicitly use one or more <strong>statistical transformations</strong>?</li>
-<li>Optional: do you need to explicitly set a non-default <strong>system of coordinates</strong>?</li>
-<li>Optional: do you need to explicitly use a non-default <strong>theme of graphical elements</strong>?</li>
-</ul>
+<p>In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as for loops, while loops, repeat loops, and the apply family functions.</p>
 </section>
 <section id="reading" class="level2">
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
-<p>Read chapter 2 and 4 of “R Tidy Hurricanes”:</p>
+<p>Read chapters 13 and 14 of “R Coding Basics”:</p>
 <ul>
-<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html</a></li>
 </ul>
 </section>
 <section id="lab" class="level2">
 <h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
-<p>You will get introduced to the ggplot2 system for making graphics when data is in tabular format.</p>
+<p>You’ll keep working writing a variety of loops in R (e.g.&nbsp;for, while, repeat).</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <p>At the end of this week you will be able to:</p>
 <ul>
-<li>Get a first contact with <code>"ggplot2"</code></li>
-<li>Describe the purpose of the aesthetic mapping function <code>aes()</code></li>
-<li>Describe the notion of <strong>“layers”</strong> and how to use them for making a graphic using “ggplot2”</li>
+<li>Write for loops to repeat the same operation a given number of times</li>
+<li>Write while loops to repeat the same operation an unknown number of times</li>
 </ul>
 </section>
 <section id="shiny-friday" class="level2">
 <h2 class="anchored" data-anchor-id="shiny-friday">🔆 Shiny Friday</h2>
-<p>The shiny app for this week involves data from NBA players, visualizing some univariate plots with ggplot2.</p>
-<p>We have two versions:</p>
+<p>The shiny app for this week involves a simple Future Value calculator with some simulations. To be more precise, the app simulates investing annual constant contributions, for a number of years. The rate of return for every year is a variable rate that is randomly generated according to a normal distribution.</p>
+<p>An important component of this app is the use of the <code>reactive()</code> function to create so-called <strong>reactive conductors</strong> (i.e.&nbsp;an R expression that uses widget input(s) and returns a value).</p>
+<p>Another interesting part of this app is that its <strong>UI layout is based on the package <a href="https://rstudio.github.io/bslib/">bslib</a></strong>, which allows us to create customizable shiny dashboards.</p>
 <ul>
-<li><p><strong>nba-histograms1-basic</strong>: histograms of NBA players’ data, includes a select input to choose the variable to visualize, and a slider input to determine the number of bins in the histogram. <br> <a href="https://github.com/data133/shiny/tree/main/nba-histograms1-basic" target="blank">https://github.com/data133/shiny/tree/main/nba-histograms1-basic</a></p></li>
-<li><p><strong>nba-histograms2-facets</strong>: same as app1 but this one also includes another select input to decide whether the histograms should be split into facets by either team or player’s position. <br> <a href="https://github.com/data133/shiny/tree/main/nba-histograms2-facets" target="blank">https://github.com/data133/shiny/tree/main/nba-histograms2-facets</a></p></li>
+<li><strong>app: timeline of simulated future values</strong> <br> <a href="https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R" target="_blank">https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R</a></li>
+</ul>
+<p>In the event that <strong>bslib</strong> functions don’t work for you, here’s another app that also simulates a different, yet basic, investing scenario:</p>
+<ul>
+<li><a href="https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R" target="_blank">https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R</a></li>
 </ul>
 </section>
 <section id="assignments" class="level2">
 <h2 class="anchored" data-anchor-id="assignments">🔔 Assignments</h2>
 <ul>
-<li>HW3 due this 02/16</li>
-<li>HW4 released on 02/17, due 02/23</li>
+<li>HW5 due this 03/01</li>
+<li>HW6 released on 03/02, due 03/08</li>
 </ul>
 
 
@@ -477,7 +469,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Unit 5: Tables and Tidyverse-1"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Unit 7: Functions and Conditionals"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: show</span></span>
@@ -487,64 +479,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📖 Lecture</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages specially designed to work with tabular data.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as for loops, while loops, repeat loops, and the apply family functions.</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>This week we are going to start with the Tidyverse package <span class="in">`"ggplot2"`</span> for creating graphics. In particular you'll learn about the **Grammar of Graphics** and its central idea: _a graphic involves mapping data to geometric objects and their visual attributes_. This is the underlying framework behind the mechanics and core functions available in "ggplot2" for creating simple graphics:</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a> </span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Begin your graphic specification with <span class="in">`ggplot()`</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Indicate where the <span class="in">`data`</span> comes from</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Establish which variables are going to be mapped into visual attributes: <span class="in">`aes()`</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Decide what kind of geometric object(s) will be used to display data; e.g. <span class="in">`geom_point()`</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to use **facets**?</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to explicitly use one or more **statistical transformations**?</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to explicitly set a non-default **system of coordinates**?</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to explicitly use a non-default **theme of graphical elements**?</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📚 Reading</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>Read chapters 13 and 14 of "R Coding Basics":</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📚 Reading</span></span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>Read chapter 2 and 4 of "R Tidy Hurricanes":</span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html<span class="kw">&lt;/a&gt;</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html<span class="kw">&lt;/a&gt;</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔬 Lab</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>You’ll keep working writing a variety of loops in R (e.g. for, while, repeat).</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎯 Objectives</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>At the end of this week you will be able to:</span>
 <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔬 Lab</span></span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>You will get introduced to the ggplot2 system for making graphics when data is in tabular format.</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Write for loops to repeat the same operation a given number of times</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Write while loops to repeat the same operation an unknown number of times</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎯 Objectives</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>At the end of this week you will be able to:</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Get a first contact with <span class="in">`"ggplot2"`</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Describe the purpose of the aesthetic mapping function <span class="in">`aes()`</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Describe the notion of **"layers"** and how to use them for making a graphic using "ggplot2"</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a> </span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔆 Shiny Friday</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>The shiny app for this week involves a simple Future Value calculator with some simulations. To be more precise, the app simulates investing annual constant contributions, for a number of years. The rate of return for every year is a variable rate that is randomly generated according to a normal distribution.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>An important component of this app is the use of the <span class="in">`reactive()`</span> function to create so-called __reactive conductors__ (i.e. an R expression that uses widget input(s) and returns a value).</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Another interesting part of this app is that its __UI layout is based on the package [bslib](https://rstudio.github.io/bslib/)__, which allows us to create customizable shiny dashboards.</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__app: timeline of simulated future values__ <span class="kw">&lt;br&gt;</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R<span class="kw">&lt;/a&gt;</span></span>
 <span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔆 Shiny Friday</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>The shiny app for this week involves data from NBA players, visualizing some univariate plots with ggplot2.</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>We have two versions:</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>In the event that __bslib__ functions don't work for you, here's another app that also simulates a different, yet basic, investing scenario:</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__nba-histograms1-basic__: histograms of NBA players' data, includes a select input to choose the variable to visualize, and a slider input to determine the number of bins in the histogram. <span class="kw">&lt;br&gt;</span></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/nba-histograms1-basic"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/nba-histograms1-basic<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔔 Assignments</span></span>
 <span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__nba-histograms2-facets__: same as app1 but this one also includes another select input to decide whether the histograms should be split into facets by either team or player's position. <span class="kw">&lt;br&gt;</span></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/nba-histograms2-facets"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/nba-histograms2-facets<span class="kw">&lt;/a&gt;</span></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔔 Assignments</span></span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>HW3 due this 02/16</span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>HW4 released on 02/17, due 02/23</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>HW5 due this 03/01</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>HW6 released on 03/02, due 03/08</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 

@@ -177,6 +177,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="../calendar.html" class="sidebar-item-text sidebar-link">Calendar</a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../data.html" class="sidebar-item-text sidebar-link">Datasets</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../cheatsheets.html" class="sidebar-item-text sidebar-link">Cheatsheets</a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Units</a>
@@ -215,18 +225,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
   <a href="../units/unit6.html" class="sidebar-item-text sidebar-link">Unit 6: Tables and Tidyverse-2</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../units/unit7.html" class="sidebar-item-text sidebar-link">Unit 7: Functions and Conditionals</a>
+  </div>
+</li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../data.html" class="sidebar-item-text sidebar-link">Datasets</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../cheatsheets.html" class="sidebar-item-text sidebar-link">Cheatsheets</a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -266,7 +271,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). We’ll focus on important concepts like:</p>
+<p>This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). As you’ll see, R is—to a large extent—a vector-based language. Pretty much all other data objects are derived from vectors. We’ll focus on important concepts like:</p>
 <ul>
 <li><p>main <strong>data types</strong> (“atomic types” in R): logical, integer, real, and character</p></li>
 <li><p><strong>creation of vectors</strong></p></li>
@@ -280,10 +285,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
 <p>Read the chapters that form Part I of “R Coding Basics”:</p>
 <ul>
-<li><a href="https://www.gastonsanchez.com/R-coding-basics/vectors1.html" class="uri">https://www.gastonsanchez.com/R-coding-basics/vectors1.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-coding-basics/vectors2.html" class="uri">https://www.gastonsanchez.com/R-coding-basics/vectors2.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-coding-basics/vectors3.html" class="uri">https://www.gastonsanchez.com/R-coding-basics/vectors3.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-coding-basics/vectors4.html" class="uri">https://www.gastonsanchez.com/R-coding-basics/vectors4.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html</a></li>
+<li><a href="https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html</a></li>
 </ul>
 </section>
 <section id="lab" class="level2">
@@ -312,7 +317,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><code>waiting</code>: is the waiting time (in min) to next eruption</li>
 </ol>
 <p>The app is a very basic app that displays a histogram of the “waiting times”.</p>
-<p><a href="https://github.com/data133/shiny/tree/main/old-faithful1-default" class="uri">https://github.com/data133/shiny/tree/main/old-faithful1-default</a></p>
+<p><a href="https://github.com/data133/shiny/tree/main/old-faithful1-default" target="_blank">https://github.com/data133/shiny/tree/main/old-faithful1-default</a></p>
 </section>
 <section id="activities" class="level2">
 <h2 class="anchored" data-anchor-id="activities">🔔 Activities</h2>
@@ -484,7 +489,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📖 Lecture</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). We'll focus on important concepts like:</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). As you'll see, R is---to a large extent---a vector-based language. Pretty much all other data objects are derived from vectors. We'll focus on important concepts like:</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>main __data types__ ("atomic types" in R): logical, integer, real, and character</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
@@ -504,10 +509,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>Read the chapters that form Part I of "R Coding Basics":</span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-coding-basics/vectors1.html&gt;</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-coding-basics/vectors2.html&gt;</span></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-coding-basics/vectors3.html&gt;</span></span>
-<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="ot">&lt;https://www.gastonsanchez.com/R-coding-basics/vectors4.html&gt;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html<span class="kw">&lt;/a&gt;</span></span>
 <span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a> </span>
 <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
@@ -543,7 +548,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>The app is a very basic app that displays a histogram of the "waiting times".</span>
 <span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="ot">&lt;https://github.com/data133/shiny/tree/main/old-faithful1-default&gt;</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/old-faithful1-default"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/old-faithful1-default<span class="kw">&lt;/a&gt;</span></span>
 <span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>

@@ -114,6 +114,16 @@ ul.task-list li input[type="checkbox"] {
   <a href="./calendar.html" class="sidebar-item-text sidebar-link">Calendar</a>
   </div>
 </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./data.html" class="sidebar-item-text sidebar-link">Datasets</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./cheatsheets.html" class="sidebar-item-text sidebar-link">Cheatsheets</a>
+  </div>
+</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Units</a>
@@ -152,18 +162,13 @@ ul.task-list li input[type="checkbox"] {
   <a href="./units/unit6.html" class="sidebar-item-text sidebar-link">Unit 6: Tables and Tidyverse-2</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./units/unit7.html" class="sidebar-item-text sidebar-link">Unit 7: Functions and Conditionals</a>
+  </div>
+</li>
       </ul>
   </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./data.html" class="sidebar-item-text sidebar-link">Datasets</a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./cheatsheets.html" class="sidebar-item-text sidebar-link">Cheatsheets</a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -194,7 +199,7 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 <p><strong>Will there be live webcast or recordings of lectures?</strong> <br> No, there will be no live webcast or recordings of lectures.</p>
 <p><br></p>
-<p><strong>Do you have a Covid (or other illness) policy?</strong> <br> Maintaining your health and that of the Berkeley community is of primary importance to course staff, so if you are feeling ill or have been exposed to illness, please do not come to class. All of the materials used in class will be posted to bCourses. Likewise, you’re encouraged to reach out to fellow students to discuss the class materials or stop by office hours to chat with the GSI, the tutor, or the instructor.</p>
+<p><strong>Do you have a Covid (or other illness) policy?</strong> <br> Maintaining your health and that of the Berkeley community is of primary importance to course staff, so if you are feeling ill or have been exposed to illness, please do not come to class. All of the materials used in class will be posted either in this website or in bCourses. Likewise, you’re encouraged to reach out to fellow students to discuss the class materials or stop by office hours to chat with the GSI, the tutor, or the instructor.</p>
 <p>Having said that, we expect you to attend lecture and lab. Past experience tells us that students who constantly miss lecture/lab tend to have a mediocre performance.</p>
 <p>Also, missing lecture/lab does not give you the right to use OH as a replacement for receiving instruction. We are always willing to help you understand the learning materials during OH, but this also requires that you make an honest effort reviewing them before coming to OH.</p>
 <p><br></p>
@@ -219,11 +224,13 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 <p><strong>What if I don’t want to be a data scientist?</strong> <br> That’s perfect too. You don’t need to be a data scientist aspirant to take this course. Whether your plans are to become a consultant, life scientist, social scientist, journalist, or get some analytic skills, this course should be a good choice.</p>
 <p><br></p>
-<p><strong>Why is R (and not python) the main computational tool used in Stat 133?</strong> <br> Historically, Stat 133 has always been taught with R, and this semester is no exception. Personally, I believe that both R and python are great tools, and it is a good idea that you learn both of them (especially if you are interested in Data Science, analytics, etc). Stat 133 gives you the opportunity to learn a fair amount of R. Quoting Hadley WickhamLinks to an external site.:</p>
-<p>“Generally, there are a lot of people who talk about R versus Python like it’s a war that either R or Python is going to win. I think that is not helpful because it is not actually a battle. These things exist independently and are both awesome in different ways”. <a href="https://posit.co/blog/r-vs-python-what-s-the-best-for-language-for-data-science/" class="uri">https://posit.co/blog/r-vs-python-what-s-the-best-for-language-for-data-science/</a></p>
-<p>On a side note, <a href="https://en.wikipedia.org/wiki/Ross_Ihaka">Ross Ihaka</a>, one of the creators of R, obtained his PhD at Cal (in the Dept. of Statistics), so it is no coincidence that we are heavily influenced by R.</p>
+<p><strong>Why is R (and not python) the main computational tool used in Stat 133?</strong> <br> Historically, Stat 133 has always been taught with R, and this semester is no exception. Personally, I believe that both R and python are great tools, and it is a good idea that you learn both of them (especially if you are interested in Data Science, analytics, etc). Stat 133 gives you the opportunity to learn a fair amount of R. Quoting <a href="https://posit.co/blog/r-vs-python-what-s-the-best-for-language-for-data-science/">Hadley Wickham</a>:</p>
+<blockquote class="blockquote">
+<p>“Generally, there are a lot of people who talk about R versus Python like it’s a war that either R or Python is going to win. I think that is not helpful because it is not actually a battle. These things exist independently and are both awesome in different ways”.</p>
+</blockquote>
+<p>On a side note, <a href="https://en.wikipedia.org/wiki/Ross_Ihaka">Ross Ihaka</a>, one of the creators of R, obtained his PhD at UC Berkeley (in the Dept. of Statistics), so it is no coincidence that we are heavily influenced by R.</p>
 <p><br></p>
-<p><strong>Are we going to learn about machine learning methods?</strong> <br> This course is not about machine learning (or statistical learning) methods. The Statistics department offers a dedicated course on this topic: Stat 154: Modern Statistical Prediction and Machine Learning. There is also CS 189: Introduction to Machine Learning offered through Electrical Engineering and Computer Sciences (EECS). Similarly, Data 100: Principles and Techniques of Data Science covers several machine learning concepts.</p>
+<p><strong>Are we going to learn about machine learning methods?</strong> <br> The Statistics department offers a dedicated course on this topic: Stat 154: Modern Statistical Prediction and Machine Learning. There is also CS 189: Introduction to Machine Learning offered through Electrical Engineering and Computer Sciences (EECS). Similarly, Data 100: Principles and Techniques of Data Science covers several machine learning concepts.</p>
 <p><br></p>
 <p><strong>Are we going to learn about databases?</strong> <br> If you are interested in Databases you should consider CS 186: Introduction to Database Systems offered through Electrical Engineering and Computer Sciences (EECS).</p>
 <p><br></p>
