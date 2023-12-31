@@ -68,7 +68,7 @@ Our first shiny app involves the app that comes by default in RStudio called _"O
 
 The app is a very basic app that displays a histogram of the "waiting times".
 
-<https://github.com/data133/shiny/tree/main/old-faithful1-default>
+<a href="https://github.com/data133/shiny/tree/main/old-faithful1-default" target="_blank">https://github.com/data133/shiny/tree/main/old-faithful1-default</a>
 
 
 
