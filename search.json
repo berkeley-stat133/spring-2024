@@ -186,7 +186,7 @@
     "href": "units/unit2.html#shiny-friday",
     "title": "Unit 2: R Vectors",
     "section": "🔆 Shiny Friday",
-    "text": "🔆 Shiny Friday\nShiny is an open source R package (developed by Posit) that lets you build web applications using R (and RStudio). BTW: If you’ve never seen a shiny app, you can find dozens of examples in a gallery curated by Posit: https://shiny.posit.co/r/gallery/\nEvery Friday lecture (starting on Jan-26) I will use a shiny example, describing various aspects about its structure, and reviewing some of its key details. Every week we’ll go over a different shiny app, increasing the level of complexity, but also making it more interactive and richer.\nOur first shiny app involves the app that comes by default in RStudio called “Old Faithful”. This app is based on the famous geyser Old Faithful. located in Yellowstone National Park. In particular, the app uses R’s built-in data set \"faithful\" which contains two variables:\n\neruptions: is the time (in min) of an eruption\nwaiting: is the waiting time (in min) to next eruption\n\nThe app is a very basic app that displays a histogram of the “waiting times”.\nhttps://github.com/data133/shiny/tree/main/old-faithful1-default"
+    "text": "🔆 Shiny Friday\nShiny is an open source R package (developed by Posit) that lets you build web applications using R (and RStudio). BTW: If you’ve never seen a shiny app, you can find dozens of examples in a gallery curated by Posit: https://shiny.posit.co/r/gallery/\nEvery Friday lecture (starting on Jan-26) I will use a shiny example, describing various aspects about its structure, and reviewing some of its key details. Every week we’ll go over a different shiny app, increasing the level of complexity, but also making it more interactive and richer.\nOur first shiny app involves the app that comes by default in RStudio called Old Faithful. This app is based on the famous geyser Old Faithful located in Yellowstone National Park. In particular, the app uses R’s built-in data set \"faithful\" which contains two variables:\n\neruptions: is the time (in min) of an eruption\nwaiting: is the waiting time (in min) to next eruption\n\nThe app is a very basic app that displays a histogram of the “waiting times”.\nhttps://github.com/data133/shiny/tree/main/old-faithful1-default"
   },
   {
     "objectID": "units/unit2.html#activities",
@@ -452,7 +452,7 @@
     "href": "syllabus.html#textbooks",
     "title": "Syllabus",
     "section": "📚 Textbooks",
-    "text": "📚 Textbooks\nWe’ll be using a handful of textbooks (most of them based on the notes I’ve used in Stat 133 for the last 8 years):\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/\nhttps://www.gastonsanchez.com/R-coding-basics/\nhttps://www.gastonsanchez.com/R-rolling-dice/\nhttps://www.gastonsanchez.com/R-web-technologies/\nhttps://www.tidytextmining.com/ (by Julia Silge and David Robinson)"
+    "text": "📚 Textbooks\nWe’ll be using a handful of textbooks (most of them based on the notes I’ve used in Stat 133 for the last 8 years):\n\nhttps://www.gastonsanchez.com/R-coding-basics/\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/\nhttps://www.gastonsanchez.com/R-rolling-dice/\nhttps://www.gastonsanchez.com/R-web-technologies/\nhttps://www.tidytextmining.com/ (by Julia Silge and David Robinson)"
   },
   {
     "objectID": "syllabus.html#computational-tools",
