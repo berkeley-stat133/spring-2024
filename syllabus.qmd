@@ -49,11 +49,11 @@ Students with some prior experience in either computational statistics or comput
 
 We'll be using a handful of textbooks (most of them based on the notes I've used in Stat 133 for the last 8 years):
 
-- <https://www.gastonsanchez.com/R-tidy-hurricanes/>
-- <https://www.gastonsanchez.com/R-coding-basics/>
-- <https://www.gastonsanchez.com/R-rolling-dice/>
-- <https://www.gastonsanchez.com/R-web-technologies/>
-- <https://www.tidytextmining.com/> (by Julia Silge and David Robinson)
+- <a href="https://www.gastonsanchez.com/R-coding-basics/" target="_blank">https://www.gastonsanchez.com/R-coding-basics/</a>
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/</a>
+- <a href="https://www.gastonsanchez.com/R-rolling-dice/" target="_blank">https://www.gastonsanchez.com/R-rolling-dice/</a>
+- <a href="https://www.gastonsanchez.com/R-web-technologies/" target="_blank">https://www.gastonsanchez.com/R-web-technologies/</a>
+- <a href="https://www.tidytextmining.com/" target="_blank">https://www.tidytextmining.com/</a> (by Julia Silge and David Robinson)
 
 
 
