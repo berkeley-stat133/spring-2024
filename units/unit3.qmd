@@ -22,9 +22,9 @@ This week in class we discuss R lists, which are the most generic kind of data c
 
 Read chapters 6, 7 and 8 of "R Coding Basics":
 
-- <https://www.gastonsanchez.com/R-coding-basics/matrices1.html>
-- <https://www.gastonsanchez.com/R-coding-basics/matrices2.html>
-- <https://www.gastonsanchez.com/R-coding-basics/lists.html>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html</a>
  
 
 
@@ -65,8 +65,8 @@ In turn, the app produces one (graphical) output which is a timeline to visualiz
 
 There are two versions of the app: one uses three sliders (one slider per input), and the other one uses three numeric inputs (one number per input)
 
-- <https://github.com/data133/shiny/tree/main/future-value1-numerics>
-- <https://github.com/data133/shiny/tree/main/future-value2-sliders>
+- <a href="https://github.com/data133/shiny/tree/main/future-value1-numerics" target="_blank">https://github.com/data133/shiny/tree/main/future-value1-numerics</a>
+- <a href="https://github.com/data133/shiny/tree/main/future-value2-sliders" target="_blank">https://github.com/data133/shiny/tree/main/future-value2-sliders</a>
 
 
 
