@@ -61,7 +61,7 @@ __Shiny__ is an open source R package (developed by Posit) that lets you build w
 
 Every Friday lecture (starting on Jan-26) I will use a shiny example, describing various aspects about its structure, and reviewing some of its key details. Every week we'll go over a different shiny app, increasing the level of complexity, but also making it more interactive and richer.
 
-Our first shiny app involves the app that comes by default in RStudio called _"Old Faithful"_. This app is based on the famous geyser [Old Faithful](https://www.yellowstonepark.com/things-to-do/geysers-hot-springs/about-old-faithful/). located in Yellowstone National Park. In particular, the app uses R's built-in data set `"faithful"` which contains two variables:
+Our first shiny app involves the app that comes by default in RStudio called __Old Faithful__. This app is based on the famous geyser <a href="https://www.yellowstonepark.com/things-to-do/geysers-hot-springs/about-old-faithful/" target="_blank">Old Faithful</a> located in Yellowstone National Park. In particular, the app uses R's built-in data set `"faithful"` which contains two variables:
 
 1) `eruptions`: is the time (in min) of an eruption
 2) `waiting`: is the waiting time (in min) to next eruption 
