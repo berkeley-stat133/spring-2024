@@ -17,11 +17,11 @@ This week we'll discuss how to write basic functions, the notion of R expression
 
 ## 📚 Reading
 
-Read chapters 13, 14, and 15 of "R Coding Basics":
+Read chapters 10, 11, and 12a href=" of "R Coding Basics":
 
-- <https://www.gastonsanchez.com/R-coding-basics/functions1.html>
-- <https://www.gastonsanchez.com/R-coding-basics/expressions.html>
-- <https://www.gastonsanchez.com/R-coding-basics/conditionals.html>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html</a>
  
 
 
@@ -52,13 +52,13 @@ The main modification has to do with the use of an if-statement to decide whethe
 More specifically, we have three new versions:
 
 - __old-faithful3-average-radio__: includes radio buttons to display line of average waiting time <br>
-<https://github.com/data133/shiny/tree/main/old-faithful3-average-radio>
+<a href="https://github.com/data133/shiny/tree/main/old-faithful3-average-radio" target="_blank">https://github.com/data133/shiny/tree/main/old-faithful3-average-radio</a>
 
 - __old-faithful4-average-checkbox__: includes a checkbox to display line of average waiting time <br>
-<https://github.com/data133/shiny/tree/main/old-faithful4-average-checkbox>
+<a href="https://github.com/data133/shiny/tree/main/old-faithful4-average-checkbox" target="_blank">https://github.com/data133/shiny/tree/main/old-faithful4-average-checkbox</a>
 
 - __old-faithful5-statistics__: includes an auxiliary function to compute descriptive statistics, and also a checkbox to display descriptive statistics <br>
-<https://github.com/data133/shiny/tree/main/old-faithful5-statistics>
+<a href="https://github.com/data133/shiny/tree/main/old-faithful5-statistics" target="_blank">https://github.com/data133/shiny/tree/main/old-faithful5-statistics</a>
 
 
 
