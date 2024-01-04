@@ -28,8 +28,8 @@ This week we are going to start with the Tidyverse package `"ggplot2"` for creat
 
 Read chapter 2 and 4 of "R Tidy Hurricanes":
 
-- <https://www.gastonsanchez.com/R-tidy-hurricanes/tropical-storms.html>
-- <https://www.gastonsanchez.com/R-tidy-hurricanes/graphics-with-ggplot2.html>
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html</a>
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html</a>
  
 
 
@@ -56,10 +56,10 @@ The shiny app for this week involves data from NBA players, visualizing some uni
 We have two versions:
 
 - __nba-histograms1-basic__: histograms of NBA players' data, includes a select input to choose the variable to visualize, and a slider input to determine the number of bins in the histogram. <br>
-<https://github.com/data133/shiny/tree/main/nba-histograms1-basic>
+<a href="https://github.com/data133/shiny/tree/main/nba-histograms1-basic" target="blank">https://github.com/data133/shiny/tree/main/nba-histograms1-basic</a>
 
 - __nba-histograms2-facets__: same as app1 but this one also includes another select input to decide whether the histograms should be split into facets by either team or player's position. <br>
-<https://github.com/data133/shiny/tree/main/nba-histograms2-facets>
+<a href="https://github.com/data133/shiny/tree/main/nba-histograms2-facets" target="blank">https://github.com/data133/shiny/tree/main/nba-histograms2-facets</a>
 
 
 
