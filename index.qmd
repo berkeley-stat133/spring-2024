@@ -14,7 +14,9 @@ listing:
 :::
 
 ::: {.callout-note title="Announcement"}
-This is this week's announcement.
+## Announcement
+
+We'll see you on Wed Jan-17th at 9am in [105 Stanley Hall](https://www.berkeley.edu/map/?stanley)
 :::
 
 
