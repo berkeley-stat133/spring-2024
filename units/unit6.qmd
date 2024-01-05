@@ -17,12 +17,12 @@ This week we continue with another fundamental tidyverse package `"dplyr"`. Simp
 
 Read chapters 5 to 10 of "R Tidy Hurricanes":
 
-- <https://www.gastonsanchez.com/R-tidy-hurricanes/data-manipulation-with-dplyr.html>
-- <https://www.gastonsanchez.com/R-tidy-hurricanes/piper.html>
-- <https://www.gastonsanchez.com/R-tidy-hurricanes/single-columns.html>
-- <https://www.gastonsanchez.com/R-tidy-hurricanes/storms-in-1975.html>
-- <https://www.gastonsanchez.com/R-tidy-hurricanes/storm-amy-1975.html>
-- <https://www.gastonsanchez.com/R-tidy-hurricanes/summarizing-1975-data.html>
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html</a>
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html</a>
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html</a>
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html</a>
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-03-amy-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-03-amy-1975.html</a>
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html</a>
 
 
 
@@ -54,13 +54,13 @@ The shiny app for this week, like in the previous week, involves data from NBA p
 We have three versions:
 
 - __nba-scatterplots1-basic__: produces a simple scatterplot based on two select inputs, one to select the variable of the x-axis, the other one to select the variable of the y-axis. <br>
-<https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic>
+<a href="https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic" target="_blank">https://github.com/data133/shiny/tree/main/nba-scatterplots1-basic</a>
 
 - __nba-scatterplots2-ggplotly__: same as app1 but this takes the ggplot object and makes it into a plotly object. <br>
-<https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly>
+<a href="https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly" target="_blank">https://github.com/data133/shiny/tree/main/nba-scatterplots2-ggplotly</a>
 
 - __nba-scatterplots3-smoother1__: same as app1, plus radio buttons to decide whether to add a smoother. <br>
-<https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1>
+<a href="https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1" target="_blank">https://github.com/data133/shiny/tree/main/nba-scatterplots3-smoother1</a>
 
 
 ## 🔔 Assignments
