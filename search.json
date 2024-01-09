@@ -130,7 +130,7 @@
     "href": "index.html",
     "title": "Statistics 133: Concepts in Computing with Data",
     "section": "",
-    "text": "Ed\n  DataHub\n  Gradescope\n\nNo matching items"
+    "text": "bCourses\n  Ed\n  DataHub\n\nNo matching items"
   },
   {
     "objectID": "index.html#welcome",
@@ -144,7 +144,7 @@
     "href": "index.html#schedule",
     "title": "Statistics 133: Concepts in Computing with Data",
     "section": "Schedule",
-    "text": "Schedule\n\n\n   Week 1\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 1: Introduction\n                \n           \n           \n           Jan 17:\n           Lecture  Welcome to Stat 133\n                \n           \n           \n           Jan 18:\n           Lab  Intro to R, RStudio, and Quarto notebooks\n                \n           \n           \n           Jan 19:\n           Lecture  R Housekeeping\n                \n           \n   \n   \n   Week 2\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 2: R Vectors\n                \n           \n           \n           Jan 22:\n           Lecture  Vectors (part 1)\n                \n           \n           \n           Jan 24:\n           Lecture  Vectors (part 2)\n                \n           \n           \n           Jan 25:\n           Lab  Vectors\n                \n           \n           \n           Jan 26:\n           Shiny  Shiny Friday\n                \n           \n           \n           Homework  HW1 Vectors (due Feb 02)\n                \n           \n   \n   \n   Week 3\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 3: R Matrices and Lists\n                \n           \n           \n           Jan 29:\n           Lecture  Matrices\n                Demo\n           \n           \n           Jan 31:\n           Lecture  Lists\n                \n           \n           \n           Feb 01:\n           Lab  Lists and Matrices\n                \n           \n           \n           Feb 02:\n           Shiny  Shiny Friday\n                \n           \n           \n           Homework  HW2 More data objects (due Feb 09)\n                \n           \n   \n   \n   Week 4\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 4: Simple Functions and Conditionals\n                \n           \n           \n           Feb 05:\n           Lecture  Intro to Functions\n                \n           \n           \n           Feb 07:\n           Lecture  If-else statements\n                \n           \n           \n           Feb 08:\n           Lab  Functions and Conditionals\n                \n           \n           \n           Feb 09:\n           Shiny  Shiny Friday\n                \n           \n           \n           Homework  HW3 Functions (due Feb 16)\n                \n           \n   \n   \n   Week 5\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 5: Tables and Tidyverse (part 1)\n                \n           \n           \n           Feb 12:\n           Lecture  Graphics with ggplot2 (part 1)\n                \n           \n           \n           Feb 14:\n           Lecture  Graphics with ggplot2 (part 2)\n                \n           \n           \n           Feb 15:\n           Lab  Intro to ggplot2\n                \n           \n           \n           Feb 16:\n           Shiny  Shiny Friday\n                \n           \n           \n           Homework  HW4 Functions (due Feb 23)\n                \n           \n   \n   \n   Week 6\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 6: Tables and Tidyverse (part 2)\n                \n           \n           \n           Feb 19:\n           Lecture  Academic Holiday (no class)\n                \n           \n           \n           Feb 21:\n           Lecture  Manipulating tables with dplyr\n                \n           \n           \n           Feb 22:\n           Lab  Intro to dplyr\n                \n           \n           \n           Feb 23:\n           Shiny  Shiny Friday\n                \n           \n           \n           Homework  HW5 Functions (due Mar 01)\n                \n           \n   \n   \n   Week 7\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 7: Iterations and Loops\n                \n           \n           \n           Feb 26:\n           Lecture  Iterations\n                \n           \n           \n           Feb 28:\n           Lecture  More Iterations and Simulations\n                \n           \n           \n           Feb 29:\n           Lab  Loops in R\n                \n           \n           \n           Mar 01:\n           Shiny  Shiny Friday\n                \n           \n           \n           Homework  HW6 Functions (due Mar 08)\n                \n           \n   \n   \n\nNo matching items"
+    "text": "Schedule\n\n\n   Week 1\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 1: Introduction\n                \n           \n           \n           Jan 17:\n           Lecture  Welcome to Stat 133\n                \n           \n           \n           Jan 18:\n           Lab  Intro to R, RStudio, and Quarto notebooks\n                \n           \n           \n           Jan 19:\n           Lecture  R Housekeeping\n                \n           \n   \n   \n\nNo matching items"
   },
   {
     "objectID": "units/macros.html",
@@ -152,6 +152,41 @@
     "title": "",
     "section": "",
     "text": "\\[\n\\newcommand{\\trans}{^\\mathsf{T}}\n\\newcommand{\\eps}{\\epsilon}\n\\]"
+  },
+  {
+    "objectID": "units/unit8.html",
+    "href": "units/unit8.html",
+    "title": "Unit 8: Regular Expressions",
+    "section": "",
+    "text": "Why should you learn about character string manipulation and working with text data? Well, because a considerable amount of information and data is precisely in the form of text. And sooner or later (I would say sooner than later) you will have to deal with some kind of string manipulation for your data analysis. So it’s better to be prepared for such tasks and know how to perform them inside the R environment.\nTo unleash the power of string manipulation, we need to take things to the next level and learn about Regular Expressions or regex for short. Namely, regex allows us to describe a certain amount of text called “patterns”. The name “Regular Expression” does not say much. However, regular expressions are all about text.\nRegular expression patterns consist of a combination of alphanumeric characters as well as special characters. A regex pattern can be as simple as a single character, or it can be formed by several characters with a more complex structure. In all cases we construct regular expressions much in the same form in which we construct arithmetic expressions, by using various operators to combine smaller expressions."
+  },
+  {
+    "objectID": "units/unit8.html#reading",
+    "href": "units/unit8.html#reading",
+    "title": "Unit 8: Regular Expressions",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 13 and 14 of “R Coding Basics”:\n\nLiteral Characters\nMetacharacters\nCharacter Sets\nAnchors\nQuantifiers"
+  },
+  {
+    "objectID": "units/unit8.html#lab",
+    "href": "units/unit8.html#lab",
+    "title": "Unit 8: Regular Expressions",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nThis week you’ll learn how to perform regex operations."
+  },
+  {
+    "objectID": "units/unit8.html#objectives",
+    "href": "units/unit8.html#objectives",
+    "title": "Unit 8: Regular Expressions",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nBeing able to describe what a regular expression is\nExplain what a literal character is\nExplain what a metacharacter is\nGive an example of the wildcard metacharacter “.” (dot)\nGive an example of how to escape a metacharacter\nExplain what a character range is\nExplain what a POSIX character class is"
+  },
+  {
+    "objectID": "units/unit8.html#assignments",
+    "href": "units/unit8.html#assignments",
+    "title": "Unit 8: Regular Expressions",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nHW6 due this 03/08\nShiny App1 released on 03/09, due 03/22"
   },
   {
     "objectID": "units/unit2.html",

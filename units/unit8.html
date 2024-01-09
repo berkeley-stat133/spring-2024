@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data</title>
+<title>Unit 8: Regular Expressions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -60,7 +60,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked">
@@ -69,7 +69,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Data</h1>
+      <h1 class="quarto-secondary-nav-title">Unit 8: Regular Expressions</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -81,11 +81,11 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="./" class="sidebar-logo-link">
-      <img src="./stat_bear.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <a href="../" class="sidebar-logo-link">
+      <img src="../stat_bear.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">STAT 133</a> 
+      <a href="../">STAT 133</a> 
         <div class="sidebar-tools-main">
     <a href="https://github.com/berkeley-stat133/spring-2024" title="" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
 </div>
@@ -100,27 +100,27 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Home / Schedule</a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Home / Schedule</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
+  <a href="../syllabus.html" class="sidebar-item-text sidebar-link">Syllabus</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./calendar.html" class="sidebar-item-text sidebar-link">Calendar</a>
+  <a href="../calendar.html" class="sidebar-item-text sidebar-link">Calendar</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./data.html" class="sidebar-item-text sidebar-link active">Datasets</a>
+  <a href="../data.html" class="sidebar-item-text sidebar-link">Datasets</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./cheatsheets.html" class="sidebar-item-text sidebar-link">Cheatsheets</a>
+  <a href="../cheatsheets.html" class="sidebar-item-text sidebar-link">Cheatsheets</a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./units/unit1.html" class="sidebar-item-text sidebar-link">Unit 1: Intro</a>
+  <a href="../units/unit1.html" class="sidebar-item-text sidebar-link">Unit 1: Intro</a>
   </div>
 </li>
       </ul>
@@ -147,8 +147,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-1" id="toc-data-1" class="nav-link active" data-scroll-target="#data-1">Data 1</a></li>
-  <li><a href="#data-2" id="toc-data-2" class="nav-link" data-scroll-target="#data-2">Data 2</a></li>
+  <li><a href="#lecture" id="toc-lecture" class="nav-link active" data-scroll-target="#lecture">📖 Lecture</a></li>
+  <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">📚 Reading</a></li>
+  <li><a href="#lab" id="toc-lab" class="nav-link" data-scroll-target="#lab">🔬 Lab</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
+  <li><a href="#assignments" id="toc-assignments" class="nav-link" data-scroll-target="#assignments">🔔 Assignments</a></li>
   </ul>
 </nav>
     </div>
@@ -157,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Data</h1>
+<h1 class="title d-none d-lg-block">Unit 8: Regular Expressions</h1>
 </div>
 
 
@@ -171,12 +174,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>We’ll use data from several real world situations in class.</p>
-<section id="data-1" class="level2">
-<h2 class="anchored" data-anchor-id="data-1">Data 1</h2>
+<section id="lecture" class="level2">
+<h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
+<p>Why should you learn about character string manipulation and working with text data? Well, because a considerable amount of information and data is precisely in the form of text. And sooner or later (I would say sooner than later) you will have to deal with some kind of string manipulation for your data analysis. So it’s better to be prepared for such tasks and know how to perform them inside the R environment.</p>
+<p>To unleash the power of string manipulation, we need to take things to the next level and learn about Regular Expressions or regex for short. Namely, regex allows us to describe a certain amount of text called “patterns”. The name “Regular Expression” does not say much. However, regular expressions are all about text.</p>
+<p>Regular expression patterns consist of a combination of alphanumeric characters as well as special characters. A regex pattern can be as simple as a single character, or it can be formed by several characters with a more complex structure. In all cases we construct regular expressions much in the same form in which we construct arithmetic expressions, by using various operators to combine smaller expressions.</p>
 </section>
-<section id="data-2" class="level2">
-<h2 class="anchored" data-anchor-id="data-2">Data 2</h2>
+<section id="reading" class="level2">
+<h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
+<p>Read chapters 13 and 14 of “R Coding Basics”:</p>
+<ul>
+<li>Literal Characters</li>
+<li>Metacharacters</li>
+<li>Character Sets</li>
+<li>Anchors</li>
+<li>Quantifiers</li>
+</ul>
+</section>
+<section id="lab" class="level2">
+<h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
+<p>This week you’ll learn how to perform regex operations.</p>
+</section>
+<section id="objectives" class="level2">
+<h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
+<ul>
+<li>Being able to describe what a regular expression is</li>
+<li>Explain what a literal character is</li>
+<li>Explain what a metacharacter is</li>
+<li>Give an example of the wildcard metacharacter “.” (dot)</li>
+<li>Give an example of how to escape a metacharacter</li>
+<li>Explain what a character range is</li>
+<li>Explain what a POSIX character class is</li>
+</ul>
+</section>
+<section id="assignments" class="level2">
+<h2 class="anchored" data-anchor-id="assignments">🔔 Assignments</h2>
+<ul>
+<li>HW6 due this 03/08</li>
+<li>Shiny App1 released on 03/09, due 03/22</li>
+</ul>
 
 
 </section>
