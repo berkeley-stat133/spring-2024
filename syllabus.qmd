@@ -52,6 +52,7 @@ We'll be using a handful of textbooks (most of them based on the notes I've used
 - <a href="https://www.gastonsanchez.com/R-coding-basics/" target="_blank">https://www.gastonsanchez.com/R-coding-basics/</a>
 - <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/</a>
 - <a href="https://www.gastonsanchez.com/R-rolling-dice/" target="_blank">https://www.gastonsanchez.com/R-rolling-dice/</a>
+- <a href="https://www.gastonsanchez.com/R-for-strings/" target="_blank">https://www.gastonsanchez.com/R-for-strings/</a>
 - <a href="https://www.gastonsanchez.com/R-web-technologies/" target="_blank">https://www.gastonsanchez.com/R-web-technologies/</a>
 - <a href="https://www.tidytextmining.com/" target="_blank">https://www.tidytextmining.com/</a> (by Julia Silge and David Robinson)
 
@@ -67,9 +68,9 @@ The lectures tend to be focused on the data analysis concepts, while learning ho
 
 
 
-## ⏳ Waitlisted Students
+## ⏳ Waitlisted Students and Late Joining
 
-If you are on the waiting list, you must still do all coursework and complete labs and homework by the deadlines. We will not be offering extensions if you are admitted into the course later. So it is your responsibility to stay up to date on the assignments.
+If you are on the waiting list, you must still do all coursework and complete labs and homework by the deadlines. __We will not be offering extensions if you are admitted into the course later.__ So it is your responsibility to stay up to date on the assignments.
 
 Unfortunately, doing all the work is not a guarantee of enrollment. You will only be enrolled if there is space in your lab. Enrollment will proceed by CalCentral.
 
@@ -106,7 +107,6 @@ Unfortunately, doing all the work is not a guarantee of enrollment. You will onl
 - These are larger assignments intended to combine many of the ideas from the course, in order to create interactive web-apps.
 - As part of the submission you will have to record a video (with screen and face capture) in which you describe how to use your app, and explain the performed analysis and some of the obtained results.
 - Starting on week-8 app projects will be assigned about every two weeks, until the end of instruction.
-- The due date is indicated in the assignments tab.
 - We will not drop any of the App assignment scores in the calculation of your overall grade.
 
 
@@ -131,7 +131,7 @@ Please plan ahead and pace yourself. Don't wait until the last day to do an assi
 
  
 
-## 📝 Midterm (10% of final grade)
+## 📝 Midterm (8% of final grade)
 
 - There will be one midterm assigned on Friday Mar-15th.
 - More information about the midterm will be announced as we approach its due date.
@@ -139,7 +139,7 @@ Please plan ahead and pace yourself. Don't wait until the last day to do an assi
 
 
 
-## 📝 Final Exam (20% of final grade)
+## 📝 Final Exam (22% of final grade)
 
 - There will be one final exam.
 - The final exam will be held on Monday May-6th, 7pm-10pm, as scheduled by the University.
@@ -158,8 +158,8 @@ Grades will be assigned using the following weighted components:
 3)  **8% App1** (no drop)
 4)  **9% App2** (no drop)
 5) **10% App3** (no drop)
-6) **10% Midterm**
-7) **20% Final Exam**
+6)  **8% Midterm**
+7) **22% Final Exam**
 
 
 - To complete the course, you must take the final exam.
