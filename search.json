@@ -487,7 +487,7 @@
     "href": "syllabus.html#textbooks",
     "title": "Syllabus",
     "section": "📚 Textbooks",
-    "text": "📚 Textbooks\nWe’ll be using a handful of textbooks (most of them based on the notes I’ve used in Stat 133 for the last 8 years):\n\nhttps://www.gastonsanchez.com/R-coding-basics/\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/\nhttps://www.gastonsanchez.com/R-rolling-dice/\nhttps://www.gastonsanchez.com/R-web-technologies/\nhttps://www.tidytextmining.com/ (by Julia Silge and David Robinson)"
+    "text": "📚 Textbooks\nWe’ll be using a handful of textbooks (most of them based on the notes I’ve used in Stat 133 for the last 8 years):\n\nhttps://www.gastonsanchez.com/R-coding-basics/\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/\nhttps://www.gastonsanchez.com/R-rolling-dice/\nhttps://www.gastonsanchez.com/R-for-strings/\nhttps://www.gastonsanchez.com/R-web-technologies/\nhttps://www.tidytextmining.com/ (by Julia Silge and David Robinson)"
   },
   {
     "objectID": "syllabus.html#computational-tools",
@@ -497,11 +497,11 @@
     "text": "🔧 Computational Tools\nWe will be mainly using the computing and programming environment R (via RStudio to analyze data in this class. You will also use a command line interface to interact with your operating system. You do need your own computer to use R and do the assignments.\nWe don’t expect that students have already been exposed to R. For those who come from Data 8 or some previous coding experience in python, the first labs will help you transfer that knowledge over to R. Both languages are excellent platforms for analyzing data, are widely used in data science, and have their individual strengths. R has been developed within the statistics community specifically for data analysis, while python is a general-purpose programming language but has large data analysis capabilities.\nThe lectures tend to be focused on the data analysis concepts, while learning how to apply/use them in R tend to be the focus of the labs and assignments. Do not be surprised or worried about not following the details of R code during class—that is not the point (furthermore, there will sometimes be code that is really specific to the instructional purposes of the lecture, e.g. to make a specific plot, and is beyond the scope of what you would be expected to understand or know how to do it by yourself)."
   },
   {
-    "objectID": "syllabus.html#waitlisted-students",
-    "href": "syllabus.html#waitlisted-students",
+    "objectID": "syllabus.html#waitlisted-students-and-late-joining",
+    "href": "syllabus.html#waitlisted-students-and-late-joining",
     "title": "Syllabus",
-    "section": "⏳ Waitlisted Students",
-    "text": "⏳ Waitlisted Students\nIf you are on the waiting list, you must still do all coursework and complete labs and homework by the deadlines. We will not be offering extensions if you are admitted into the course later. So it is your responsibility to stay up to date on the assignments.\nUnfortunately, doing all the work is not a guarantee of enrollment. You will only be enrolled if there is space in your lab. Enrollment will proceed by CalCentral."
+    "section": "⏳ Waitlisted Students and Late Joining",
+    "text": "⏳ Waitlisted Students and Late Joining\nIf you are on the waiting list, you must still do all coursework and complete labs and homework by the deadlines. We will not be offering extensions if you are admitted into the course later. So it is your responsibility to stay up to date on the assignments.\nUnfortunately, doing all the work is not a guarantee of enrollment. You will only be enrolled if there is space in your lab. Enrollment will proceed by CalCentral."
   },
   {
     "objectID": "syllabus.html#labs-8-of-final-grade",
@@ -522,7 +522,7 @@
     "href": "syllabus.html#app-projects-27-of-final-grade",
     "title": "Syllabus",
     "section": "📂 App Projects (27% of final grade)",
-    "text": "📂 App Projects (27% of final grade)\n\nThere will be about 3 Shiny App projects.\nThese are larger assignments intended to combine many of the ideas from the course, in order to create interactive web-apps.\nAs part of the submission you will have to record a video (with screen and face capture) in which you describe how to use your app, and explain the performed analysis and some of the obtained results.\nStarting on week-8 app projects will be assigned about every two weeks, until the end of instruction.\nThe due date is indicated in the assignments tab.\nWe will not drop any of the App assignment scores in the calculation of your overall grade."
+    "text": "📂 App Projects (27% of final grade)\n\nThere will be about 3 Shiny App projects.\nThese are larger assignments intended to combine many of the ideas from the course, in order to create interactive web-apps.\nAs part of the submission you will have to record a video (with screen and face capture) in which you describe how to use your app, and explain the performed analysis and some of the obtained results.\nStarting on week-8 app projects will be assigned about every two weeks, until the end of instruction.\nWe will not drop any of the App assignment scores in the calculation of your overall grade."
   },
   {
     "objectID": "syllabus.html#late-policy-and-assignment-extensions",
@@ -532,25 +532,25 @@
     "text": "🕚 Late Policy and Assignment Extensions\nIf you cannot turn in an assignment on time, our default policy is:\n\nSubmissions within 24 hours after the deadline will receive a 15% deduction.\nSubmissions within 48 hours after the deadline will receive a 30% deduction.\nSubmissions that are 48 hours or more after the deadline will receive no credit.\n\nRequesting an extension: If you need to request an extension, regardless of your DSP status, fill out this form (TBD). Submissions to this form will be visible only to the course staff members.\n\nAny first-time request for a 1-day extension on a problem set assignment, made before an assignment’s deadline, will be guaranteed to be approved, so long as it is made in good faith.\nAny first-time request for a 1-day extension on a shiny app assignment, made before an assignment’s deadline, will be guaranteed to be approved, so long as it is made in good faith.\nAny occasional request for a 2-day extension (requested before an assignment’s deadline) made by a student with a DSP accommodation for assignment extensions will be approved automatically.\n\nAlso, please keep in mind that we are dropping the lowest score of your six Problem-set assignments (do not confuse with App projects). This policy is in place to take care of any extenuating circumstances that prevent you from submitting one of these assignments.\nPlease plan ahead and pace yourself. Don’t wait until the last day to do an assignment. Don’t wait until the last minute to submit your assignments."
   },
   {
-    "objectID": "syllabus.html#midterm-10-of-final-grade",
-    "href": "syllabus.html#midterm-10-of-final-grade",
+    "objectID": "syllabus.html#midterm-8-of-final-grade",
+    "href": "syllabus.html#midterm-8-of-final-grade",
     "title": "Syllabus",
-    "section": "📝 Midterm (10% of final grade)",
-    "text": "📝 Midterm (10% of final grade)\n\nThere will be one midterm assigned on Friday Mar-15th.\nMore information about the midterm will be announced as we approach its due date.\nUnless you have approved accommodations, we won’t be able to provide any extensions if you miss the midterm."
+    "section": "📝 Midterm (8% of final grade)",
+    "text": "📝 Midterm (8% of final grade)\n\nThere will be one midterm assigned on Friday Mar-15th.\nMore information about the midterm will be announced as we approach its due date.\nUnless you have approved accommodations, we won’t be able to provide any extensions if you miss the midterm."
   },
   {
-    "objectID": "syllabus.html#final-exam-20-of-final-grade",
-    "href": "syllabus.html#final-exam-20-of-final-grade",
+    "objectID": "syllabus.html#final-exam-22-of-final-grade",
+    "href": "syllabus.html#final-exam-22-of-final-grade",
     "title": "Syllabus",
-    "section": "📝 Final Exam (20% of final grade)",
-    "text": "📝 Final Exam (20% of final grade)\n\nThere will be one final exam.\nThe final exam will be held on Monday May-6th, 7pm-10pm, as scheduled by the University.\nMore information about the final exam will be provided as we approach its due date.\nUnless you have accommodations as determined by the university and approved by the instructor, you must take the exam at the date and times provided here.\nPlease check your course schedule and make sure that you can take the final exam on May-6th, 7pm-10pm. Otherwise, do not take the class if you are not available at this date."
+    "section": "📝 Final Exam (22% of final grade)",
+    "text": "📝 Final Exam (22% of final grade)\n\nThere will be one final exam.\nThe final exam will be held on Monday May-6th, 7pm-10pm, as scheduled by the University.\nMore information about the final exam will be provided as we approach its due date.\nUnless you have accommodations as determined by the university and approved by the instructor, you must take the exam at the date and times provided here.\nPlease check your course schedule and make sure that you can take the final exam on May-6th, 7pm-10pm. Otherwise, do not take the class if you are not available at this date."
   },
   {
     "objectID": "syllabus.html#grading-structure",
     "href": "syllabus.html#grading-structure",
     "title": "Syllabus",
     "section": "💯 Grading Structure",
-    "text": "💯 Grading Structure\nGrades will be assigned using the following weighted components:\n\n8% Lab (drop 2 lowest scores)\n35% Psets (drop lowest score)\n8% App1 (no drop)\n9% App2 (no drop)\n10% App3 (no drop)\n10% Midterm\n20% Final Exam\n\n\nTo complete the course, you must take the final exam.\nTo try to keep grading consistent across semesters, I may occasionally curve an individual assignment. I will do this only if I made the assignment or exam harder than I intended, and no one’s scores will decrease as a result of the curve. This will happen very rarely, probably not at all.\nTo give you a rough idea of the grading scheme, the assignment of letter grades in previous semesters has been as follows (exact cutoff points may vary a little bit every semester based on the overall scores distribution):\n\n😀 90-100% (Excellent) A-/A/A+ range\n🙂 80-90% (Good) B-/B/B+ range\n😐 70-80% (Fair) C-/C/C+ range\n🙁 60-70% (Deficient) D\n😞 Below 60% (Failed) F\n\nIf you are taking the class pass-fail, the cut-oﬀ for passing is 70% (C-).\nAs a matter of course policy, I do not round up when calculating letter grades. Ex: if your overall score is 79.9999%, then the highest letter grade that you can expect is a C+, not a B-.\nThere is no curve; your grade will depend only on how well you do, and not on how well everyone else does.\nLetter grades are final; I don’t enter into negotiations with students about grades.\nPlease do not engage in grade grubbing.\nAlso, please remember that we grade your course performance, not your personal worth."
+    "text": "💯 Grading Structure\nGrades will be assigned using the following weighted components:\n\n8% Lab (drop 2 lowest scores)\n35% Psets (drop lowest score)\n8% App1 (no drop)\n9% App2 (no drop)\n10% App3 (no drop)\n8% Midterm\n22% Final Exam\n\n\nTo complete the course, you must take the final exam.\nTo try to keep grading consistent across semesters, I may occasionally curve an individual assignment. I will do this only if I made the assignment or exam harder than I intended, and no one’s scores will decrease as a result of the curve. This will happen very rarely, probably not at all.\nTo give you a rough idea of the grading scheme, the assignment of letter grades in previous semesters has been as follows (exact cutoff points may vary a little bit every semester based on the overall scores distribution):\n\n😀 90-100% (Excellent) A-/A/A+ range\n🙂 80-90% (Good) B-/B/B+ range\n😐 70-80% (Fair) C-/C/C+ range\n🙁 60-70% (Deficient) D\n😞 Below 60% (Failed) F\n\nIf you are taking the class pass-fail, the cut-oﬀ for passing is 70% (C-).\nAs a matter of course policy, I do not round up when calculating letter grades. Ex: if your overall score is 79.9999%, then the highest letter grade that you can expect is a C+, not a B-.\nThere is no curve; your grade will depend only on how well you do, and not on how well everyone else does.\nLetter grades are final; I don’t enter into negotiations with students about grades.\nPlease do not engage in grade grubbing.\nAlso, please remember that we grade your course performance, not your personal worth."
   },
   {
     "objectID": "syllabus.html#generative-a.i.-policy",
