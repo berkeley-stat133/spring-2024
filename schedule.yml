@@ -16,7 +16,7 @@
       items:
         - type: "Lab"
           name: Intro to R, RStudio, and Quarto notebooks
-          href: "."
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685410"
     - date: "Jan 19"
       items:
         - type: "Lecture"
