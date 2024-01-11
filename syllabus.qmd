@@ -119,7 +119,7 @@ If you cannot turn in an assignment on time, our default policy is:
 - Submissions within 48 hours after the deadline will receive a 30% deduction.
 - Submissions that are 48 hours or more after the deadline will receive no credit.
 
-__Requesting an extension__: If you need to request an extension, regardless of your DSP status, fill out this **form** (TBD). Submissions to this form will be visible only to the course staff members.
+__Requesting an extension__: If you need to request an extension, regardless of your DSP status, fill out this <a href="https://docs.google.com/forms/d/e/1FAIpQLSfByW9y4p_BkrKGsVOPOHANFRrr1l44ACn7DWRoB-eP3SBo2A/viewform?usp=sf_link" target="_blank">google form</a>. Submissions to this form will be visible only to the course staff members.
 
 - Any first-time request for a 1-day extension on a __problem set__ assignment, made before an assignment's deadline, will be guaranteed to be approved, so long as it is made in good faith. 
 - Any first-time request for a 1-day extension on a __shiny app__ assignment, made before an assignment's deadline, will be guaranteed to be approved, so long as it is made in good faith. 
@@ -229,9 +229,9 @@ Rather than copying someone else's work, ask for help. You are not alone in this
 
 ## ✉️ Email Policy
 
-If you wish for your email to make it into our inbox, the subject of your email must contain the text: Stat 133.
+If you wish for your email to make it into our inbox, the subject of your email must contain the text: __Stat 133__.
 
-Please refer to my email policy for more information: [communication via email](./email.html)
+Please refer to my email guidelines for more information: [communication via email](./email.html)
  
 
 
@@ -239,7 +239,7 @@ Please refer to my email policy for more information: [communication via email](
 
 Students needing accommodations for any physical, psychological, or learning disability, should contact the teaching staff during the first two weeks of the semester,  and see <http://dsp.berkeley.edu> to learn about Berkeley’s policy. If you are a DSP student, please contact us at least three weeks prior to a midterm or final so that we can work out acceptable accommodations.
 
-For relevant DSP accommodations that provide occasional extensions on assignments, please see the above policy on [Late Policy](#late-policy-and-assignment-extensions).
+For relevant DSP accommodations that provide occasional extensions on assignments, please see the above [Late Policy](#late-policy-and-assignment-extensions).
 
 
 
