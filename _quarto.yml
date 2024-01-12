@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  favicon: images/favicon.ico
   sidebar:
     style: "docked"
     title: "STAT 133"
