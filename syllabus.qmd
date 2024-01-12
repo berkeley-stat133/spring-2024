@@ -92,7 +92,7 @@ Unfortunately, doing all the work is not a guarantee of enrollment. You will onl
 
 - There will be about 6 Problem-Set assignments.
 - Starting on week-2 they will be assigned every week, until week-7.
-- The due date is always on a Friday (please check the assignments tab to keep track of deadlines). 
+- The due date is always on a Friday (please check the <a href="https://bcourses.berkeley.edu/courses/1531596/assignments" target="_blank">assignments tab</a> to keep track of deadlines). 
 - You must write your own answers (using your own words and/or code). Copy and plagiarism will not be tolerated (see Academic Honesty policy).
 - If you don't submit all required files, you will receive an automatic 15% deduction.
 - If you submit the incorrect files, you will receive no credit.
