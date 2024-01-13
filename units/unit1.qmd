@@ -26,7 +26,9 @@ If you haven't yet, please spend some time outside class to review the following
 - introduction survey (google form TBA)
  
 
-Also, for those of you that don't have either R or RStudio, download and install these programs (both are free, and they are available for Mac, Windows, and Linux computers)
+## 📢 Install R & RStudio
+
+For those of you that don't have either R or RStudio, download and install these programs (both are free, and they are available for Mac, Windows, and Linux computers)
 
 - <a href="https://cran.r-project.org/" target="_blank">Install R</a>
 
