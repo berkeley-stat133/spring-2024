@@ -236,8 +236,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages specially designed to work with tabular data.</p>
-<p>This week we are going to start with the Tidyverse package <code>"ggplot2"</code> for creating graphics. In particular you’ll learn about the <strong>Grammar of Graphics</strong> and its central idea: <em>a graphic involves mapping data to geometric objects and their visual attributes</em>. This is the underlying framework behind the mechanics and core functions available in “ggplot2” for creating simple graphics:</p>
+<p>One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages especially designed to work with tabular data.</p>
+<p>The dedicated data object that R provides to handle tabular data is a <strong>data.frame</strong>. We will discuss some important details about data frames, and how to manipulate them from a “classic” approach in R (in contrast to the more modern approach via the tidyverse package “dplyr”, to be discussed next week).</p>
+<p>We are also going to get our feet wet making graphics with the Tidyverse package <code>"ggplot2"</code>. In particular you’ll learn about the <strong>Grammar of Graphics</strong> and its central idea: <em>a graphic involves mapping data to geometric objects and their visual attributes</em>. This is the underlying framework behind the mechanics and core functions available in “ggplot2” for creating simple graphics:</p>
 <ul>
 <li>Begin your graphic specification with <code>ggplot()</code></li>
 <li>Indicate where the <code>data</code> comes from</li>
@@ -251,7 +252,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="reading" class="level2">
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
-<p>Read chapter 2 and 4 of “R Tidy Hurricanes”:</p>
+<p>Read chapter 9 of “R Coding Basics”:</p>
+<ul>
+<li><a href="https://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html</a></li>
+</ul>
+<p>Read chapters 2 and 4 of “R Tidy Hurricanes”:</p>
 <ul>
 <li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html</a></li>
 <li><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html</a></li>
@@ -265,6 +270,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <p>At the end of this week you will be able to:</p>
 <ul>
+<li>Explain how can you manipulate a data frame as a 2-dimensional object</li>
+<li>Explain how to use the dollar <code>$</code> operator with a data frame</li>
+<li>Provide a simple example for creating a data frame</li>
 <li>Get a first contact with <code>"ggplot2"</code></li>
 <li>Describe the purpose of the aesthetic mapping function <code>aes()</code></li>
 <li>Describe the notion of <strong>“layers”</strong> and how to use them for making a graphic using “ggplot2”</li>
@@ -452,64 +460,74 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📖 Lecture</span></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages specially designed to work with tabular data.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you'll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages especially designed to work with tabular data.</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>This week we are going to start with the Tidyverse package <span class="in">`"ggplot2"`</span> for creating graphics. In particular you'll learn about the **Grammar of Graphics** and its central idea: _a graphic involves mapping data to geometric objects and their visual attributes_. This is the underlying framework behind the mechanics and core functions available in "ggplot2" for creating simple graphics:</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>The dedicated data object that R provides to handle tabular data is a __data.frame__. We will discuss some important details about data frames, and how to manipulate them from a "classic" approach in R (in contrast to the more modern approach via the tidyverse package "dplyr", to be discussed next week).</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Begin your graphic specification with <span class="in">`ggplot()`</span></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Indicate where the <span class="in">`data`</span> comes from</span>
-<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Establish which variables are going to be mapped into visual attributes: <span class="in">`aes()`</span></span>
-<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Decide what kind of geometric object(s) will be used to display data; e.g. <span class="in">`geom_point()`</span></span>
-<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to use **facets**?</span>
-<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to explicitly use one or more **statistical transformations**?</span>
-<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to explicitly set a non-default **system of coordinates**?</span>
-<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to explicitly use a non-default **theme of graphical elements**?</span>
-<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>We are also going to get our feet wet making graphics with the Tidyverse package <span class="in">`"ggplot2"`</span>. In particular you'll learn about the **Grammar of Graphics** and its central idea: _a graphic involves mapping data to geometric objects and their visual attributes_. This is the underlying framework behind the mechanics and core functions available in "ggplot2" for creating simple graphics:</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Begin your graphic specification with <span class="in">`ggplot()`</span></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Indicate where the <span class="in">`data`</span> comes from</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Establish which variables are going to be mapped into visual attributes: <span class="in">`aes()`</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Decide what kind of geometric object(s) will be used to display data; e.g. <span class="in">`geom_point()`</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to use **facets**?</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to explicitly use one or more **statistical transformations**?</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to explicitly set a non-default **system of coordinates**?</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Optional: do you need to explicitly use a non-default **theme of graphical elements**?</span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📚 Reading</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a> </span>
 <span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>Read chapter 2 and 4 of "R Tidy Hurricanes":</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="fu">## 📚 Reading</span></span>
 <span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html<span class="kw">&lt;/a&gt;</span></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html<span class="kw">&lt;/a&gt;</span></span>
-<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>Read chapter 9 of "R Coding Basics":</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html<span class="kw">&lt;/a&gt;</span></span>
 <span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔬 Lab</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>Read chapters 2 and 4 of "R Tidy Hurricanes":</span>
 <span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>You will get introduced to the ggplot2 system for making graphics when data is in tabular format.</span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"_blank"</span><span class="kw">&gt;</span>https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a> </span>
 <span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎯 Objectives</span></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>At the end of this week you will be able to:</span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Get a first contact with <span class="in">`"ggplot2"`</span></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Describe the purpose of the aesthetic mapping function <span class="in">`aes()`</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Describe the notion of **"layers"** and how to use them for making a graphic using "ggplot2"</span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a> </span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔬 Lab</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>You will get introduced to the ggplot2 system for making graphics when data is in tabular format.</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🎯 Objectives</span></span>
 <span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔆 Shiny Friday</span></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>The shiny app for this week involves data from NBA players, visualizing some univariate plots with ggplot2.</span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>We have two versions:</span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__nba-histograms1-basic__: histograms of NBA players' data, includes a select input to choose the variable to visualize, and a slider input to determine the number of bins in the histogram. <span class="kw">&lt;br&gt;</span></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/nba-histograms1-basic"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/nba-histograms1-basic<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>At the end of this week you will be able to:</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Explain how can you manipulate a data frame as a 2-dimensional object</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Explain how to use the dollar <span class="in">`$`</span> operator with a data frame</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Provide a simple example for creating a data frame</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Get a first contact with <span class="in">`"ggplot2"`</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Describe the purpose of the aesthetic mapping function <span class="in">`aes()`</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Describe the notion of **"layers"** and how to use them for making a graphic using "ggplot2"</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a> </span>
 <span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__nba-histograms2-facets__: same as app1 but this one also includes another select input to decide whether the histograms should be split into facets by either team or player's position. <span class="kw">&lt;br&gt;</span></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/nba-histograms2-facets"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/nba-histograms2-facets<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔆 Shiny Friday</span></span>
 <span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>The shiny app for this week involves data from NBA players, visualizing some univariate plots with ggplot2.</span>
 <span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔔 Assignments</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>We have two versions:</span>
 <span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>HW3 due this 02/16</span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>HW4 released on 02/17, due 02/23</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__nba-histograms1-basic__: histograms of NBA players' data, includes a select input to choose the variable to visualize, and a slider input to determine the number of bins in the histogram. <span class="kw">&lt;br&gt;</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/nba-histograms1-basic"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/nba-histograms1-basic<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>__nba-histograms2-facets__: same as app1 but this one also includes another select input to decide whether the histograms should be split into facets by either team or player's position. <span class="kw">&lt;br&gt;</span></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="kw">&lt;a</span> <span class="er">href</span><span class="ot">=</span><span class="st">"https://github.com/data133/shiny/tree/main/nba-histograms2-facets"</span> <span class="er">target</span><span class="ot">=</span><span class="st">"blank"</span><span class="kw">&gt;</span>https://github.com/data133/shiny/tree/main/nba-histograms2-facets<span class="kw">&lt;/a&gt;</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="fu">## 🔔 Assignments</span></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>HW3 due this 02/16</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>HW4 released on 02/17, due 02/23</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
