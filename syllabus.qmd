@@ -94,7 +94,7 @@ Unfortunately, doing all the work is not a guarantee of enrollment. You will onl
 - Starting on week-2 they will be assigned every week, until week-7.
 - The due date is always on a Friday (please check the <a href="https://bcourses.berkeley.edu/courses/1531596/assignments" target="_blank">assignments tab</a> to keep track of deadlines). 
 - You must write your own answers (using your own words and/or code). Copy and plagiarism will not be tolerated (see Academic Honesty policy).
-- If you don't submit all required files, you will receive an automatic 15% deduction.
+- If you don't submit all required files, you will receive an automatic 10% deduction.
 - If you submit the incorrect files, you will receive no credit.
 - Solutions will become available a few days (e.g. 3-4 days) after the due date.
 - We will drop the lowest Problem-Set assignment score in the calculation of your overall grade.
