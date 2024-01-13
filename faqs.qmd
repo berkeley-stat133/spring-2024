@@ -2,8 +2,8 @@
 title: "Some Frequently Asked Questions"
 ---
 
-__Will Stat 133 be offered in hybrid mode (both in-person and remotely, simultaneously)?__ <br>
-No, Stat 133 will not be offered in hybrid mode. Instead, all classes and sections are to be delivered in-person. If you have time conflicts with lecture and/or section, please don't take Stat 133 this semester.
+__Will STAT 133 be offered in hybrid mode (both in-person and remotely, simultaneously)?__ <br>
+No, STAT 133 will not be offered in hybrid mode. Instead, all classes and sections are to be delivered in-person. If you have time conflicts with lecture and/or section, please don't take STAT 133 this semester.
 
 <br>
 
@@ -93,12 +93,12 @@ If you are interested in Databases you should consider CS 186: Introduction to D
 <br>
 
 __Are we going to learn about linear models?__ <br>
-The Statistics department offers a dedicated course on this topic: Stat 151A: Linear Modeling, Theory and Applications.
+The Statistics department offers a dedicated course on this topic: STAT 151A: Linear Modeling, Theory and Applications.
 
 <br>
 
 __Are we going to learn about introductory statistics and/or probability?__ <br>
-The Statistics department offers two core courses on these topics: Stat 134: Concepts of Probability, and Stat 135: Concepts of Statistics.  
+The Statistics department offers two core courses on these topics: STAT 134: Concepts of Probability, and STAT 135: Concepts of Statistics.  
 
 <br>
 
@@ -123,7 +123,7 @@ If there is one or more policies you don't agree with, then please reconsider yo
 <br>
 
 __Can I ask you to write me a Letter of Recommendation (LoR)?__ <br>
-Please take a look at this document before asking me to write you a letter of recommendation: <https://github.com/gastonstat/letter-of-rec>. 
+Please take a look at this document before asking me to write you a letter of recommendation: <a href="https://github.com/gastonstat/letter-of-rec" target="_blank">https://github.com/gastonstat/letter-of-rec</a>. 
 
 <br>
 
