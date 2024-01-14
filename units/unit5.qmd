@@ -9,9 +9,11 @@ format:
 
 ## 📖 Lecture
 
-One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages specially designed to work with tabular data.
+One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you'll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages especially designed to work with tabular data.
 
-This week we are going to start with the Tidyverse package `"ggplot2"` for creating graphics. In particular you'll learn about the **Grammar of Graphics** and its central idea: _a graphic involves mapping data to geometric objects and their visual attributes_. This is the underlying framework behind the mechanics and core functions available in "ggplot2" for creating simple graphics:
+The dedicated data object that R provides to handle tabular data is a __data.frame__. We will discuss some important details about data frames, and how to manipulate them from a "classic" approach in R (in contrast to the more modern approach via the tidyverse package "dplyr", to be discussed next week).
+
+We are also going to get our feet wet making graphics with the Tidyverse package `"ggplot2"`. In particular you'll learn about the **Grammar of Graphics** and its central idea: _a graphic involves mapping data to geometric objects and their visual attributes_. This is the underlying framework behind the mechanics and core functions available in "ggplot2" for creating simple graphics:
 
 - Begin your graphic specification with `ggplot()`
 - Indicate where the `data` comes from
@@ -26,7 +28,12 @@ This week we are going to start with the Tidyverse package `"ggplot2"` for creat
 
 ## 📚 Reading
 
-Read chapter 2 and 4 of "R Tidy Hurricanes":
+Read chapter 9 of "R Coding Basics":
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html</a>
+
+
+Read chapters 2 and 4 of "R Tidy Hurricanes":
 
 - <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html</a>
 - <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html</a>
@@ -43,6 +50,9 @@ You will get introduced to the ggplot2 system for making graphics when data is i
 
 At the end of this week you will be able to:
 
+- Explain how can you manipulate a data frame as a 2-dimensional object
+- Explain how to use the dollar `$` operator with a data frame
+- Provide a simple example for creating a data frame
 - Get a first contact with `"ggplot2"`
 - Describe the purpose of the aesthetic mapping function `aes()`
 - Describe the notion of **"layers"** and how to use them for making a graphic using "ggplot2"
