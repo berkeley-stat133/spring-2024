@@ -144,7 +144,7 @@
     "href": "index.html#schedule",
     "title": "Statistics 133: Concepts in Computing with Data",
     "section": "Schedule",
-    "text": "Schedule\n\n\n   Week 1\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 1: Introduction\n                \n           \n           \n           Jan 17:\n           Lecture  Welcome to Stat 133\n                \n           \n           \n           Jan 18:\n           Lab  Intro to R, RStudio, and Quarto notebooks\n                \n           \n           \n           Jan 19:\n           Lecture  R Housekeeping\n                \n           \n   \n   \n\nNo matching items"
+    "text": "Schedule\n\n\n   Week 1\n   \n   \n   \n   \n           \n           About:\n           Overview  Unit 1: Introduction\n                \n           \n           \n           Jan 17:\n           Lecture  Welcome to Stat 133\n                \n           \n           \n           Jan 18:\n           Lab  Lab01 Intro to R, RStudio, and Quarto notebooks\n                \n           \n           \n           Jan 19:\n           Lecture  R Housekeeping\n                \n           \n   \n   \n\nNo matching items"
   },
   {
     "objectID": "units/macros.html",
@@ -291,7 +291,7 @@
     "href": "units/unit1.html#activities",
     "title": "Unit 1: Intro",
     "section": "🔔 Activities",
-    "text": "🔔 Activities\nIf you haven’t yet, please spend some time outside class to review the following documentation:\n\nsyllabus\ncommunication via email\nsome frequently asked questions\nfive things you need to know to pass this class\nintroduction survey (google form TBA)"
+    "text": "🔔 Activities\nIf you haven’t yet, please spend some time outside class to review the following documentation:\n\nsyllabus\ncommunication via email\nsome frequently asked questions\nfive things you need to know to pass this class\nintroduction survey (google form)"
   },
   {
     "objectID": "units/unit1.html#install-r-rstudio",
