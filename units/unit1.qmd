@@ -23,8 +23,9 @@ If you haven't yet, please spend some time outside class to review the following
 - [communication via email](../email.html)
 - [some frequently asked questions](../faqs.html)
 - [five things you need to know to pass this class](../five-things.html)
-- introduction survey (google form TBA)
- 
+- <a href="https://forms.gle/DnkZsQeCrXZs2Caf8" target="_blank">introduction survey (google form)</a>
+
+
 
 ## 📢 Install R & RStudio
 
