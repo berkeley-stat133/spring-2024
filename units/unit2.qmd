@@ -38,7 +38,7 @@ Read the chapters that form Part I of "R Coding Basics":
 
 ## 🔬 Lab
 
-You'll practice creating vectors in R, and learning about the concepts described above.
+You'll practice creating and manipulating vectors in R, and learning about the concepts described above.
 
  
 
