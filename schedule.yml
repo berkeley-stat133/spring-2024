@@ -1,3 +1,39 @@
+- week: 2
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 2: R Vectors"
+          href: "./units/unit2.html"
+    - date: "Jan 22"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Vectors (part 1)
+          href: "https://docs.google.com/presentation/d/15AFHVQjayacy8tGTiW0avQhphki1G_8udI9ztENBZkg/edit?usp=sharing"
+    - date: "Jan 24"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Vectors (part 2)
+          href: "https://docs.google.com/presentation/d/1R9BybZlWVoiwuZxxaJtdVGitcqcCYSJY6lSHBdr5SoQ/edit?usp=sharing"
+    - date: "Jan 25"
+      items:
+        - type: "Lab"
+          id: ""
+          name: Lab02 Vectors
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685411"
+    - date: "Jan 26"
+      items:
+        - type: "Shiny"
+          id: ""
+          name: Shiny Friday
+          href: "https://github.com/data133/shiny/tree/main/old-faithful1-default"
+        - type: "Homework"
+          id: ""
+          name: HW1 TBA
+          href: ""
 - week: 1
   days:
     - date: "About"
