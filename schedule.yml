@@ -28,12 +28,12 @@
       items:
         - type: "Shiny"
           id: ""
-          name: Shiny Friday
+          name: "Shiny Friday: Old Faithful (default app)"
           href: "https://github.com/data133/shiny/tree/main/old-faithful1-default"
         - type: "Homework"
           id: ""
-          name: HW1 TBA
-          href: ""
+          name: HW1 Vectors
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685404"
 - week: 1
   days:
     - date: "About"
