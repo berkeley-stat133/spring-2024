@@ -1,3 +1,42 @@
+- week: 3
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 3: R Matrices and Lists"
+          href: "./units/unit3.html"
+    - date: "Jan 29"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Matrices
+          href: "https://docs.google.com/presentation/d/1rn66qtIGr-EUKS3YoURatM5aa2cLA3sPZbSHnXBP7YE/edit?usp=sharing"
+          auxil:
+            id: "Demo"
+            href: "./unit2.html"
+    - date: "Jan 31"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Lists
+          href: "https://docs.google.com/presentation/d/1OsxnIgNTZG-gnD0rdTXzqf162_gNqnok_suMHG5KxpU/edit?usp=sharing"
+    - date: "Feb 01"
+      items:
+        - type: "Lab"
+          id: ""
+          name: Lab03 Lists and Matrices
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685412"
+    - date: "Feb 02"
+      items:
+        - type: "Shiny"
+          id: ""
+          name: Shiny Friday (TBA)
+          href: "."
+        - type: "Homework"
+          id: ""
+          name: HW2 (TBA)
+          href: ""
 - week: 2
   days:
     - date: "About"
