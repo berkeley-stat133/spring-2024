@@ -14,25 +14,28 @@
           href: "https://docs.google.com/presentation/d/1rn66qtIGr-EUKS3YoURatM5aa2cLA3sPZbSHnXBP7YE/edit?usp=sharing"
           auxil:
             id: "Demo"
-            href: "./unit2.html"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88032081"
     - date: "Jan 31"
       items:
         - type: "Lecture"
           id: ""
           name: Lists
           href: "https://docs.google.com/presentation/d/1OsxnIgNTZG-gnD0rdTXzqf162_gNqnok_suMHG5KxpU/edit?usp=sharing"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88050903"
     - date: "Feb 01"
       items:
         - type: "Lab"
           id: ""
-          name: Lab03 Lists and Matrices
+          name: "Lab 3: Lists and Matrices"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685412"
     - date: "Feb 02"
       items:
         - type: "Shiny"
           id: ""
-          name: Shiny Friday (TBA)
-          href: "."
+          name: "Shiny Friday: Future Value"
+          href: "https://github.com/data133/shiny/blob/main/future-value2-sliders/app.R"
         - type: "Homework"
           id: ""
           name: HW2 (TBA)
@@ -51,17 +54,23 @@
           id: ""
           name: Vectors (part 1)
           href: "https://docs.google.com/presentation/d/15AFHVQjayacy8tGTiW0avQhphki1G_8udI9ztENBZkg/edit?usp=sharing"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88015873"
     - date: "Jan 24"
       items:
         - type: "Lecture"
           id: ""
           name: Vectors (part 2)
           href: "https://docs.google.com/presentation/d/1R9BybZlWVoiwuZxxaJtdVGitcqcCYSJY6lSHBdr5SoQ/edit?usp=sharing"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88015874"
     - date: "Jan 25"
       items:
         - type: "Lab"
           id: ""
-          name: Lab02 Vectors
+          name: "Lab 2: Vectors"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685411"
     - date: "Jan 26"
       items:
@@ -90,7 +99,7 @@
     - date: "Jan 18"
       items:
         - type: "Lab"
-          name: Lab01 Intro to R, RStudio, and Quarto notebooks
+          name: "Lab 1: Intro to R, RStudio, and Quarto notebooks"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685410"
     - date: "Jan 19"
       items:
