@@ -36,10 +36,13 @@
           id: ""
           name: "Shiny Friday: Future Value"
           href: "https://github.com/data133/shiny/blob/main/future-value2-sliders/app.R"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88075702"
         - type: "Homework"
           id: ""
-          name: HW2 (TBA)
-          href: ""
+          name: HW2 Lists and Matrices
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685405"
 - week: 2
   days:
     - date: "About"
