@@ -15,6 +15,7 @@ listing:
 
 ::: {.callout-note title="Announcement"}
 ## Announcement
+__HW2 due Friday Feb-09 (by midnight)__
 
 Lecture MWF at 9am in [Stanley 105](https://www.berkeley.edu/map/?stanley)
 
