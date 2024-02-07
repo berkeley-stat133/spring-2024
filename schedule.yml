@@ -1,3 +1,42 @@
+- week: 4
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 4: Simple Functions and Conditionals"
+          href: "./units/unit4.html"
+    - date: "Feb 05"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Intro to Functions
+          href: "https://docs.google.com/presentation/d/1QWrBYaACuvCFAI7GP4ELZ09BftI8YGUMm4PtXaBefoQ/edit?usp=sharing1"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88097206"
+    - date: "Feb 07"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: If-else statements
+          href: "https://docs.google.com/presentation/d/1NO0DqeOHYoYrTRqV1na1qegVx2adb52YKTCur7Nb4Dc/edit?usp=sharing"
+    - date: "Feb 08"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 4: Functions and Conditionals"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685413"
+    - date: "Feb 09"
+      items:
+        - type: "Shiny"
+          id: ""
+          name: "Shiny Friday: Old Faithful (updated)"
+          href: "https://github.com/data133/shiny/blob/main/old-faithful3-average-radio/app.R"
+        - type: "Homework"
+          id: ""
+          name: "HW 3: TBA"
+          href: "."
 - week: 3
   days:
     - date: "About"
@@ -41,7 +80,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88075702"
         - type: "Homework"
           id: ""
-          name: HW2 Lists and Matrices
+          name: "HW 2: Lists and Matrices"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685405"
 - week: 2
   days:
@@ -83,7 +122,7 @@
           href: "https://github.com/data133/shiny/tree/main/old-faithful1-default"
         - type: "Homework"
           id: ""
-          name: HW1 Vectors
+          name: "HW 1: Vectors"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685404"
 - week: 1
   days:
