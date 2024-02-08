@@ -21,6 +21,9 @@
           id: ""
           name: If-else statements
           href: "https://docs.google.com/presentation/d/1NO0DqeOHYoYrTRqV1na1qegVx2adb52YKTCur7Nb4Dc/edit?usp=sharing"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88120941"
     - date: "Feb 08"
       items:
         - type: "Lab"
