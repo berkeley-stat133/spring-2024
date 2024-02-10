@@ -1,5 +1,6 @@
 ---
 title: "Data"
+subtitle: "Stat 133, Spring 2024"
 ---
 
 We'll use data from several real world situations in class.

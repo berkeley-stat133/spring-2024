@@ -1,6 +1,8 @@
 ---
 title: "Syllabus"
+subtitle: "Stat 133, Spring 2024"
 ---
+
 
 ## About Stat 133
 
