@@ -1,6 +1,6 @@
 ---
 title: "Statistics 133: Concepts in Computing with Data"
-subtitle: "UC Berkeley, Spring 2024 <br> <a href='https://www.gastonsanchez.com' target='_blank'><b>Gaston Sanchez</b></a>"
+subtitle: "UC Berkeley, Spring 2024"
 listing:
   - id: schedule
     template: schedule.ejs
@@ -13,11 +13,13 @@ listing:
 ::: {#buttons}
 :::
 
+
+
 ::: {.callout-note title="Announcement"}
 ## Announcement
-__HW2 due Friday Feb-09 (by midnight)__
+__HW3 due Friday Feb-16 (by midnight)__
 
-Lecture MWF at 9am in [Stanley 105](https://www.berkeley.edu/map/?stanley)
+Lecture on MWF 9am-10am in [Stanley 105](https://www.berkeley.edu/map/?stanley)
 
 Lab section:
 
