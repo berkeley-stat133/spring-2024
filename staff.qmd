@@ -17,7 +17,7 @@ Office hours are subject to change.
 `gastonsanchez`<br>
 Office hours: <br>
 - Thursday 3pm-5pm, Evans 309 <br>
-- Friday 2:10pm-4:45pm, Evans 309<br>
+- Friday 2:30pm-4:45pm, Evans 309<br>
 :::
 
 ::: {.g-col-6}
@@ -43,8 +43,8 @@ Office hours: <br>
 **GSI:** <a href="https://statistics.berkeley.edu/people/frederik-stihler" target="_blank">Frederik Stihler</a><br>
 `frederik.stihler`<br>
 Office hours: <br>
-- Monday 10:30am - 12:30pm, Evans 432<br>
-- Tuesday 3pm - 5pm, Evans 432
+- Monday 10:30am-12:30pm, Evans 432<br>
+- Tuesday 3pm-5pm, Evans 432
 :::
 
 
