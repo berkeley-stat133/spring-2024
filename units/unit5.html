@@ -66,6 +66,7 @@ ul.task-list li input[type="checkbox"] {
 
 <body class="nav-sidebar docked">
 
+
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -152,6 +153,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="../units/unit4.html" class="sidebar-item-text sidebar-link">Unit 4: Functions and Conditionals</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../units/unit5.html" class="sidebar-item-text sidebar-link active">Unit 5: Tables and Tidyverse-1</a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -193,8 +199,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages especially designed to work with tabular data.</p>
-<p>The dedicated data object that R provides to handle tabular data is a <strong>data.frame</strong>. We will discuss some important details about data frames, and how to manipulate them from a “classic” approach in R (in contrast to the more modern approach via the tidyverse package “dplyr”, to be discussed next week).</p>
+<p>One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects.</p>
+<p>The good news is that there are many tools (e.g.&nbsp;packages &amp; functions) in R to work with tables. Due to time constraints, we will focus only on 2 approaches:</p>
+<ol type="1">
+<li><p>The “classic” approach which is based on <strong>data.frames</strong>, the dedicated data object in R to handle tabular data.</p></li>
+<li><p>The “tidyverse” approach which is based on <strong>tibbles</strong> (a <em>modern</em> data.frame), and provides a rich ecosystem of packages chiefly designed for working with tables.</p></li>
+</ol>
+<p>We start this week by looking at some important details about data frames, and how to manipulate them from a “classic” approach in R.</p>
 <p>We are also going to get our feet wet making graphics with the Tidyverse package <code>"ggplot2"</code>. In particular you’ll learn about the <strong>Grammar of Graphics</strong> and its central idea: <em>a graphic involves mapping data to geometric objects and their visual attributes</em>. This is the underlying framework behind the mechanics and core functions available in “ggplot2” for creating simple graphics:</p>
 <ul>
 <li>Begin your graphic specification with <code>ggplot()</code></li>
@@ -221,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="lab" class="level2">
 <h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
-<p>You will get introduced to the ggplot2 system for making graphics when data is in tabular format.</p>
+<p>You will get introduced to the ggplot2 system for making graphics when data is in tabular format. You will also begin your shiny journey by adapting the default Old Faithful app so that it produces the histogram using <code>"ggplot2"</code> functions.</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
