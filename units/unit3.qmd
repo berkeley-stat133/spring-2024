@@ -1,9 +1,5 @@
 ---
 title: "Unit 3: Lists and Matrices"
-format:
-  html:
-    code-fold: show
-    code-tools: true
 ---
 
 
