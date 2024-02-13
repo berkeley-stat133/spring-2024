@@ -1,17 +1,19 @@
 ---
 title: "Unit 5: Tables and Tidyverse-1"
-format:
-  html:
-    code-fold: show
-    code-tools: true
 ---
 
 
 ## 📖 Lecture
 
-One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you'll be dealing with data in tabular format in most Data Analysis Projects. Interestingly, there is a set of tools in R formally known as Tidyverse which provides a large ecosystem of packages especially designed to work with tabular data.
+One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you'll be dealing with data in tabular format in most Data Analysis Projects. 
 
-The dedicated data object that R provides to handle tabular data is a __data.frame__. We will discuss some important details about data frames, and how to manipulate them from a "classic" approach in R (in contrast to the more modern approach via the tidyverse package "dplyr", to be discussed next week).
+The good news is that there are many tools (e.g. packages & functions) in R to work with tables. Due to time constraints, we will focus only on 2 approaches: 
+
+1) The "classic" approach which is based on __data.frames__, the dedicated data object in R to handle tabular data.
+
+2) The "tidyverse" approach which is based on __tibbles__ (a _modern_ data.frame), and provides a rich ecosystem of packages chiefly designed for working with tables.
+
+We start this week by looking at some important details about data frames, and how to manipulate them from a "classic" approach in R. 
 
 We are also going to get our feet wet making graphics with the Tidyverse package `"ggplot2"`. In particular you'll learn about the **Grammar of Graphics** and its central idea: _a graphic involves mapping data to geometric objects and their visual attributes_. This is the underlying framework behind the mechanics and core functions available in "ggplot2" for creating simple graphics:
 
@@ -42,7 +44,7 @@ Read chapters 2 and 4 of "R Tidy Hurricanes":
 
 ## 🔬 Lab
 
-You will get introduced to the ggplot2 system for making graphics when data is in tabular format.
+You will get introduced to the ggplot2 system for making graphics when data is in tabular format. You will also begin your shiny journey by adapting the default Old Faithful app so that it produces the histogram using `"ggplot2"` functions.
 
 
 
