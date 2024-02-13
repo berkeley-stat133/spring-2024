@@ -1,23 +1,19 @@
 ---
 title: "Unit 4: Functions and Conditionals"
-format:
-  html:
-    code-fold: show
-    code-tools: true
 ---
 
 
 ## 📖 Lecture
 
-You don’t need to be an expert programmer to be a data scientist, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease.
+You don't need to be an expert programmer to be a data scientist, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease.
 
-This week we'll discuss how to write basic functions, the notion of R expressions, and an introduction to conditionals (i.e. if-else statements).
+This week we'll discuss how to write basic functions, the notion of _compound_ expressions in R, and an introduction to conditionals (i.e. if-else statements).
 
  
 
 ## 📚 Reading
 
-Read chapters 10, 11, and 12a href=" of "R Coding Basics":
+Read chapters 10, 11, and 12 of "R Coding Basics":
 
 - <a href="https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html</a>
 - <a href="https://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html</a>
