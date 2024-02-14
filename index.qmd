@@ -19,26 +19,7 @@ listing:
 ## Announcement
 __HW3 due Friday Feb-16 (by midnight)__
 
-Lecture on MWF 9am-10am in [Stanley 105](https://www.berkeley.edu/map/?stanley)
-
-Lab section:
-
-- Lab 101, Th 9am-11am, Evans 340 (Frederik)
-- Lab 102, Th 9am-11am, Evans 342 (Zach)
-- Lab 103, Th 11am-1pm, Evans 340 (Alex)
-- Lab 104, Th 11am-1pm, Evans 342 (Frederik)
-- Lab 105, Th 1pm-3pm, Evans 340 (Alex)
-- Lab 106, Th 4pm-6pm, Evans 330 (Zach)
 :::
-
-
-## Welcome
-
-- [Syllabus](./syllabus.html)
-- [Communication via email](./email.html)
-- [Ed Netiquette](./ed-netiquette.html)
-- [Q&As](./faqs.html)
-- [5 things you need to know](./five-things.html)
 
 
 ## Schedule
