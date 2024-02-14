@@ -158,7 +158,7 @@
     "href": "units/unit8.html#reading",
     "title": "Unit 8: Regular Expressions",
     "section": "📚 Reading",
-    "text": "📚 Reading\nRead chapters 13 and 14 of “R Coding Basics”:\n\nLiteral Characters\nMetacharacters\nCharacter Sets\nAnchors\nQuantifiers"
+    "text": "📚 Reading\nRead chapters 13 and 14 of “R for Strings”:\n\nhttps://www.gastonsanchez.com/R-for-strings/08-regex-intro.html\nhttps://www.gastonsanchez.com/R-for-strings/09-regex-charsets.html\nhttps://www.gastonsanchez.com/R-for-strings/10-regex-anchors.html\nhttps://www.gastonsanchez.com/R-for-strings/11-regex-quantifiers.html"
   },
   {
     "objectID": "units/unit8.html#lab",
@@ -380,42 +380,42 @@
   {
     "objectID": "units/unit7.html",
     "href": "units/unit7.html",
-    "title": "Unit 7: Functions and Conditionals",
+    "title": "Unit 7: Iterations",
     "section": "",
     "text": "In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as for loops, while loops, repeat loops, and the apply family functions."
   },
   {
     "objectID": "units/unit7.html#reading",
     "href": "units/unit7.html#reading",
-    "title": "Unit 7: Functions and Conditionals",
+    "title": "Unit 7: Iterations",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 13 and 14 of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html\nhttps://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html"
   },
   {
     "objectID": "units/unit7.html#lab",
     "href": "units/unit7.html#lab",
-    "title": "Unit 7: Functions and Conditionals",
+    "title": "Unit 7: Iterations",
     "section": "🔬 Lab",
     "text": "🔬 Lab\nYou’ll keep working writing a variety of loops in R (e.g. for, while, repeat)."
   },
   {
     "objectID": "units/unit7.html#objectives",
     "href": "units/unit7.html#objectives",
-    "title": "Unit 7: Functions and Conditionals",
+    "title": "Unit 7: Iterations",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nWrite for loops to repeat the same operation a given number of times\nWrite while loops to repeat the same operation an unknown number of times"
   },
   {
     "objectID": "units/unit7.html#shiny-friday",
     "href": "units/unit7.html#shiny-friday",
-    "title": "Unit 7: Functions and Conditionals",
+    "title": "Unit 7: Iterations",
     "section": "🔆 Shiny Friday",
     "text": "🔆 Shiny Friday\nThe shiny app for this week involves a simple Future Value calculator with some simulations. To be more precise, the app simulates investing annual constant contributions, for a number of years. The rate of return for every year is a variable rate that is randomly generated according to a normal distribution.\nAn important component of this app is the use of the reactive() function to create so-called reactive conductors (i.e. an R expression that uses widget input(s) and returns a value).\nAnother interesting part of this app is that its UI layout is based on the package bslib, which allows us to create customizable shiny dashboards.\n\napp: timeline of simulated future values  https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R\n\nIn the event that bslib functions don’t work for you, here’s another app that also simulates a different, yet basic, investing scenario:\n\nhttps://github.com/data133/shiny/blob/main/future-value3-simulations/app.R"
   },
   {
     "objectID": "units/unit7.html#assignments",
     "href": "units/unit7.html#assignments",
-    "title": "Unit 7: Functions and Conditionals",
+    "title": "Unit 7: Iterations",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nHW5 due this 03/01\nHW6 released on 03/02, due 03/08"
   },
