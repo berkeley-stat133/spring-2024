@@ -1,3 +1,43 @@
+- week: 5
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 5: Tables and Tidyverse (part 1)"
+          href: "./units/unit5.html"
+    - date: "Feb 12"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Data Tables in R (slides)
+          href: "slides/stat133-01-objs4-data-frames.pdf"
+    - date: "Feb 14"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Graphics with ggplot2 (slides)
+          href: "https://docs.google.com/presentation/d/1R5MIvAujXjCT_rAyD-sKvEqT5U0kfjee4wedZ6ScOpI/edit?usp=sharing"
+    - date: "Feb 15"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 5a: Intro to ggplot2"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685414"
+        - type: "Lab"
+          id: ""
+          name: "Lab 5b: Shiny app Old Faithful w/ggplot2"
+          href: "."
+    - date: "Feb 16"
+      items:
+        - type: "Shiny"
+          id: ""
+          name: Shiny Friday (TBA)
+          href: "."
+        - type: "Homework"
+          id: ""
+          name: HW4 Functions (TBA)
+          href: "."
 - week: 4
   days:
     - date: "About"
@@ -10,8 +50,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: Intro to Functions
-          href: "https://docs.google.com/presentation/d/1QWrBYaACuvCFAI7GP4ELZ09BftI8YGUMm4PtXaBefoQ/edit?usp=sharing1"
+          name: Intro to Functions (slides)
+          href: "slides/stat133-02-prog1-intro-functions.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88097206"
@@ -19,8 +59,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: If-else statements
-          href: "https://docs.google.com/presentation/d/1NO0DqeOHYoYrTRqV1na1qegVx2adb52YKTCur7Nb4Dc/edit?usp=sharing"
+          name: If-else statements (slides)
+          href: "slides/stat133-02-prog2-if-else.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88120941"
@@ -34,12 +74,12 @@
       items:
         - type: "Shiny"
           id: ""
-          name: "Shiny Friday: Old Faithful (updated)"
+          name: "Shiny Friday: Old Faithful (enriched)"
           href: "https://github.com/data133/shiny/blob/main/old-faithful3-average-radio/app.R"
         - type: "Homework"
           id: ""
-          name: "HW 3: TBA"
-          href: "."
+          name: "HW 3: Functions"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685406"
 - week: 3
   days:
     - date: "About"
@@ -52,8 +92,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: Matrices
-          href: "https://docs.google.com/presentation/d/1rn66qtIGr-EUKS3YoURatM5aa2cLA3sPZbSHnXBP7YE/edit?usp=sharing"
+          name: Matrices (slides)
+          href: "slides/stat133-01-objs2-matrices-factors.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88032081"
@@ -61,8 +101,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: Lists
-          href: "https://docs.google.com/presentation/d/1OsxnIgNTZG-gnD0rdTXzqf162_gNqnok_suMHG5KxpU/edit?usp=sharing"
+          name: Lists (slides)
+          href: "slides/stat133-01-objs3-lists.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88050903"
@@ -97,8 +137,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: Vectors (part 1)
-          href: "https://docs.google.com/presentation/d/15AFHVQjayacy8tGTiW0avQhphki1G_8udI9ztENBZkg/edit?usp=sharing"
+          name: Vectors, part 1 (slides)
+          href: "slides/stat133-01-objs1-vectors-part1.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88015873"
@@ -106,8 +146,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: Vectors (part 2)
-          href: "https://docs.google.com/presentation/d/1R9BybZlWVoiwuZxxaJtdVGitcqcCYSJY6lSHBdr5SoQ/edit?usp=sharing"
+          name: Vectors, part 2 (slides)
+          href: "slides/stat133-01-objs1-vectors-part2.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88015874"
@@ -139,8 +179,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: Welcome to Stat 133
-          href: "https://docs.google.com/presentation/d/1odMBh760lfSBiRhEh2cNLEq8LY8YcQTl_lLutRVbZhs/edit?usp=sharing"
+          name: Welcome to Stat 133 (slides)
+          href: "slides/stat133-00-intro1-welcome.pdf"
     - date: "Jan 18"
       items:
         - type: "Lab"
@@ -150,5 +190,5 @@
       items:
         - type: "Lecture"
           id: ""
-          name: R Housekeeping
-          href: "https://docs.google.com/presentation/d/1ozm1G1BUYiDI_SVvuu8HyMjIq747Hnc-tdP7U1muP-s/edit?usp=sharing"
+          name: R Housekeeping (slides)
+          href: "slides/stat133-00-intro2-RStudio.pdf"
