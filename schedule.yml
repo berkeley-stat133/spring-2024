@@ -35,12 +35,15 @@
       items:
         - type: "Shiny"
           id: ""
-          name: Shiny Friday (TBA)
-          href: "."
+          name: "Shiny Friday: graphics with ggplot"
+          href: "https://github.com/data133/shiny/blob/main/nba-histograms1-basic/app.R"
+          auxil:
+            id: "Video"
+            href: "https://bcourses.berkeley.edu/courses/1531596/external_tools/90481"
         - type: "Homework"
           id: ""
-          name: HW4 Functions (TBA)
-          href: "."
+          name: "HW4: Graphics with ggplot2"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685407"
 - week: 4
   days:
     - date: "About"
@@ -79,6 +82,9 @@
           id: ""
           name: "Shiny Friday: Old Faithful (enriched)"
           href: "https://github.com/data133/shiny/blob/main/old-faithful3-average-radio/app.R"
+          auxil:
+            id: "Video"
+            href: "https://bcourses.berkeley.edu/courses/1531596/external_tools/90481"
         - type: "Homework"
           id: ""
           name: "HW 3: Functions"
@@ -122,8 +128,8 @@
           name: "Shiny Friday: Future Value"
           href: "https://github.com/data133/shiny/blob/main/future-value2-sliders/app.R"
           auxil:
-            id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88075702"
+            id: "Video"
+            href: "https://bcourses.berkeley.edu/courses/1531596/external_tools/90481"
         - type: "Homework"
           id: ""
           name: "HW 2: Lists and Matrices"
