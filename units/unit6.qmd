@@ -1,9 +1,5 @@
 ---
 title: "Unit 6: Tables and Tidyverse-2"
-format:
-  html:
-    code-fold: show
-    code-tools: true
 ---
 
 

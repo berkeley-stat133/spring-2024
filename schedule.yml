@@ -1,3 +1,38 @@
+- week: 6
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 6: Tables and Tidyverse (part 2)"
+          href: "./units/unit6.html"
+    - date: "Feb 19"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Academic Holiday (no class)
+    - date: "Feb 21"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Manipulating tables with dplyr (slides)
+          href: "slides/stat133-03-tables2-intro-dplyr.pdf"
+    - date: "Feb 22"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 6: Intro to dplyr"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685415"
+    - date: "Feb 23"
+      items:
+        - type: "Shiny"
+          id: ""
+          name: Shiny Friday (TBA)
+          href: "."
+        - type: "Homework"
+          id: ""
+          name: HW5 TBA
+          href: "."
 - week: 5
   days:
     - date: "About"
@@ -17,7 +52,7 @@
         - type: "Lecture"
           id: ""
           name: Graphics with ggplot2 (slides)
-          href: "https://docs.google.com/presentation/d/1R5MIvAujXjCT_rAyD-sKvEqT5U0kfjee4wedZ6ScOpI/edit?usp=sharing"
+          href: "slides/stat133-03-tables1-grammar-graphics.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88194064"
