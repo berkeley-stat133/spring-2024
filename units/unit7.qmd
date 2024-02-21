@@ -1,9 +1,5 @@
 ---
-title: "Unit 7: Functions and Conditionals"
-format:
-  html:
-    code-fold: show
-    code-tools: true
+title: "Unit 7: Iterations"
 ---
 
 
