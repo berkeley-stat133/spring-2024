@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Unit 8: Regular Expressions</title>
+<title>Unit 9: More Regex, and Text Mining</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Unit 8: Regular Expressions</h1>
+      <h1 class="quarto-secondary-nav-title">Unit 9: More Regex, and Text Mining</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -192,7 +192,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Unit 8: Regular Expressions</h1>
+<h1 class="title d-none d-lg-block">Unit 9: More Regex, and Text Mining</h1>
 </div>
 
 
@@ -208,42 +208,44 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>Why should you learn about character string manipulation and working with text data? Well, because a considerable amount of information and data is precisely in the form of text. And sooner or later (I would say sooner than later) you will have to deal with some kind of string manipulation for your data analysis. So it’s better to be prepared for such tasks and know how to perform them inside the R environment.</p>
-<p>To unleash the power of string manipulation, we need to take things to the next level and learn about <strong>Regular Expressions</strong> or <em>regex</em> for short. Namely, regex allows us to describe a certain amount of text called “patterns”. The name “Regular Expression” does not say much. However, regular expressions are all about text.</p>
-<p>Regular expression patterns consist of a combination of alphanumeric characters as well as special characters. A regex pattern can be as simple as a single character, or it can be formed by several characters with a more complex structure. In all cases we construct regular expressions much in the same form in which we construct arithmetic expressions, by using various operators to combine smaller expressions.</p>
+<p>We move on to our next topic which involves basic principles behind Text Mining, “<em>the process of distilling actionable insights from text</em>”.</p>
+<p>Broadly speaking, Text Mining analysis can be divided in two big categories: 1) Bag-of-Words (bow) analysis, and 2) Syntactic Parsing. In this course, we will focus exclusively on topics related to bag-of-words analysis.</p>
+<p><strong>Preliminary Operations</strong>: Because text data is rarely ready to be analyzed, we need to first discuss some of the common preparation steps for having text data in a way that can be mathematically/statistically analyzed.</p>
+<p><strong>Frequency Analysis</strong>: The most basic type of bag-of-words text mining analysis consists of counting the number of occurrences or frequencies of each token.</p>
 </section>
 <section id="reading" class="level2">
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
-<p>Read chapters 13 and 14 of “R for Strings”:</p>
+<p>Read chapters 1, 2 and 4 of “Text Mining with R”:</p>
 <ul>
-<li><a href="https://www.gastonsanchez.com/R-for-strings/08-regex-intro.html" target="_blank">https://www.gastonsanchez.com/R-for-strings/08-regex-intro.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-for-strings/09-regex-charsets.html" target="_blank">https://www.gastonsanchez.com/R-for-strings/09-regex-charsets.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-for-strings/10-regex-anchors.html" target="_blank">https://www.gastonsanchez.com/R-for-strings/10-regex-anchors.html</a></li>
-<li><a href="https://www.gastonsanchez.com/R-for-strings/11-regex-quantifiers.html" target="_blank">https://www.gastonsanchez.com/R-for-strings/11-regex-quantifiers.html</a></li>
+<li><a href="https://www.tidytextmining.com/tidytext" target="_blank">https://www.tidytextmining.com/tidytext</a></li>
+<li><a href="https://www.tidytextmining.com/sentiment" target="_blank">https://www.tidytextmining.com/sentiment</a></li>
+<li><a href="https://www.tidytextmining.com/ngrams" target="_blank">https://www.tidytextmining.com/ngrams</a></li>
 </ul>
 </section>
 <section id="lab" class="level2">
 <h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
-<p>This week you’ll learn how to perform regex operations.</p>
+<p>Work with some text data and functions from <code>"tidytext"</code> and <code>"janeaustenr"</code>.</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <ul>
-<li>Being able to describe what a regular expression is</li>
-<li>Explain what a literal character is</li>
-<li>Explain what a metacharacter is</li>
-<li>Give an example of the wildcard metacharacter “.” (dot)</li>
-<li>Give an example of how to escape a metacharacter</li>
-<li>Explain what a character set is</li>
-<li>Explain what a character range is</li>
-<li>Explain what a POSIX character class is</li>
+<li>List at least four operations that are commonly applied to a text data set before it can be analyzed with text mining techniques.</li>
+<li>Describe the notion of stopwords.</li>
+<li>Explain what a corpus (or corpora) is.</li>
+<li>Explain what a token is.</li>
+<li>Explain the concept of tokenization.</li>
+<li>Compute frequencies of tokens.</li>
+<li>Visualize frequencies with barcharts and wordclouds.</li>
+<li>Define sentiment analysis.</li>
+<li>Describe a basic polarity scoring algorithm.</li>
+<li>Compute basic sentiments (positive, negative, neutral) of a text.</li>
 </ul>
 </section>
 <section id="assignments" class="level2">
 <h2 class="anchored" data-anchor-id="assignments">🔔 Assignments</h2>
 <ul>
-<li>HW6 due this 03/08</li>
-<li>Shiny App1 released on 03/09, due 03/22</li>
+<li>Midterm on Friday 03/15</li>
+<li>Keep working on your shiny App2, due 03/22</li>
 </ul>
 
 
