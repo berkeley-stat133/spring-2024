@@ -1,3 +1,39 @@
+- week: 7
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 7: Iterations and Loops"
+          href: "./units/unit7.html"
+    - date: "Feb 26"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Iterations
+          href: "slides/stat133-02-prog3-for-loop.pdf"
+    - date: "Feb 28"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: More Iterations and Simulations
+          href: "slides/stat133-02-apply-loops.pdf"
+    - date: "Feb 29"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 7: Loops in R"
+          href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/lab-checkpoints/lab07"
+    - date: "Mar 01"
+      items:
+        - type: "Shiny"
+          id: ""
+          name: Shiny Friday (TBA)
+          href: "."
+        - type: "Homework"
+          id: ""
+          name: HW6 (TBA)
+          href: "."
 - week: 6
   days:
     - date: "About"
@@ -17,6 +53,9 @@
           id: ""
           name: Manipulating tables with dplyr (slides)
           href: "slides/stat133-03-tables2-intro-dplyr.pdf"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88250675"
     - date: "Feb 22"
       items:
         - type: "Lab"
@@ -27,12 +66,15 @@
       items:
         - type: "Shiny"
           id: ""
-          name: Shiny Friday (TBA)
-          href: "."
+          name: "Shiny Friday: Top-n NBA players"
+          href: "https://github.com/data133/shiny/blob/main/nba-topn-barchart/app.R"
+          auxil:
+            id: "Video"
+            href: "https://bcourses.berkeley.edu/courses/1531596/external_tools/90481"
         - type: "Homework"
           id: ""
-          name: HW5 TBA
-          href: "."
+          name: "HW5: Data Wrangling"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685408"
 - week: 5
   days:
     - date: "About"
