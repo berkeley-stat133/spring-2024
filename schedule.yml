@@ -10,13 +10,13 @@
       items:
         - type: "Lecture"
           id: ""
-          name: Iterations
+          name: Iterations (slides)
           href: "slides/stat133-02-prog3-for-loop.pdf"
     - date: "Feb 28"
       items:
         - type: "Lecture"
           id: ""
-          name: More Iterations and Simulations
+          name: More Iterations and Simulations (slides)
           href: "slides/stat133-02-apply-loops.pdf"
     - date: "Feb 29"
       items:
