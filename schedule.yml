@@ -12,6 +12,9 @@
           id: ""
           name: Iterations (slides)
           href: "slides/stat133-02-prog3-for-loop.pdf"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88298283"
     - date: "Feb 28"
       items:
         - type: "Lecture"
