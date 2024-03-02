@@ -238,14 +238,10 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="shiny-friday" class="level2">
 <h2 class="anchored" data-anchor-id="shiny-friday">🔆 Shiny Friday</h2>
-<p>The shiny app for this week involves a simple Future Value calculator with some simulations. To be more precise, the app simulates investing a lump sum for a number of years. The rate of return for every year is a variable rate that is randomly generated according to a uniform distribution.</p>
+<p>The shiny app for this week is the same one from last week: it uses <code>mtcars</code> data set to visualize the top-n cars given a selected variable.</p>
 <p>An important component of this app is the use of the <code>reactive()</code> function to create so-called <strong>reactive conductors</strong> (i.e.&nbsp;an R expression that uses widget input(s) and returns a value).</p>
 <ul>
-<li><a href="https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R" target="_blank">https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R</a></li>
-</ul>
-<p>Additionally, there is another version of the app in which the <strong>UI layout is based on the package <a href="https://rstudio.github.io/bslib/">bslib</a></strong>, which allows us to create customizable shiny dashboards.</p>
-<ul>
-<li><strong>app: timeline of simulated future values</strong> <br> <a href="https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R" target="_blank">https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R</a></li>
+<li><strong>mtcars-topn-barchart</strong>: produces a simple barchart—via <code>"ggplot2"</code>—to visualize the top-n cars given a selected variable. In addition to the plot, it also displays a table with the top-n cars. More important, this app uses a so-called <strong>reactive conductor</strong> element.<br> <a href="https://github.com/data133/shiny/tree/main/mtcars-topn-barchart" target="_blank">https://github.com/data133/shiny/tree/main/mtcars-topn-barchart</a></li>
 </ul>
 </section>
 <section id="assignments" class="level2">
