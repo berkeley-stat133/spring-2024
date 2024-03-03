@@ -17,7 +17,7 @@ listing:
 
 ::: {.callout-note title="Announcement"}
 ## Announcement
-__HW5 due Friday Mar-01 (by midnight)__
+__HW6 due Friday Mar-08 (by midnight)__
 
 :::
 
