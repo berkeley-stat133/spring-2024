@@ -20,23 +20,29 @@
         - type: "Lecture"
           id: ""
           name: More Iterations and Simulations (slides)
-          href: "slides/stat133-02-apply-loops.pdf"
+          href: "slides/stat133-02-prog4-apply-loops.pdf"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88327367"
     - date: "Feb 29"
       items:
         - type: "Lab"
           id: ""
           name: "Lab 7: Loops in R"
-          href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/lab-checkpoints/lab07"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685418"
     - date: "Mar 01"
       items:
         - type: "Shiny"
           id: ""
-          name: Shiny Friday (TBA)
-          href: "."
+          name: "Shiny Friday: Top-n mtcars (continued)"
+          href: "https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R"
+          auxil:
+            id: "Video"
+            href: "https://bcourses.berkeley.edu/courses/1531596/external_tools/90481"
         - type: "Homework"
           id: ""
-          name: HW6 (TBA)
-          href: "."
+          name: "HW6: Iterations"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685409"
 - week: 6
   days:
     - date: "About"
@@ -69,8 +75,8 @@
       items:
         - type: "Shiny"
           id: ""
-          name: "Shiny Friday: Top-n NBA players"
-          href: "https://github.com/data133/shiny/blob/main/nba-topn-barchart/app.R"
+          name: "Shiny Friday: Top-n mtcars"
+          href: "https://github.com/data133/shiny/blob/main/mtcars-topn-barchart/app.R"
           auxil:
             id: "Video"
             href: "https://bcourses.berkeley.edu/courses/1531596/external_tools/90481"
