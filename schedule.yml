@@ -1,3 +1,42 @@
+- week: 8
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 8: Regular Expressions"
+          href: "./units/unit8.html"
+    - date: "Mar 04"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Regular Expressions, part 1 (slides)
+          href: "slides/stat133-04-regex1-part1.pdf"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88369217"
+    - date: "Mar 06"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Regular Expressions, part 2 (slides)
+          href: "slides/stat133-04-regex2-part2.pdf"
+    - date: "Mar 07"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 8: Intro to Regex (TBA)"
+          href: "."
+    - date: "Mar 08"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Regular Expressions (part 3)
+          href: "."
+        - type: "Homework"
+          id: ""
+          name: App1 (TBA)
+          href: "."
 - week: 7
   days:
     - date: "About"
