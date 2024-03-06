@@ -36,19 +36,12 @@ At the end of this week you will be able to:
 
 ## 🔆 Shiny Friday
 
-The shiny app for this week involves a simple Future Value calculator with some simulations. To be more precise, the app simulates investing annual constant contributions, for a number of years. The rate of return for every year is a variable rate that is randomly generated according to a normal distribution.
+The shiny app for this week is the same one from last week: it uses `mtcars` data set to visualize the top-n cars given a selected variable.
 
 An important component of this app is the use of the `reactive()` function to create so-called __reactive conductors__ (i.e. an R expression that uses widget input(s) and returns a value).
 
-Another interesting part of this app is that its __UI layout is based on the package [bslib](https://rstudio.github.io/bslib/)__, which allows us to create customizable shiny dashboards.
-
-- __app: timeline of simulated future values__ <br>
-<a href="https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R" target="_blank">https://github.com/data133/shiny/blob/main/future-value4-dashboard/app.R</a>
-
-
-In the event that __bslib__ functions don't work for you, here's another app that also simulates a different, yet basic, investing scenario:
-
-- <a href="https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R" target="_blank">https://github.com/data133/shiny/blob/main/future-value3-simulations/app.R</a>
+- __mtcars-topn-barchart__: produces a simple barchart---via `"ggplot2"`---to visualize the top-n cars given a selected variable. In addition to the plot, it also displays a table with the top-n cars. More important, this app uses a so-called __reactive conductor__ element.<br>
+<a href="https://github.com/data133/shiny/tree/main/mtcars-topn-barchart" target="_blank">https://github.com/data133/shiny/tree/main/mtcars-topn-barchart</a>
 
 
 
