@@ -33,6 +33,7 @@ website:
           - units/unit6.qmd
           - units/unit7.qmd
           - units/unit8.qmd
+          - units/unit9.qmd
           
 format:
   html:
