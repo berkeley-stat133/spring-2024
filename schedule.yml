@@ -1,3 +1,46 @@
+- week: 9
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 9: Text Mining"
+          href: "./units/unit9.html"
+    - date: "Mar 11"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Text Mining, part 1 (slides)
+          href: "slides/stat133-05-text1-mining-intro.pdf"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88431404"
+    - date: "Mar 13"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Text Mining, part 2 (slides)
+          href: "slides/stat133-05-text2-mining-tidytext.pdf"
+    - date: "Mar 14"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 9a: More Regex"
+          href: "."
+        - type: "Lab"
+          id: ""
+          name: "Lab 9b: Publishing a shiny app"
+          href: "."
+    - date: "Mar 15"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Text Mining, part 3
+          href: "."
+        - type: "Midterm"
+          id: ""
+          name: ""
+          href: "."
 - week: 8
   days:
     - date: "About"
@@ -21,22 +64,28 @@
           id: ""
           name: Regular Expressions, part 2 (slides)
           href: "slides/stat133-04-regex2-part2.pdf"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88403098"
     - date: "Mar 07"
       items:
         - type: "Lab"
           id: ""
-          name: "Lab 8: Intro to Regex (TBA)"
-          href: "."
+          name: "Lab 8: Intro to Regex"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685419"
     - date: "Mar 08"
       items:
         - type: "Lecture"
           id: ""
           name: Regular Expressions (part 3)
           href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88437795"
         - type: "Homework"
           id: ""
-          name: App1 (TBA)
-          href: "."
+          name: "Shiny App-1"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685401"
 - week: 7
   days:
     - date: "About"
@@ -145,7 +194,7 @@
           href: "slides/stat133-03-tables1-grammar-graphics.pdf"
           auxil:
             id: "Demo"
-            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88194064"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88437792"
     - date: "Feb 15"
       items:
         - type: "Lab"
