@@ -21,6 +21,9 @@
           id: ""
           name: Text Mining, part 2 (slides)
           href: "slides/stat133-05-text2-mining-tidytext.pdf"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88455956"
     - date: "Mar 14"
       items:
         - type: "Lab"
@@ -37,6 +40,9 @@
           id: ""
           name: Text Mining, part 3
           href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88468592"
         - type: "Midterm"
           id: ""
           name: ""
