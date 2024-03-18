@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Unit 10: More Text Mining</title>
+<title>Unit 10: Text Mining 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Unit 10: More Text Mining</h1>
+      <h1 class="quarto-secondary-nav-title">Unit 10: Text Mining 2</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -180,7 +180,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../units/unit9.html" class="sidebar-item-text sidebar-link">Unit 9: Text Mining</a>
+  <a href="../units/unit9.html" class="sidebar-item-text sidebar-link">Unit 9: Text Mining 1</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../units/unit10.html" class="sidebar-item-text sidebar-link active">Unit 10: Text Mining 2</a>
   </div>
 </li>
       </ul>
@@ -207,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Unit 10: More Text Mining</h1>
+<h1 class="title d-none d-lg-block">Unit 10: Text Mining 2</h1>
 </div>
 
 
@@ -223,24 +228,19 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>We move on to our next topic which involves basic principles behind Text Mining, “<em>the process of distilling actionable insights from text</em>”.</p>
-<p>Broadly speaking, Text Mining analysis can be divided in two big categories: 1) Bag-of-Words (bow) analysis, and 2) Syntactic Parsing. In this course, we will focus exclusively on topics related to bag-of-words analysis.</p>
-<p><strong>Preliminary Operations</strong>: Because text data is rarely ready to be analyzed, we need to first discuss some of the common preparation steps for having text data in a way that can be mathematically/statistically analyzed.</p>
-<p><strong>Frequency Analysis</strong>: The most basic type of bag-of-words text mining analysis consists of counting the number of occurrences or frequencies of each token.</p>
+<p>One popular topic in text mining involves <strong>Sentiment Analysis</strong> (aka Sentiment Scoring). Simply put, sentiment analysis is the process of extracting an author’s emotional intent from text. At first glance, sentiment analysis may appear easy. But as we will see, this type of analysis is tricky to do well. There are various emotional frameworks that can be used for sentiment analysis. We will cover a simple approach that implies stating whether a document is positive, negative, or neutral. This is referred to as the polarity of a document.</p>
 </section>
 <section id="reading" class="level2">
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
 <p>Read chapters 1, 2 and 4 of “Text Mining with R” (by Julia Silge and David Robinson):</p>
 <ul>
-<li><a href="https://www.tidytextmining.com/tidytext" target="_blank">https://www.tidytextmining.com/tidytext</a></li>
 <li><a href="https://www.tidytextmining.com/sentiment" target="_blank">https://www.tidytextmining.com/sentiment</a></li>
-<li><a href="https://www.tidytextmining.com/ngrams" target="_blank">https://www.tidytextmining.com/ngrams</a></li>
 </ul>
 </section>
 <section id="lab" class="level2">
 <h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
 <ul>
-<li>Computing frequencies with tidytext.</li>
+<li>Getting started with the <code>"tidytext"</code> package.</li>
 </ul>
 </section>
 <section id="objectives" class="level2">
