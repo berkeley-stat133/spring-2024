@@ -1,10 +1,49 @@
+- week: 10
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 10: Text Mining 2"
+          href: "./units/unit10.html"
+    - date: "Mar 18"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: Sentiment Analysis
+          href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88493537"
+    - date: "Mar 20"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Correspondence Analysis (part 1)"
+          href: "."
+    - date: "Mar 21"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 10: More Regex"
+          href: "."
+    - date: "Mar 22"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Correspondence Analysis (part 2)"
+          href: "."
+        - type: "Homework"
+          id: ""
+          name: App2 TBA (due Apr-12)
+          href: "."
 - week: 9
   days:
     - date: "About"
       items:
         - type: "Overview"
           id: ""
-          name: "Unit 9: Text Mining"
+          name: "Unit 9: Text Mining 1"
           href: "./units/unit9.html"
     - date: "Mar 11"
       items:
