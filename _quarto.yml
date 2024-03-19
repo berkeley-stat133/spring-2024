@@ -34,6 +34,7 @@ website:
           - units/unit7.qmd
           - units/unit8.qmd
           - units/unit9.qmd
+          - units/unit10.qmd
           
 format:
   html:
