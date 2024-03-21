@@ -10,7 +10,7 @@
       items:
         - type: "Lecture"
           id: ""
-          name: Sentiment Analysis
+          name: "Sentiment Analysis (1)"
           href: "."
           auxil:
             id: "Demo"
@@ -19,20 +19,27 @@
       items:
         - type: "Lecture"
           id: ""
-          name: "Correspondence Analysis (part 1)"
+          name: "Sentiment Analysis (2)"
           href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88508496"
+        - type: "Lecture"
+          id: ""
+          name: "Correspondence Analysis"
+          href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/readings?preview=88510726"
     - date: "Mar 21"
       items:
         - type: "Lab"
           id: ""
-          name: "Lab 10: More Regex"
+          name: "Lab 10: Text Mining"
           href: "."
     - date: "Mar 22"
       items:
         - type: "Lecture"
           id: ""
-          name: "Correspondence Analysis (part 2)"
-          href: "."
+          name: "Correspondence Analysis (cont'd)"
+          href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/readings?preview=88510726"
         - type: "Homework"
           id: ""
           name: App2 TBA (due Apr-12)
