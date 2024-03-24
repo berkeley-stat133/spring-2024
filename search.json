@@ -182,6 +182,76 @@
     "text": "🔔 Assignments\n\nShiny App1, due 03/22"
   },
   {
+    "objectID": "units/unit11.html",
+    "href": "units/unit11.html",
+    "title": "Unit 11: Maps 1",
+    "section": "",
+    "text": "Many data sets (e.g. storms data set from \"dplyr\") contain geographical variables such as longitude and latitude that can be visualized with a map. This week we take a further step to learn how to plot basic maps with \"ggplot2\" as well as with some dedicated packages such as \"sf\", \"rnaturalearth\", and \"leaflet\"."
+  },
+  {
+    "objectID": "units/unit11.html#reading",
+    "href": "units/unit11.html#reading",
+    "title": "Unit 11: Maps 1",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 17, 18, and 19 of “Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-01-maps-intro.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-03-maps-sf.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-04-maps-leaflet.html"
+  },
+  {
+    "objectID": "units/unit11.html#lab",
+    "href": "units/unit11.html#lab",
+    "title": "Unit 11: Maps 1",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\n\nGraphing maps with \"ggplot2\", \"sf\", and \"rnaturalearth\"."
+  },
+  {
+    "objectID": "units/unit11.html#objectives",
+    "href": "units/unit11.html#objectives",
+    "title": "Unit 11: Maps 1",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nExplain the concept of a “simple feature”\nDescribe how to use the layer geom_sf()\nMap latitude and longitude coordinates in a geom_sf() layer."
+  },
+  {
+    "objectID": "units/unit11.html#assignments",
+    "href": "units/unit11.html#assignments",
+    "title": "Unit 11: Maps 1",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nShiny App2, due 04/12"
+  },
+  {
+    "objectID": "units/unit12.html",
+    "href": "units/unit12.html",
+    "title": "Unit 12: Maps 2",
+    "section": "",
+    "text": "We continue discussing maps in R. In particular, we use two interesting data sets:\nUS Presidential Election Results (2020)\nWe’ll use this data to make some choropleth maps. A choropleth map is a thematic map that is used to visualize how a variable varies across a geographic area."
+  },
+  {
+    "objectID": "units/unit12.html#reading",
+    "href": "units/unit12.html#reading",
+    "title": "Unit 12: Maps 2",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead chapters 17, 18, and 19 of “Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-01-maps-intro.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-03-maps-sf.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-04-maps-leaflet.html"
+  },
+  {
+    "objectID": "units/unit12.html#lab",
+    "href": "units/unit12.html#lab",
+    "title": "Unit 12: Maps 2",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\n\nGraphing maps with \"ggplot2\", \"sf\", and \"rnaturalearth\"."
+  },
+  {
+    "objectID": "units/unit12.html#objectives",
+    "href": "units/unit12.html#objectives",
+    "title": "Unit 12: Maps 2",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nExplain the concept of a “choropleth map”\nPlot a map of US counties with geom_sf()."
+  },
+  {
+    "objectID": "units/unit12.html#assignments",
+    "href": "units/unit12.html#assignments",
+    "title": "Unit 12: Maps 2",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nShiny App2, due 04/12"
+  },
+  {
     "objectID": "units/unit8.html",
     "href": "units/unit8.html",
     "title": "Unit 8: Regular Expressions",
