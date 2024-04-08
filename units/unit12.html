@@ -193,6 +193,11 @@ ul.task-list li input[type="checkbox"] {
   <a href="../units/unit11.html" class="sidebar-item-text sidebar-link">Unit 11: Maps 1</a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../units/unit12.html" class="sidebar-item-text sidebar-link active">Unit 12: Maps 2</a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -234,8 +239,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
 <p>We continue discussing maps in R. In particular, we use two interesting data sets:</p>
-<p>US Presidential Election Results (2020)</p>
-<p>We’ll use this data to make some choropleth maps. A choropleth map is a thematic map that is used to visualize how a variable varies across a geographic area.</p>
+<ol type="1">
+<li><p><strong>IBTrACS shapefiles</strong>. We’ll use this to work with shapefiles, which is perhaps the most common format for vector data.</p></li>
+<li><p><strong>US Presidential Election Results (2020)</strong>. We’ll use this data to make some choropleth maps. A choropleth map is a thematic map that is used to visualize how a variable varies across a geographic area.</p></li>
+</ol>
 </section>
 <section id="reading" class="level2">
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
@@ -249,12 +256,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="lab" class="level2">
 <h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
 <ul>
-<li>Graphing maps with <code>"ggplot2"</code>, <code>"sf"</code>, and <code>"rnaturalearth"</code>.</li>
+<li>Graphing maps with <code>"ggplot2"</code>, <code>"sf"</code>, and <code>"leaflet"</code>.</li>
 </ul>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <ul>
+<li>Describe the components of a shapefile.</li>
+<li>Import shapefiles in R.</li>
+<li>Make maps with shapefile data.</li>
 <li>Explain the concept of a “choropleth map”</li>
 <li>Plot a map of US counties with <code>geom_sf()</code>.</li>
 </ul>
