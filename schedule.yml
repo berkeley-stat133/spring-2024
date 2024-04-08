@@ -1,3 +1,41 @@
+- week: 11
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 11: Geospatial Data 1"
+          href: "./units/unit11.html"
+    - date: "Apr 01"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Mapping Storms (part 1)"
+          href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88566431"
+    - date: "Apr 03"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Mapping Storms (part 2)"
+          href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88586401"
+    - date: "Apr 04"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 11: Maps"
+          href: "."
+    - date: "Apr 05"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Guest Lecture: Wildfire in California by K. Shive"
+          href: "."
 - week: 10
   days:
     - date: "About"
@@ -42,8 +80,8 @@
           href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/readings?preview=88528580"
         - type: "Homework"
           id: ""
-          name: App2 TBA (due Apr-12)
-          href: "."
+          name: "Shiny App-2"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685402"
 - week: 9
   days:
     - date: "About"
