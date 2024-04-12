@@ -1,3 +1,45 @@
+- week: 12
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 12: Geospatial Data 2"
+          href: "./units/unit12.html"
+    - date: "Apr 08"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Mapping Storms (part 3)"
+          href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88621438"
+    - date: "Apr 10"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Choropleth maps"
+          href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88643764"
+    - date: "Apr 11"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 12: Maps (part 2)"
+          href: "."
+    - date: "Apr 12"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "TBA"
+          href: "."
+        - type: "Homework"
+          id: ""
+          name: "Shiny App-3 (TBA)"
+          href: "."
 - week: 11
   days:
     - date: "About"
