@@ -1,3 +1,41 @@
+- week: 13
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 13: Web Tech 1"
+          href: "./units/unit13.html"
+    - date: "Apr 15"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Web Tech (1)"
+          href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88712534"
+    - date: "Apr 17"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Web Tech (2)"
+          href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88712533"
+    - date: "Apr 18"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 13 TBA"
+          href: ""
+    - date: "Apr 19"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Web Tech (3)"
+          href: "."
 - week: 12
   days:
     - date: "About"
@@ -19,7 +57,7 @@
       items:
         - type: "Lecture"
           id: ""
-          name: "Choropleth maps"
+          name: "Choropleth maps (1)"
           href: "."
           auxil:
             id: "Demo"
@@ -29,17 +67,20 @@
         - type: "Lab"
           id: ""
           name: "Lab 12: Maps (part 2)"
-          href: "."
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685416"
     - date: "Apr 12"
       items:
         - type: "Lecture"
           id: ""
-          name: "TBA"
+          name: "Choropleth maps (2)"
           href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88662132"
         - type: "Homework"
           id: ""
-          name: "Shiny App-3 (TBA)"
-          href: "."
+          name: "Shiny App-3"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685403"
 - week: 11
   days:
     - date: "About"
