@@ -147,6 +147,41 @@
     "text": "\\[\n\\newcommand{\\trans}{^\\mathsf{T}}\n\\newcommand{\\eps}{\\epsilon}\n\\]"
   },
   {
+    "objectID": "units/unit14.html",
+    "href": "units/unit14.html",
+    "title": "Unit 14: Web Tech 2",
+    "section": "",
+    "text": "For our last week of the semester we provide an example of web scraping using a high-level approach that involves parsing XML and scraping data with functions from packages \"xml2\" and \"rvest\" (and a bit of \"stringr\")."
+  },
+  {
+    "objectID": "units/unit14.html#reading",
+    "href": "units/unit14.html#reading",
+    "title": "Unit 14: Web Tech 2",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nRead the following chapters from “R Web Technologies”:\n\nhttps://www.gastonsanchez.com/R-web-technologies/xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/parsing-xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/xpath.html"
+  },
+  {
+    "objectID": "units/unit14.html#lab",
+    "href": "units/unit14.html#lab",
+    "title": "Unit 14: Web Tech 2",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\n\nPractice web scraping data."
+  },
+  {
+    "objectID": "units/unit14.html#objectives",
+    "href": "units/unit14.html#objectives",
+    "title": "Unit 14: Web Tech 2",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\n\nDescribe what web scraping is.\nExaplain the purpose of Xpath expressions\nScrape some web data using \"rvest\" functions."
+  },
+  {
+    "objectID": "units/unit14.html#assignments",
+    "href": "units/unit14.html#assignments",
+    "title": "Unit 14: Web Tech 2",
+    "section": "🔔 Assignments",
+    "text": "🔔 Assignments\n\nApp3 due on 04/26"
+  },
+  {
     "objectID": "units/unit10.html",
     "href": "units/unit10.html",
     "title": "Unit 10: Text Mining 2",
@@ -219,35 +254,35 @@
   {
     "objectID": "units/unit13.html",
     "href": "units/unit13.html",
-    "title": "Unit 13: Web Tech",
+    "title": "Unit 13: Web Tech 1",
     "section": "",
     "text": "In this last part of the course we look at so-called web technologies for computing with data. To be more specific, we’ll focus on tools that have to do with getting data from the Web.\nThe Web is full of information and sources of data. As it turns out, we can use a wide array of approaches to get data from the Web. For instance, we can simply scrape data from human-readable webpages. Likewise, we can also utilize application programming interfaces (APIs) to request some data sets. Interestingly, the data may come in some XML dialect, the most common one being HTML. But it can also come in a JSON document or some other self-describing format. Consequently, you need to be prepared to deal with data from the Web."
   },
   {
     "objectID": "units/unit13.html#reading",
     "href": "units/unit13.html#reading",
-    "title": "Unit 13: Web Tech",
+    "title": "Unit 13: Web Tech 1",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead the following chapters from “R Web Technologies”:\n\nhttps://www.gastonsanchez.com/R-web-technologies/json.html\nhttps://www.gastonsanchez.com/R-web-technologies/xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/parsing-xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/xpath.html"
   },
   {
     "objectID": "units/unit13.html#lab",
     "href": "units/unit13.html#lab",
-    "title": "Unit 13: Web Tech",
+    "title": "Unit 13: Web Tech 1",
     "section": "🔬 Lab",
     "text": "🔬 Lab\n\nPractice with a basic API to get some data."
   },
   {
     "objectID": "units/unit13.html#objectives",
     "href": "units/unit13.html#objectives",
-    "title": "Unit 13: Web Tech",
+    "title": "Unit 13: Web Tech 1",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\n\nDescribe what an API is.\nUnderstand JSON sytnax\n\ndata types\njson arrays\njson objects"
   },
   {
     "objectID": "units/unit13.html#assignments",
     "href": "units/unit13.html#assignments",
-    "title": "Unit 13: Web Tech",
+    "title": "Unit 13: Web Tech 1",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nStart working on your App3 due on 04/26"
   },
