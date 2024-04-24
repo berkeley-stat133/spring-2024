@@ -1,3 +1,41 @@
+- week: 14
+  days:
+    - date: "About"
+      items:
+        - type: "Overview"
+          id: ""
+          name: "Unit 14: Web Tech 2"
+          href: "./units/unit14.html"
+    - date: "Apr 22"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Web Scraping 1 (slides)"
+          href: "slides/stat133-07-web3-parsin-xml.pdf"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88759890"
+    - date: "Apr 24"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Web Scraping (2)"
+          href: "."
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88775649"
+    - date: "Apr 25"
+      items:
+        - type: "Lab"
+          id: ""
+          name: "Lab 14 (TBA)"
+          href: "."
+    - date: "Apr 26"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "TBA"
+          href: "."
 - week: 13
   days:
     - date: "About"
@@ -10,8 +48,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: "Web Tech (1)"
-          href: "."
+          name: "Web Tech 1 (slides)"
+          href: "slides/stat133-07-web1-json.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88712534"
@@ -19,8 +57,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: "Web Tech (2)"
-          href: "."
+          name: "Web Tech 2 (slides)"
+          href: "slides/stat133-07-web1-json.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88712533"
@@ -28,14 +66,17 @@
       items:
         - type: "Lab"
           id: ""
-          name: "Lab 13 TBA"
-          href: ""
+          name: "Lab 13: Bart API"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685422"
     - date: "Apr 19"
       items:
         - type: "Lecture"
           id: ""
-          name: "Web Tech (3)"
-          href: "."
+          name: "Web Tech 3 (slides)"
+          href: "slides/stat133-07-web2-xml-intro.pdf"
+          auxil:
+            id: "Demo"
+            href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88737954"
 - week: 12
   days:
     - date: "About"
