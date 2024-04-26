@@ -28,8 +28,8 @@
       items:
         - type: "Lab"
           id: ""
-          name: "Lab 14 (TBA)"
-          href: "."
+          name: "Lab 14: Web Scraping"
+          href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685423"
     - date: "Apr 26"
       items:
         - type: "Lecture"
