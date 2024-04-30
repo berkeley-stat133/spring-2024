@@ -18,7 +18,9 @@ listing:
 ::: {.callout-note title="Announcement"}
 ## Announcement
 
-__App3 due Friday Apr-26__
+__Final Exam May-6th, 7-10pm__
+
+See announcements in bCourses.
 :::
 
 
