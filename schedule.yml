@@ -34,7 +34,7 @@
       items:
         - type: "Lecture"
           id: ""
-          name: "TBA"
+          name: "Closing Talk"
           href: "."
 - week: 13
   days:
