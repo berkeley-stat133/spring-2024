@@ -11,7 +11,7 @@
         - type: "Lecture"
           id: ""
           name: "Web Scraping 1 (slides)"
-          href: "slides/stat133-07-web3-parsin-xml.pdf"
+          href: "slides/stat133-07-web3-parsing-xml.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88759890"
@@ -58,7 +58,7 @@
         - type: "Lecture"
           id: ""
           name: "Web Tech 2 (slides)"
-          href: "slides/stat133-07-web1-json.pdf"
+          href: "slides/stat133-07-web2-xml-intro.pdf"
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88712533"
