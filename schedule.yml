@@ -601,6 +601,11 @@
         - type: "Overview"
           id: ""
           name: "RRR Week"
+    - date: "Mar 03"
+      items:
+        - type: "Lecture"
+          id: ""
+          name: "Final Review"
           href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/final-review"
 - week: 16
   days:
@@ -608,5 +613,4 @@
       items:
         - type: "Final"
           id: ""
-          name: ""
-          href: "."
+          name: "Final Exam"
