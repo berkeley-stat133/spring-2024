@@ -18,8 +18,6 @@ listing:
 ::: {.callout-note title="Announcement"}
 ## Announcement
 
-__Final Exam May-6th, 7-10pm__
-
 Ed Discussion is now in read-only mode.
 :::
 
