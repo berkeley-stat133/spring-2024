@@ -16,7 +16,7 @@
   
              <tr>
              <% if (i == 0) { %>
-             <th scope="row" rowspan="<%- day.items.length %>"><%- day.date %>:</th>
+             <th scope="row" rowspan="<%- day.items.length %>"><%- day.date %></th>
              <% } %>
              <% if (day.items[i].href) { %>
                <td><strong class="label label-<%- day.items[i].type %>"><%- day.items[i].type %> <%- day.items[i].id %></strong> <a href="<%- day.items[i].href %>" target="_blank"><%- day.items[i].name %></a></td>

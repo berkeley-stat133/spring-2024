@@ -14,7 +14,7 @@
           href: "slides/stat133-00-intro1-welcome.pdf"
     - date: "Jan 18"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           name: "Lab 1: Intro to R, RStudio, and Quarto notebooks"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685410"
     - date: "Jan 19"
@@ -51,7 +51,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88015874"
     - date: "Jan 25"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 2: Vectors"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685411"
@@ -93,7 +93,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88050903"
     - date: "Feb 01"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 3: Lists and Matrices"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685412"
@@ -138,7 +138,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88120941"
     - date: "Feb 08"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 4: Functions and Conditionals"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685413"
@@ -180,11 +180,11 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88437792"
     - date: "Feb 15"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 5a: Intro to ggplot2"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685414"
-        - type: "Lab"
+        - type: "Labwork2"
           id: ""
           name: "Lab 5b: Shiny app Old Faithful w/ggplot2"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8699763"
@@ -225,7 +225,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88250675"
     - date: "Feb 22"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 6: Intro to dplyr"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685415"
@@ -270,7 +270,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88327367"
     - date: "Feb 29"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 7: Loops in R"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685418"
@@ -315,7 +315,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88403098"
     - date: "Mar 07"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 8: Intro to Regex"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685419"
@@ -360,11 +360,11 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88455956"
     - date: "Mar 14"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 9a: More Regex"
           href: "."
-        - type: "Lab"
+        - type: "Labwork2"
           id: ""
           name: "Lab 9b: Publishing a shiny app"
           href: "."
@@ -407,13 +407,13 @@
           auxil:
             id: "Demo"
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88508496"
-        - type: "Lecture"
+        - type: "Lectur2"
           id: ""
           name: "Correspondence Analysis"
           href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/readings?preview=88528580"
     - date: "Mar 21"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 10: Text Mining"
           href: "."
@@ -460,7 +460,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88586401"
     - date: "Apr 04"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 11: Maps"
           href: "."
@@ -498,7 +498,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88643764"
     - date: "Apr 11"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 12: Maps (part 2)"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685416"
@@ -543,7 +543,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88712533"
     - date: "Apr 18"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 13: Bart API"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685422"
@@ -584,7 +584,7 @@
             href: "https://bcourses.berkeley.edu/courses/1531596/files/folder/demos?preview=88775649"
     - date: "Apr 25"
       items:
-        - type: "Lab"
+        - type: "Labwork"
           id: ""
           name: "Lab 14: Web Scraping"
           href: "https://bcourses.berkeley.edu/courses/1531596/assignments/8685423"
