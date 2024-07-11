@@ -4,6 +4,15 @@ project:
 website:
   favicon: images/favicon.ico
   google-analytics: G-CES9J82GLL
+  page-footer: 
+    center:
+      - text: About
+        href: about.qmd
+      - text: License
+        href: license.qmd
+      - text: GitHub
+        href: "https://github.com/berkeley-stat133"
+    background: "dark"
   sidebar:
     style: "docked"
     title: "STAT 133"
@@ -20,8 +29,6 @@ website:
         text: About
       - href: staff.qmd
         text: Staff
-      - href: data.qmd
-        text: Datasets
       - href: cheatsheets.qmd
         text: Cheatsheets
       - section: "Units"
