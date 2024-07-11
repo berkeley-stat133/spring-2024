@@ -5,6 +5,8 @@ subtitle: "Stat 133, Spring 2024"
 
 ::: {.callout-note title="Announcement"}
 ## Info
+__Instructor__: <a href='https://www.gastonsanchez.com' target='_blank'>Gaston Sanchez</a>
+
 __Lecture__: MWF 9am-10am in [Stanley 105](https://www.berkeley.edu/map/?stanley)
 
 __Lab__:
