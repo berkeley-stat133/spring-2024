@@ -1,5 +1,5 @@
 ---
-title: "Unit 3: Lists and Matrices"
+title: "3) Lists and Matrices"
 ---
 
 
