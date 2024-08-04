@@ -149,525 +149,525 @@
   {
     "objectID": "units/unit14.html",
     "href": "units/unit14.html",
-    "title": "Unit 14: Web Tech 2",
+    "title": "14) Web Tech 2",
     "section": "",
     "text": "For our last week of the semester we provide an example of web scraping using a high-level approach that involves parsing XML and scraping data with functions from packages \"xml2\" and \"rvest\" (and a bit of \"stringr\")."
   },
   {
     "objectID": "units/unit14.html#reading",
     "href": "units/unit14.html#reading",
-    "title": "Unit 14: Web Tech 2",
+    "title": "14) Web Tech 2",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead the following chapters from “R Web Technologies”:\n\nhttps://www.gastonsanchez.com/R-web-technologies/xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/parsing-xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/xpath.html"
   },
   {
     "objectID": "units/unit14.html#lab",
     "href": "units/unit14.html#lab",
-    "title": "Unit 14: Web Tech 2",
+    "title": "14) Web Tech 2",
     "section": "🔬 Lab",
     "text": "🔬 Lab\n\nPractice web scraping data."
   },
   {
     "objectID": "units/unit14.html#objectives",
     "href": "units/unit14.html#objectives",
-    "title": "Unit 14: Web Tech 2",
+    "title": "14) Web Tech 2",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\n\nDescribe what web scraping is.\nExaplain the purpose of Xpath expressions\nScrape some web data using \"rvest\" functions."
   },
   {
     "objectID": "units/unit14.html#assignments",
     "href": "units/unit14.html#assignments",
-    "title": "Unit 14: Web Tech 2",
+    "title": "14) Web Tech 2",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nApp3 due on 04/26"
   },
   {
     "objectID": "units/unit10.html",
     "href": "units/unit10.html",
-    "title": "Unit 10: Text Mining 2",
+    "title": "10) Text Mining 2",
     "section": "",
     "text": "One popular topic in text mining involves Sentiment Analysis (aka Sentiment Scoring). Simply put, sentiment analysis is the process of extracting an author’s emotional intent from text. At first glance, sentiment analysis may appear easy. But as we will see, this type of analysis is tricky to do well. There are various emotional frameworks that can be used for sentiment analysis. We will cover a simple approach that implies stating whether a document is positive, negative, or neutral. This is referred to as the polarity of a document."
   },
   {
     "objectID": "units/unit10.html#reading",
     "href": "units/unit10.html#reading",
-    "title": "Unit 10: Text Mining 2",
+    "title": "10) Text Mining 2",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 1, 2 and 4 of “Text Mining with R” (by Julia Silge and David Robinson):\n\nhttps://www.tidytextmining.com/sentiment"
   },
   {
     "objectID": "units/unit10.html#lab",
     "href": "units/unit10.html#lab",
-    "title": "Unit 10: Text Mining 2",
+    "title": "10) Text Mining 2",
     "section": "🔬 Lab",
     "text": "🔬 Lab\n\nGetting started with the \"tidytext\" package."
   },
   {
     "objectID": "units/unit10.html#objectives",
     "href": "units/unit10.html#objectives",
-    "title": "Unit 10: Text Mining 2",
+    "title": "10) Text Mining 2",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\n\nDefine sentiment analysis.\nDescribe a basic polarity scoring algorithm.\nCompute basic sentiments (positive, negative, neutral) of a text."
   },
   {
     "objectID": "units/unit10.html#assignments",
     "href": "units/unit10.html#assignments",
-    "title": "Unit 10: Text Mining 2",
+    "title": "10) Text Mining 2",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nShiny App1, due 03/22"
   },
   {
     "objectID": "units/unit11.html",
     "href": "units/unit11.html",
-    "title": "Unit 11: Maps 1",
+    "title": "11): Maps 1",
     "section": "",
     "text": "Many data sets (e.g. storms data set from \"dplyr\") contain geographical variables such as longitude and latitude that can be visualized with a map. This week we take \"ggplot2\" a further step to learn how to plot basic maps with some dedicated packages such as \"sf\" and \"rnaturalearth\". Likewise, we’ll also discuss how to produce web-interactive maps with the package \"leaflet\"."
   },
   {
     "objectID": "units/unit11.html#reading",
     "href": "units/unit11.html#reading",
-    "title": "Unit 11: Maps 1",
+    "title": "11): Maps 1",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 17, 18, and 19 of “Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-01-maps-intro.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-03-maps-sf.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-04-maps-leaflet.html"
   },
   {
     "objectID": "units/unit11.html#lab",
     "href": "units/unit11.html#lab",
-    "title": "Unit 11: Maps 1",
+    "title": "11): Maps 1",
     "section": "🔬 Lab",
     "text": "🔬 Lab\n\nGraphing basic maps with \"ggplot2\" & \"sf\".\nMaking web-interactive maps with \"leaflet\"."
   },
   {
     "objectID": "units/unit11.html#objectives",
     "href": "units/unit11.html#objectives",
-    "title": "Unit 11: Maps 1",
+    "title": "11): Maps 1",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\n\nExplain the concept of a “simple feature”\nDescribe how to use the layer geom_sf()\nMap latitude and longitude coordinates in a geom_sf() layer."
   },
   {
     "objectID": "units/unit11.html#assignments",
     "href": "units/unit11.html#assignments",
-    "title": "Unit 11: Maps 1",
+    "title": "11): Maps 1",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nShiny App2, due 04/12"
   },
   {
     "objectID": "units/unit13.html",
     "href": "units/unit13.html",
-    "title": "Unit 13: Web Tech 1",
+    "title": "13) Web Tech 1",
     "section": "",
     "text": "In this last part of the course we look at so-called web technologies for computing with data. To be more specific, we’ll focus on tools that have to do with getting data from the Web.\nThe Web is full of information and sources of data. As it turns out, we can use a wide array of approaches to get data from the Web. For instance, we can simply scrape data from human-readable webpages. Likewise, we can also utilize application programming interfaces (APIs) to request some data sets. Interestingly, the data may come in some XML dialect, the most common one being HTML. But it can also come in a JSON document or some other self-describing format. Consequently, you need to be prepared to deal with data from the Web."
   },
   {
     "objectID": "units/unit13.html#reading",
     "href": "units/unit13.html#reading",
-    "title": "Unit 13: Web Tech 1",
+    "title": "13) Web Tech 1",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead the following chapters from “R Web Technologies”:\n\nhttps://www.gastonsanchez.com/R-web-technologies/json.html\nhttps://www.gastonsanchez.com/R-web-technologies/xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/parsing-xml.html\nhttps://www.gastonsanchez.com/R-web-technologies/xpath.html"
   },
   {
     "objectID": "units/unit13.html#lab",
     "href": "units/unit13.html#lab",
-    "title": "Unit 13: Web Tech 1",
+    "title": "13) Web Tech 1",
     "section": "🔬 Lab",
     "text": "🔬 Lab\n\nPractice with a basic API to get some data."
   },
   {
     "objectID": "units/unit13.html#objectives",
     "href": "units/unit13.html#objectives",
-    "title": "Unit 13: Web Tech 1",
+    "title": "13) Web Tech 1",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\n\nDescribe what an API is.\nUnderstand JSON sytnax\n\ndata types\njson arrays\njson objects"
   },
   {
     "objectID": "units/unit13.html#assignments",
     "href": "units/unit13.html#assignments",
-    "title": "Unit 13: Web Tech 1",
+    "title": "13) Web Tech 1",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nStart working on your App3 due on 04/26"
   },
   {
     "objectID": "units/unit12.html",
     "href": "units/unit12.html",
-    "title": "Unit 12: Maps 2",
+    "title": "12) Maps 2",
     "section": "",
     "text": "We continue discussing maps in R. In particular, we use two interesting data sets:\n\nIBTrACS shapefiles. We’ll use this to work with shapefiles, which is perhaps the most common format for vector data.\nUS Presidential Election Results (2020). We’ll use this data to make some choropleth maps. A choropleth map is a thematic map that is used to visualize how a variable varies across a geographic area."
   },
   {
     "objectID": "units/unit12.html#reading",
     "href": "units/unit12.html#reading",
-    "title": "Unit 12: Maps 2",
+    "title": "12) Maps 2",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 17, 18, and 19 of “Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-01-maps-intro.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-03-maps-sf.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/5-04-maps-leaflet.html"
   },
   {
     "objectID": "units/unit12.html#lab",
     "href": "units/unit12.html#lab",
-    "title": "Unit 12: Maps 2",
+    "title": "12) Maps 2",
     "section": "🔬 Lab",
     "text": "🔬 Lab\n\nGraphing maps with \"ggplot2\", \"sf\", and \"leaflet\"."
   },
   {
     "objectID": "units/unit12.html#objectives",
     "href": "units/unit12.html#objectives",
-    "title": "Unit 12: Maps 2",
+    "title": "12) Maps 2",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\n\nDescribe the components of a shapefile.\nImport shapefiles in R.\nMake maps with shapefile data.\nExplain the concept of a “choropleth map”\nPlot a map of US counties with geom_sf()."
   },
   {
     "objectID": "units/unit12.html#assignments",
     "href": "units/unit12.html#assignments",
-    "title": "Unit 12: Maps 2",
+    "title": "12) Maps 2",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nShiny App2, due 04/12"
   },
   {
     "objectID": "units/unit8.html",
     "href": "units/unit8.html",
-    "title": "Unit 8: Regular Expressions",
+    "title": "8) Regular Expressions",
     "section": "",
     "text": "Why should you learn about character string manipulation and working with text data? Well, because a considerable amount of information and data is precisely in the form of text. And sooner or later (I would say sooner than later) you will have to deal with some kind of string manipulation for your data analysis. So it’s better to be prepared for such tasks and know how to perform them inside the R environment.\nTo unleash the power of string manipulation, we need to take things to the next level and learn about Regular Expressions or regex for short. Namely, regex allows us to describe a certain amount of text called “patterns”. The name “Regular Expression” does not say much. However, regular expressions are all about text.\nRegular expression patterns consist of a combination of alphanumeric characters as well as special characters. A regex pattern can be as simple as a single character, or it can be formed by several characters with a more complex structure. In all cases we construct regular expressions much in the same form in which we construct arithmetic expressions, by using various operators to combine smaller expressions."
   },
   {
     "objectID": "units/unit8.html#reading",
     "href": "units/unit8.html#reading",
-    "title": "Unit 8: Regular Expressions",
+    "title": "8) Regular Expressions",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 13 and 14 of “R for Strings”:\n\nhttps://www.gastonsanchez.com/R-for-strings/08-regex-intro.html\nhttps://www.gastonsanchez.com/R-for-strings/09-regex-charsets.html\nhttps://www.gastonsanchez.com/R-for-strings/10-regex-anchors.html\nhttps://www.gastonsanchez.com/R-for-strings/11-regex-quantifiers.html"
   },
   {
     "objectID": "units/unit8.html#lab",
     "href": "units/unit8.html#lab",
-    "title": "Unit 8: Regular Expressions",
+    "title": "8) Regular Expressions",
     "section": "🔬 Lab",
     "text": "🔬 Lab\nThis week you’ll learn how to perform regex operations."
   },
   {
     "objectID": "units/unit8.html#objectives",
     "href": "units/unit8.html#objectives",
-    "title": "Unit 8: Regular Expressions",
+    "title": "8) Regular Expressions",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\n\nBeing able to describe what a regular expression is\nExplain what a literal character is\nExplain what a metacharacter is\nGive an example of the wildcard metacharacter “.” (dot)\nGive an example of how to escape a metacharacter\nExplain what a character set is\nExplain what a character range is\nExplain what a POSIX character class is"
   },
   {
     "objectID": "units/unit8.html#assignments",
     "href": "units/unit8.html#assignments",
-    "title": "Unit 8: Regular Expressions",
+    "title": "8) Regular Expressions",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nHW6 due this 03/08\nShiny App1 released on 03/09, due 03/22"
   },
   {
     "objectID": "units/unit9.html",
     "href": "units/unit9.html",
-    "title": "Unit 9: Text Mining 1",
+    "title": "9) Text Mining 1",
     "section": "",
     "text": "We move on to our next topic which involves basic principles behind Text Mining, “the process of distilling actionable insights from text”.\nBroadly speaking, Text Mining analysis can be divided in two big categories: 1) Bag-of-Words (bow) analysis, and 2) Syntactic Parsing. In this course, we will focus exclusively on topics related to bag-of-words analysis.\nPreliminary Operations: Because text data is rarely ready to be analyzed, we need to first discuss some of the common preparation steps for having text data in a way that can be mathematically/statistically analyzed.\nFrequency Analysis: The most basic type of bag-of-words text mining analysis consists of counting the number of occurrences or frequencies of each token."
   },
   {
     "objectID": "units/unit9.html#reading",
     "href": "units/unit9.html#reading",
-    "title": "Unit 9: Text Mining 1",
+    "title": "9) Text Mining 1",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 1, 2 and 4 of “Text Mining with R” (by Julia Silge and David Robinson):\n\nhttps://www.tidytextmining.com/tidytext\nhttps://www.tidytextmining.com/sentiment\nhttps://www.tidytextmining.com/ngrams"
   },
   {
     "objectID": "units/unit9.html#lab",
     "href": "units/unit9.html#lab",
-    "title": "Unit 9: Text Mining 1",
+    "title": "9) Text Mining 1",
     "section": "🔬 Lab",
     "text": "🔬 Lab\n\nPublish a shiny app to shinyapps.io\nKeep practicing regular expressions."
   },
   {
     "objectID": "units/unit9.html#objectives",
     "href": "units/unit9.html#objectives",
-    "title": "Unit 9: Text Mining 1",
+    "title": "9) Text Mining 1",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\n\nList at least four operations that are commonly applied to a text data set before it can be analyzed with text mining techniques.\nDescribe the notion of stopwords.\nExplain what a corpus (or corpora) is.\nExplain what a token is.\nExplain the concept of tokenization.\nCompute frequencies of tokens.\nVisualize frequencies with barcharts and wordclouds."
   },
   {
     "objectID": "units/unit9.html#assignments",
     "href": "units/unit9.html#assignments",
-    "title": "Unit 9: Text Mining 1",
+    "title": "9) Text Mining 1",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nMidterm on Friday 03/15\nKeep working on your shiny App1, due 03/22"
   },
   {
     "objectID": "units/unit2.html",
     "href": "units/unit2.html",
-    "title": "Unit 2: R Vectors",
+    "title": "2) R Vectors",
     "section": "",
     "text": "This week we describe data types and their implementation as vectors in R (the most fundamental data object in R). As you’ll see, R is—to a large extent—a vector-based language. Pretty much all other data objects are derived from vectors. We’ll focus on important concepts like:\n\nmain data types (“atomic types” in R): logical, integer, real, and character\ncreation of vectors\nimplicit coercion rules: what R does when you combine values of different data types\nvectorization: when R applies calculations or operations to all the elements of a vector (element-wise)\nrecycling: what R does when you perform a calculation with vectors of different length\nsubsetting (aka subscripting, subindexing, indexing): the use of single/double brackets to subset (i.e. subscript, index) elements of a vector"
   },
   {
     "objectID": "units/unit2.html#reading",
     "href": "units/unit2.html#reading",
-    "title": "Unit 2: R Vectors",
+    "title": "2) R Vectors",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead the chapters that form Part I of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html"
   },
   {
     "objectID": "units/unit2.html#lab",
     "href": "units/unit2.html#lab",
-    "title": "Unit 2: R Vectors",
+    "title": "2) R Vectors",
     "section": "🔬 Lab",
     "text": "🔬 Lab\nYou’ll practice creating and manipulating vectors in R, and learning about the concepts described above."
   },
   {
     "objectID": "units/unit2.html#objectives",
     "href": "units/unit2.html#objectives",
-    "title": "Unit 2: R Vectors",
+    "title": "2) R Vectors",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nDescribe the four common data types in R, and give examples for them\nExplain why R vectors are said to be atomic objects\nDescribe and give an example of the implicit coercion rules\nDescribe and give an example of vectorized code\nDescribe and give an example of the recycling rule\nDescribe and give an example of subsetting (indexing) vectors"
   },
   {
     "objectID": "units/unit2.html#shiny-friday",
     "href": "units/unit2.html#shiny-friday",
-    "title": "Unit 2: R Vectors",
+    "title": "2) R Vectors",
     "section": "🔆 Shiny Friday",
     "text": "🔆 Shiny Friday\nShiny is an open source R package (developed by Posit) that lets you build web applications using R (and RStudio). BTW: If you’ve never seen a shiny app, you can find dozens of examples in a gallery curated by Posit: https://shiny.posit.co/r/gallery/\nEvery Friday lecture (starting on Jan-26) I will use a shiny example, describing various aspects about its structure, and reviewing some of its key details. Every week we’ll go over a different shiny app, increasing the level of complexity, but also making it more interactive and richer.\nOur first shiny app involves the app that comes by default in RStudio called Old Faithful. This app is based on the famous geyser Old Faithful located in Yellowstone National Park. In particular, the app uses R’s built-in data set \"faithful\" which contains two variables:\n\neruptions: is the time (in min) of an eruption\nwaiting: is the waiting time (in min) to next eruption\n\nThe app is a very basic app that displays a histogram of the “waiting times”.\nhttps://github.com/data133/shiny/tree/main/old-faithful1-default"
   },
   {
     "objectID": "units/unit2.html#activities",
     "href": "units/unit2.html#activities",
-    "title": "Unit 2: R Vectors",
+    "title": "2) R Vectors",
     "section": "🔔 Activities",
     "text": "🔔 Activities\nHW1 instructions will be released at the end of this week (due 02/02)."
   },
   {
     "objectID": "units/unit3.html",
     "href": "units/unit3.html",
-    "title": "Unit 3: Lists and Matrices",
+    "title": "3) Lists and Matrices",
     "section": "",
     "text": "This week in class we discuss R lists, which are the most generic kind of data container in R. You will learn:\n\nin what sense a list is a non-atomic atomic\nin what sense a list is a one-dimensional object\nhow to create lists\npractice manipulating lists"
   },
   {
     "objectID": "units/unit3.html#reading",
     "href": "units/unit3.html#reading",
-    "title": "Unit 3: Lists and Matrices",
+    "title": "3) Lists and Matrices",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 6, 7 and 8 of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html\nhttps://www.gastonsanchez.com/R-coding-basics/4-01-lists.html"
   },
   {
     "objectID": "units/unit3.html#lab",
     "href": "units/unit3.html#lab",
-    "title": "Unit 3: Lists and Matrices",
+    "title": "3) Lists and Matrices",
     "section": "🔬 Lab",
     "text": "🔬 Lab\nIn addition to lists, in lab you will also learn about matrices in R. You will work creating and manipulating more atomic objects such as matrices, and also non-atomic lists."
   },
   {
     "objectID": "units/unit3.html#objectives",
     "href": "units/unit3.html#objectives",
-    "title": "Unit 3: Lists and Matrices",
+    "title": "3) Lists and Matrices",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\n\nCreate simple matrices with matrix()\nDescribe and give examples of matrix subsetting (subscripting, indexing)\nExplain in what sense a matrix is a 2-dimensional object\nDescribe and give examples of subsetting (subscripting, indexing) of an R list\nProvide an example of list subsetting with single brackets (e.g. lis[index])\nProvide an example of list subsetting with double brackets, and a single element (e.g. lis[[index]])\nProvide a manipulation example of a list with the dollar operator (e.g. lis$wagon )"
   },
   {
     "objectID": "units/unit3.html#shiny-friday",
     "href": "units/unit3.html#shiny-friday",
-    "title": "Unit 3: Lists and Matrices",
+    "title": "3) Lists and Matrices",
     "section": "🔆 Shiny Friday",
     "text": "🔆 Shiny Friday\nThe shiny app of this week is based on the computation of Future Value (compounding interest) in its simplest version:\n\\[\nFV = P (1 + r)^n\n\\]\nThis is a simple app that takes three inputs:\n\nP = principal or initial amount (how much you deposit)\nr = annual interest rate (or rate of return)\nn = number of years\n\nIn turn, the app produces one (graphical) output which is a timeline to visualize the Future Value.\nThere are two versions of the app: one uses three sliders (one slider per input), and the other one uses three numeric inputs (one number per input)\n\nhttps://github.com/data133/shiny/tree/main/future-value1-numerics\nhttps://github.com/data133/shiny/tree/main/future-value2-sliders"
   },
   {
     "objectID": "units/unit3.html#hw-assignments",
     "href": "units/unit3.html#hw-assignments",
-    "title": "Unit 3: Lists and Matrices",
+    "title": "3) Lists and Matrices",
     "section": "🔔 HW Assignments",
     "text": "🔔 HW Assignments\n\nHW1 due this 02/02\nHW2 released on 02/03, due 02/09"
   },
   {
     "objectID": "units/unit1.html",
     "href": "units/unit1.html",
-    "title": "Unit 1: Intro",
+    "title": "1) Intro",
     "section": "",
     "text": "Welcome to Stat 133. Our first meeting is on Wednesday Jan-17 where we begin with the usual review of the course policies, logistics, overall expectations, topics in a nutshell, etc. As for Friday Jan-19, we review some housekeeping aspects of R and RStudio to get you up and running for the following week."
   },
   {
     "objectID": "units/unit1.html#lab",
     "href": "units/unit1.html#lab",
-    "title": "Unit 1: Intro",
+    "title": "1) Intro",
     "section": "🔬 Lab",
     "text": "🔬 Lab\nGetting started with R and RStudio: first, we want to make sure everybody has installed both programs; and then we will provide an introductory review of RStudio’s workspace, as well as a brief intro to Quarto notebooks. BTW: there’s nothing to submit this week."
   },
   {
     "objectID": "units/unit1.html#activities",
     "href": "units/unit1.html#activities",
-    "title": "Unit 1: Intro",
+    "title": "1) Intro",
     "section": "🔔 Activities",
     "text": "🔔 Activities\nIf you haven’t yet, please spend some time outside class to review the following documentation:\n\nsyllabus\ncommunication via email\nsome frequently asked questions\nfive things you need to know to pass this class\nintroduction survey (google form)"
   },
   {
     "objectID": "units/unit1.html#install-r-rstudio",
     "href": "units/unit1.html#install-r-rstudio",
-    "title": "Unit 1: Intro",
+    "title": "1) Intro",
     "section": "📢 Install R & RStudio",
     "text": "📢 Install R & RStudio\nFor those of you that don’t have either R or RStudio, download and install these programs (both are free, and they are available for Mac, Windows, and Linux computers)\n\nInstall R\nInstall RStudio (Desktop free version)"
   },
   {
     "objectID": "units/unit4.html",
     "href": "units/unit4.html",
-    "title": "Unit 4: Functions and Conditionals",
+    "title": "4) Functions and Conditionals",
     "section": "",
     "text": "You don’t need to be an expert programmer to be a data scientist, but learning more about programming allows you to automate common tasks, and solve new problems with greater ease.\nThis week we’ll discuss how to write basic functions, the notion of compound expressions in R, and an introduction to conditionals (i.e. if-else statements)."
   },
   {
     "objectID": "units/unit4.html#reading",
     "href": "units/unit4.html#reading",
-    "title": "Unit 4: Functions and Conditionals",
+    "title": "4) Functions and Conditionals",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 10, 11, and 12 of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html\nhttps://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html"
   },
   {
     "objectID": "units/unit4.html#lab",
     "href": "units/unit4.html#lab",
-    "title": "Unit 4: Functions and Conditionals",
+    "title": "4) Functions and Conditionals",
     "section": "🔬 Lab",
     "text": "🔬 Lab\nYou will get your hands “dirty” writing basic functions, and conditional statements."
   },
   {
     "objectID": "units/unit4.html#objectives",
     "href": "units/unit4.html#objectives",
-    "title": "Unit 4: Functions and Conditionals",
+    "title": "4) Functions and Conditionals",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nDescribe the main parts of a function (i.e. anatomy of a function)\nGive a simple example for creating a function\nExplain the concept of an R compound expression\nWrite if-else statements to handle simple conditions\nUse if-else statements when writing functions to decide what code to execute"
   },
   {
     "objectID": "units/unit4.html#shiny-friday",
     "href": "units/unit4.html#shiny-friday",
-    "title": "Unit 4: Functions and Conditionals",
+    "title": "4) Functions and Conditionals",
     "section": "🔆 Shiny Friday",
     "text": "🔆 Shiny Friday\nThe shiny app for this week is a modified version of the default “Old Faithful” app.\nThe main modification has to do with the use of an if-statement to decide whether to display additional statistics on the histogram of waiting times.\nMore specifically, we have three new versions:\n\nold-faithful3-average-radio: includes radio buttons to display line of average waiting time  https://github.com/data133/shiny/tree/main/old-faithful3-average-radio\nold-faithful4-average-checkbox: includes a checkbox to display line of average waiting time  https://github.com/data133/shiny/tree/main/old-faithful4-average-checkbox\nold-faithful5-statistics: includes an auxiliary function to compute descriptive statistics, and also a checkbox to display descriptive statistics  https://github.com/data133/shiny/tree/main/old-faithful5-statistics"
   },
   {
     "objectID": "units/unit4.html#assignments",
     "href": "units/unit4.html#assignments",
-    "title": "Unit 4: Functions and Conditionals",
+    "title": "4) Functions and Conditionals",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nHW2 due this 02/09\nHW3 released on 02/10, due 02/16"
   },
   {
     "objectID": "units/unit5.html",
     "href": "units/unit5.html",
-    "title": "Unit 5: Tables and Tidyverse-1",
+    "title": "5) Tables and Tidyverse-1",
     "section": "",
     "text": "One of the main parts of the course involves working with tabular data, which is the most ubiquitous format in which data is handled. And even if the raw data is not in tabular format, sooner or later, you’ll be dealing with data in tabular format in most Data Analysis Projects.\nThe good news is that there are many tools (e.g. packages & functions) in R to work with tables. Due to time constraints, we will focus only on 2 approaches:\n\nThe “classic” approach which is based on data.frames, the dedicated data object in R to handle tabular data.\nThe “tidyverse” approach which is based on tibbles (a modern data.frame), and provides a rich ecosystem of packages chiefly designed for working with tables.\n\nWe start this week by looking at some important details about data frames, and how to manipulate them from a “classic” approach in R.\nWe are also going to get our feet wet making graphics with the Tidyverse package \"ggplot2\". In particular you’ll learn about the Grammar of Graphics and its central idea: a graphic involves mapping data to geometric objects and their visual attributes. This is the underlying framework behind the mechanics and core functions available in “ggplot2” for creating simple graphics:\n\nBegin your graphic specification with ggplot()\nIndicate where the data comes from\nEstablish which variables are going to be mapped into visual attributes: aes()\nDecide what kind of geometric object(s) will be used to display data; e.g. geom_point()\nOptional: do you need to use facets?\nOptional: do you need to explicitly use one or more statistical transformations?\nOptional: do you need to explicitly set a non-default system of coordinates?\nOptional: do you need to explicitly use a non-default theme of graphical elements?"
   },
   {
     "objectID": "units/unit5.html#reading",
     "href": "units/unit5.html#reading",
-    "title": "Unit 5: Tables and Tidyverse-1",
+    "title": "5) Tables and Tidyverse-1",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapter 9 of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html\n\nRead chapters 2 and 4 of “R Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/1-02-about-hurricanes.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html"
   },
   {
     "objectID": "units/unit5.html#lab",
     "href": "units/unit5.html#lab",
-    "title": "Unit 5: Tables and Tidyverse-1",
+    "title": "5) Tables and Tidyverse-1",
     "section": "🔬 Lab",
     "text": "🔬 Lab\nYou will get introduced to the ggplot2 system for making graphics when data is in tabular format. You will also begin your shiny journey by adapting the default Old Faithful app so that it produces the histogram using \"ggplot2\" functions."
   },
   {
     "objectID": "units/unit5.html#objectives",
     "href": "units/unit5.html#objectives",
-    "title": "Unit 5: Tables and Tidyverse-1",
+    "title": "5) Tables and Tidyverse-1",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nExplain how can you manipulate a data frame as a 2-dimensional object\nExplain how to use the dollar $ operator with a data frame\nProvide a simple example for creating a data frame\nGet a first contact with \"ggplot2\"\nDescribe the purpose of the aesthetic mapping function aes()\nDescribe the notion of “layers” and how to use them for making a graphic using “ggplot2”"
   },
   {
     "objectID": "units/unit5.html#shiny-friday",
     "href": "units/unit5.html#shiny-friday",
-    "title": "Unit 5: Tables and Tidyverse-1",
+    "title": "5) Tables and Tidyverse-1",
     "section": "🔆 Shiny Friday",
     "text": "🔆 Shiny Friday\nThe shiny app for this week involves data from NBA players, visualizing some univariate plots with ggplot2.\nWe have two versions:\n\nnba-histograms1-basic: histograms of NBA players’ data, includes a select input to choose the variable to visualize, and a slider input to determine the number of bins in the histogram.  https://github.com/data133/shiny/tree/main/nba-histograms1-basic\nnba-histograms2-facets: same as app1 but this one also includes another select input to decide whether the histograms should be split into facets by either team or player’s position.  https://github.com/data133/shiny/tree/main/nba-histograms2-facets"
   },
   {
     "objectID": "units/unit5.html#assignments",
     "href": "units/unit5.html#assignments",
-    "title": "Unit 5: Tables and Tidyverse-1",
+    "title": "5) Tables and Tidyverse-1",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nHW3 due this 02/16\nHW4 released on 02/17, due 02/23"
   },
   {
     "objectID": "units/unit7.html",
     "href": "units/unit7.html",
-    "title": "Unit 7: Iterations",
+    "title": "7) Iterations",
     "section": "",
     "text": "In addition to writing functions to reduce duplication in your code, you also need to learn about iteration, which helps you when you need to do the same operation several times. Namely, we review control flow structures such as for loops, while loops, repeat loops, and the apply family functions."
   },
   {
     "objectID": "units/unit7.html#reading",
     "href": "units/unit7.html#reading",
-    "title": "Unit 7: Iterations",
+    "title": "7) Iterations",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 13 and 14 of “R Coding Basics”:\n\nhttps://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html\nhttps://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html"
   },
   {
     "objectID": "units/unit7.html#lab",
     "href": "units/unit7.html#lab",
-    "title": "Unit 7: Iterations",
+    "title": "7) Iterations",
     "section": "🔬 Lab",
     "text": "🔬 Lab\nYou’ll keep working writing a variety of loops in R (e.g. for, while, repeat)."
   },
   {
     "objectID": "units/unit7.html#objectives",
     "href": "units/unit7.html#objectives",
-    "title": "Unit 7: Iterations",
+    "title": "7) Iterations",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nWrite for loops to repeat the same operation a given number of times\nWrite while loops to repeat the same operation an unknown number of times"
   },
   {
     "objectID": "units/unit7.html#shiny-friday",
     "href": "units/unit7.html#shiny-friday",
-    "title": "Unit 7: Iterations",
+    "title": "7) Iterations",
     "section": "🔆 Shiny Friday",
     "text": "🔆 Shiny Friday\nThe shiny app for this week is the same one from last week: it uses mtcars data set to visualize the top-n cars given a selected variable.\nAn important component of this app is the use of the reactive() function to create so-called reactive conductors (i.e. an R expression that uses widget input(s) and returns a value).\n\nmtcars-topn-barchart: produces a simple barchart—via \"ggplot2\"—to visualize the top-n cars given a selected variable. In addition to the plot, it also displays a table with the top-n cars. More important, this app uses a so-called reactive conductor element. https://github.com/data133/shiny/tree/main/mtcars-topn-barchart"
   },
   {
     "objectID": "units/unit7.html#assignments",
     "href": "units/unit7.html#assignments",
-    "title": "Unit 7: Iterations",
+    "title": "7) Iterations",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nHW5 due this 03/01\nHW6 released on 03/02, due 03/08"
   },
   {
     "objectID": "units/unit6.html",
     "href": "units/unit6.html",
-    "title": "Unit 6: Tables and Tidyverse-2",
+    "title": "6) Tables and Tidyverse-2",
     "section": "",
     "text": "This week we continue with another fundamental tidyverse package \"dplyr\". Simply put, dplyr comes with functions that allow you to manipulate data-tables (e.g. data-frames, and other 2-dimensional objects) using a modern and syntactic way."
   },
   {
     "objectID": "units/unit6.html#reading",
     "href": "units/unit6.html#reading",
-    "title": "Unit 6: Tables and Tidyverse-2",
+    "title": "6) Tables and Tidyverse-2",
     "section": "📚 Reading",
     "text": "📚 Reading\nRead chapters 5 to 10 of “R Tidy Hurricanes”:\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/3-03-amy-1975.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html"
   },
   {
     "objectID": "units/unit6.html#lab",
     "href": "units/unit6.html#lab",
-    "title": "Unit 6: Tables and Tidyverse-2",
+    "title": "6) Tables and Tidyverse-2",
     "section": "🔬 Lab",
     "text": "🔬 Lab\nYou will get to practice common manipulation operations of data-tables using a modern and syntactic way following the data plying framework provided by the R package dplyr.\nAlso, we are going to review various aspects that have to do with reading in (i.e. importing) tables in R."
   },
   {
     "objectID": "units/unit6.html#objectives",
     "href": "units/unit6.html#objectives",
-    "title": "Unit 6: Tables and Tidyverse-2",
+    "title": "6) Tables and Tidyverse-2",
     "section": "🎯 Objectives",
     "text": "🎯 Objectives\nPerform basic manipulations on data tables with “dplyr” functions:\n\nSelect rows with slice(), and filter()\nSelect columns with select()\nTransform columns with mutate()\nArrange rows with arrange()\nGroup data with group_by()\nSummarize data with summarize()"
   },
   {
     "objectID": "units/unit6.html#shiny-friday",
     "href": "units/unit6.html#shiny-friday",
-    "title": "Unit 6: Tables and Tidyverse-2",
+    "title": "6) Tables and Tidyverse-2",
     "section": "🔆 Shiny Friday",
     "text": "🔆 Shiny Friday\nThe shiny app for this week uses the mtcars data set to visualize the top-n cars given a selected variable.\n\nmtcars-topn-barchart: produces a simple barchart—via \"ggplot2\"—to visualize the top-n cars given a selected variable. In addition to the plot, it also displays a table with the top-n cars. More important, this app uses a so-called reactive conductor element. https://github.com/data133/shiny/tree/main/mtcars-topn-barchart"
   },
   {
     "objectID": "units/unit6.html#assignments",
     "href": "units/unit6.html#assignments",
-    "title": "Unit 6: Tables and Tidyverse-2",
+    "title": "6) Tables and Tidyverse-2",
     "section": "🔔 Assignments",
     "text": "🔔 Assignments\n\nHW4 due this 02/23\nHW5 released on 02/24, due 03/01"
   },
