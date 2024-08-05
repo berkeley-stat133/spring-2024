@@ -1,5 +1,5 @@
 ---
-title: "11): Maps 1"
+title: "11) Maps 1"
 ---
 
 
