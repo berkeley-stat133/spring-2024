@@ -1,6 +1,6 @@
 ---
 title: "About"
-subtitle: "Stat 133, Spring 2024"
+subtitle: "UC Berkeley,  Stat 133, Spring 2024"
 ---
 
 ::: {.callout-note title="Announcement"}
