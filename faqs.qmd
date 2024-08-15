@@ -1,5 +1,6 @@
 ---
 title: "Some Frequently Asked Questions"
+subtitle: "UC Berkeley, Stat 133, Spring 2024"
 ---
 
 __Will STAT 133 be offered in hybrid mode (both in-person and remotely, simultaneously)?__ <br>

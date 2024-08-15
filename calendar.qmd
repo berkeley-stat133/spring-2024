@@ -1,6 +1,6 @@
 ---
 title: "Calendar"
-subtitle: "UC Berkeley,  Stat 133, Spring 2024"
+subtitle: "UC Berkeley, Stat 133, Spring 2024"
 ---
 
 We can just embed the iframe html:

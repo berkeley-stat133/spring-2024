@@ -1,6 +1,6 @@
 ---
 title: "Communication via Email"
-subtitle: "UC Berkeley,  Stat 133, Spring 2024"
+subtitle: "UC Berkeley, Stat 133, Spring 2024"
 ---
 
 

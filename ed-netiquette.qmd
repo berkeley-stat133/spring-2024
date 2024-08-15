@@ -1,5 +1,6 @@
 ---
 title: Ed-Discussion Netiquette
+subtitle: "UC Berkeley, Stat 133, Spring 2024"
 ---
 
 
